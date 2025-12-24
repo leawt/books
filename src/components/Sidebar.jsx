@@ -53,7 +53,7 @@ const Sidebar = () => {
                     <span className="text-accent-purple/60 group-hover:text-accent-purple transition-colors duration-300">
                       {link.icon}
                     </span>
-                    <span className="font-serif">{link.label}</span>
+                    <span>{link.label}</span>
                     <div className="absolute inset-0 bg-accent-purple/0 group-hover:bg-accent-purple/5 transition-colors duration-300 rounded-md"></div>
                   </a>
                 ))

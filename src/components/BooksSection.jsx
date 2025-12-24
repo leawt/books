@@ -22,7 +22,7 @@ const BooksSection = () => {
                      px-6 sm:px-8 py-2.5 sm:py-3 pr-10 sm:pr-12 rounded-md
                      focus:outline-none focus:border-accent-purple-hover focus:ring-1 focus:ring-accent-purple/30
                      shadow-soft hover:shadow-soft-lg transition-all duration-300
-                     cursor-pointer text-sm sm:text-base font-normal font-serif"
+                     cursor-pointer text-sm sm:text-base font-medium"
           >
             {years.map((year) => (
               <option key={year} value={year} className="bg-background text-text-primary">

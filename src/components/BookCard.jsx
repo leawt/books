@@ -63,7 +63,10 @@ const BookCard = ({ book }) => {
           }}
         >
           <div className="relative z-10 w-full">
-            <h3 className="text-base sm:text-lg md:text-xl font-normal text-text-primary mb-3 leading-tight px-2 font-serif">
+            <h3 className="text-xs sm:text-sm md:text-base font-semibold text-text-primary mb-3 leading-tight px-2 break-words" 
+                style={{
+                  fontSize: book.title.length > 50 ? '0.65rem' : book.title.length > 30 ? '0.75rem' : undefined
+                }}>
               {book.title}
             </h3>
             <div className="flex items-center justify-center gap-1 mb-3">

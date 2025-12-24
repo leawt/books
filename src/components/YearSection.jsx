@@ -6,7 +6,7 @@ const YearSection = ({ year, books }) => {
     <div className="animate-fadeIn relative z-10">
       {/* Header with book count */}
       <div className="text-center mb-8 sm:mb-10 px-4">
-        <p className="text-text-secondary text-sm sm:text-base font-normal">{books.length} {books.length === 1 ? 'book' : 'books'} read</p>
+        <p className="text-text-secondary text-sm sm:text-base font-medium">{books.length} {books.length === 1 ? 'book' : 'books'} read</p>
         <div className="h-px w-20 sm:w-32 bg-accent-purple/40 mx-auto mt-3 sm:mt-4"></div>
       </div>
 

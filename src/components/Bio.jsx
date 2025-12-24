@@ -20,7 +20,7 @@ const Bio = () => {
           ideas, and perspectives. Here you'll find every book I've read from 2020 to 2025, 
           organized by year.
         </p>
-        <p className="text-sm sm:text-base text-text-secondary leading-relaxed mb-4">
+        <p className="text-sm sm:text-base text-text-secondary leading-relaxed mb-4 font-normal">
           Each title represents a story, a lesson, or a moment in time. Hover over the book 
           covers to see the title and author, or tap on mobile devices.
         </p>

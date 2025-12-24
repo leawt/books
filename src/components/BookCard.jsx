@@ -54,11 +54,12 @@ const BookCard = ({ book }) => {
         {/* Back of card - Title & Author */}
         <div 
           className="book-face book-back absolute w-full h-full backface-hidden rounded-lg overflow-hidden
-                     bg-[#FAF9F6] border border-accent-purple/20 shadow-soft-lg
+                     border border-accent-purple/20 shadow-soft-lg
                      flex flex-col items-center justify-center p-4 sm:p-6 text-center"
           style={{ 
             backfaceVisibility: 'hidden',
-            transform: 'rotateY(180deg)'
+            transform: 'rotateY(180deg)',
+            backgroundColor: '#F3E1CE'
           }}
         >
           <div className="relative z-10 w-full">

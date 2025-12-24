@@ -3,11 +3,15 @@ import BookCard from './BookCard';
 
 const YearSection = ({ year, books }) => {
   return (
-    <div className="animate-fadeIn">
+    <div className="animate-fadeIn relative z-10">
       {/* Year Header */}
       <div className="text-center mb-8 sm:mb-10 px-4">
-        <h2 className="text-3xl sm:text-4xl font-light text-text-primary mb-2 tracking-tight">{year}</h2>
-        <p className="text-text-secondary text-sm sm:text-base font-light">{books.length} {books.length === 1 ? 'book' : 'books'} read</p>
+        <div className="flex items-center justify-center gap-2 mb-2">
+          <span className="text-accent-purple/30 font-mono text-xs">✧</span>
+          <h2 className="text-3xl sm:text-4xl font-normal text-text-primary tracking-tight">{year}</h2>
+          <span className="text-accent-purple/30 font-mono text-xs">✦</span>
+        </div>
+        <p className="text-text-secondary text-sm sm:text-base font-normal">{books.length} {books.length === 1 ? 'book' : 'books'} read</p>
         <div className="h-px w-20 sm:w-32 bg-accent-purple/40 mx-auto mt-3 sm:mt-4"></div>
       </div>
 

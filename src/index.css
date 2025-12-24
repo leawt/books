@@ -5,7 +5,29 @@
 @layer base {
   body {
     @apply antialiased bg-background text-text-primary;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Crimson Text', serif;
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='%238B7BA8' d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/%3E%3C/svg%3E") 12 12, auto;
+    position: relative;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'Space Mono', monospace;
   }
 }
 
@@ -43,6 +65,73 @@
   .animate-fadeIn {
     animation: fadeIn 0.6s ease-out;
   }
+
+  /* Sparkle trail cursor effect */
+  @keyframes sparkle {
+    0%, 100% {
+      opacity: 0;
+      transform: scale(0) rotate(0deg);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1) rotate(180deg);
+    }
+  }
+
+  /* Floating particles */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0) translateX(0);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.3;
+    }
+    90% {
+      opacity: 0.3;
+    }
+    50% {
+      transform: translateY(-20px) translateX(10px);
+      opacity: 0.5;
+    }
+  }
+
+  .particle {
+    position: fixed;
+    pointer-events: none;
+    font-size: 8px;
+    color: rgba(139, 123, 168, 0.4);
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+
+  /* Page transition */
+  @keyframes pageTransition {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .page-transition {
+    animation: pageTransition 0.5s ease-out;
+  }
+}
+
+/* Custom cursor trail */
+.cursor-trail {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(139, 123, 168, 0.3);
+  pointer-events: none;
+  z-index: 9999;
+  animation: sparkle 0.5s ease-out forwards;
 }
 
 /* Custom scrollbar - Tumblr style */
@@ -61,4 +150,9 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #6B5B95;
+}
+
+/* Links get sparkle cursor */
+a, button {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'%3E%3Cpath fill='%238B7BA8' d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/%3E%3C/svg%3E") 10 10, pointer;
 }

@@ -1,11 +1,19 @@
 import React from 'react';
 import Bio from './components/Bio';
 import BooksSection from './components/BooksSection';
+import Sidebar from './components/Sidebar';
+import NowReading from './components/NowReading';
+import FloatingParticles from './components/FloatingParticles';
+import CursorTrail from './components/CursorTrail';
 
 function App() {
   return (
-    <div className="min-h-screen bg-background">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+    <div className="min-h-screen bg-background relative">
+      <CursorTrail />
+      <FloatingParticles />
+      <Sidebar />
+      <NowReading />
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 ml-0 md:ml-64 transition-all duration-500 page-transition">
         <Bio />
         <BooksSection />
       </div>

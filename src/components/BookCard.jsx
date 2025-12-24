@@ -62,11 +62,15 @@ const BookCard = ({ book }) => {
           }}
         >
           <div className="relative z-10 w-full">
-            <h3 className="text-base sm:text-lg md:text-xl font-normal text-text-primary mb-3 leading-tight px-2">
+            <h3 className="text-base sm:text-lg md:text-xl font-normal text-text-primary mb-3 leading-tight px-2 font-serif">
               {book.title}
             </h3>
-            <div className="h-px w-12 sm:w-16 bg-accent-purple/40 mx-auto mb-3"></div>
-            <p className="text-text-secondary text-xs sm:text-sm font-light px-2">
+            <div className="flex items-center justify-center gap-1 mb-3">
+              <span className="text-accent-purple/30 font-mono text-xs">✧</span>
+              <div className="h-px w-12 sm:w-16 bg-accent-purple/40"></div>
+              <span className="text-accent-purple/30 font-mono text-xs">✦</span>
+            </div>
+            <p className="text-text-secondary text-xs sm:text-sm font-normal px-2">
               {book.author}
             </p>
           </div>

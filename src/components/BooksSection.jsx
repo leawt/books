@@ -18,11 +18,11 @@ const BooksSection = () => {
             id="year-select"
             value={selectedYear}
             onChange={(e) => setSelectedYear(e.target.value)}
-            className="appearance-none w-full sm:w-auto bg-background border border-accent-purple/40 text-text-primary 
+            className="appearance-none w-full sm:w-auto bg-background/80 backdrop-blur-sm border border-accent-purple/40 text-text-primary 
                      px-6 sm:px-8 py-2.5 sm:py-3 pr-10 sm:pr-12 rounded-md
                      focus:outline-none focus:border-accent-purple-hover focus:ring-1 focus:ring-accent-purple/30
                      shadow-soft hover:shadow-soft-lg transition-all duration-300
-                     cursor-pointer text-sm sm:text-base font-light"
+                     cursor-pointer text-sm sm:text-base font-normal font-serif"
           >
             {years.map((year) => (
               <option key={year} value={year} className="bg-background text-text-primary">

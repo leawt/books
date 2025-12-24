@@ -1,0 +1,66 @@
+.book-card-container {
+  perspective: 1000px;
+  width: 100%;
+  height: 16rem; /* 64 * 0.25rem = 16rem */
+}
+
+.book-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.7s;
+}
+
+.book-card.flipped {
+  transform: rotateY(180deg);
+}
+
+.book-card-front,
+.book-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.book-card-back {
+  transform: rotateY(180deg);
+}
+
+.book-card-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.6), 0 0 60px rgba(168, 85, 247, 0.4);
+  border: 2px solid rgba(192, 132, 252, 0.5);
+  background: rgba(88, 28, 135, 0.5);
+}
+
+.book-cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book-cover-fallback {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, rgb(147, 51, 234), rgb(79, 70, 229));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-card-back-inner {
+  background: linear-gradient(to bottom right, rgb(126, 34, 206), rgb(67, 56, 202));
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+

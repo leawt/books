@@ -1,0 +1,61 @@
+{
+  "books": [
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "year": 2024,
+      "coverImage": "/covers/great-gatsby.jpg",
+      "rating": 5
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "year": 2024,
+      "coverImage": "/covers/1984.jpg",
+      "rating": 5
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "year": 2024,
+      "coverImage": "/covers/mockingbird.jpg",
+      "rating": 5
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": 2023,
+      "coverImage": "/covers/pride-prejudice.jpg",
+      "rating": 4
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "year": 2023,
+      "coverImage": "/covers/catcher-rye.jpg",
+      "rating": 4
+    },
+    {
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "year": 2023,
+      "coverImage": "/covers/lord-flies.jpg",
+      "rating": 4
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "year": 2022,
+      "coverImage": "/covers/hobbit.jpg",
+      "rating": 5
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "year": 2022,
+      "coverImage": "/covers/fahrenheit-451.jpg",
+      "rating": 5
+    }
+  ]
+}
+

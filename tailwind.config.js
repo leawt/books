@@ -7,14 +7,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        purple: {
-          950: '#1e0a3c',
+        background: '#FDFCFA',
+        text: {
+          primary: '#2B2B2B',
+          secondary: '#6B6B6B',
+        },
+        accent: {
+          purple: '#8B7BA8',
+          'purple-hover': '#6B5B95',
         },
       },
       boxShadow: {
-        'glow-sm': '0 0 10px rgba(168, 85, 247, 0.4)',
-        'glow-md': '0 0 20px rgba(168, 85, 247, 0.5)',
-        'glow-lg': '0 0 30px rgba(168, 85, 247, 0.6)',
+        'soft': '0 2px 8px rgba(139, 123, 168, 0.15)',
+        'soft-lg': '0 4px 16px rgba(139, 123, 168, 0.2)',
       },
       animation: {
         'fadeIn': 'fadeIn 0.6s ease-out',

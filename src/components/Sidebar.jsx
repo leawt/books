@@ -3,15 +3,8 @@ import React, { useState } from 'react';
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
 
-  const links = [
-    { label: 'Home', href: '#', icon: '✦' },
-    { label: '2025', href: '#2025', icon: '•' },
-    { label: '2024', href: '#2024', icon: '✧' },
-    { label: '2023', href: '#2023', icon: '•' },
-    { label: '2022', href: '#2022', icon: '✦' },
-    { label: '2021', href: '#2021', icon: '•' },
-    { label: '2020', href: '#2020', icon: '✧' },
-  ];
+  // Empty for now - space for future "About" links and other content
+  const links = [];
 
   return (
     <>
@@ -44,25 +37,34 @@ const Sidebar = () => {
         <div className="h-full w-56 sm:w-64 bg-background/85 backdrop-blur-md border-r border-accent-purple/30 shadow-soft-lg">
           <div className="p-6 pt-16">
             <nav className="space-y-1">
-              {links.map((link, index) => (
-                <a
-                  key={index}
-                  href={link.href}
-                  className="group flex items-center gap-3 px-4 py-2.5 text-sm font-light text-text-primary hover:text-accent-purple-hover transition-all duration-300 hover:bg-accent-purple/10 rounded-md relative overflow-hidden"
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.textShadow = '0 0 8px rgba(139, 123, 168, 0.5)';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.textShadow = 'none';
-                  }}
-                >
-                  <span className="text-accent-purple/60 group-hover:text-accent-purple transition-colors duration-300">
-                    {link.icon}
-                  </span>
-                  <span className="font-serif">{link.label}</span>
-                  <div className="absolute inset-0 bg-accent-purple/0 group-hover:bg-accent-purple/5 transition-colors duration-300 rounded-md"></div>
-                </a>
-              ))}
+              {links.length > 0 ? (
+                links.map((link, index) => (
+                  <a
+                    key={index}
+                    href={link.href}
+                    className="group flex items-center gap-3 px-4 py-2.5 text-sm font-light text-text-primary hover:text-accent-purple-hover transition-all duration-300 hover:bg-accent-purple/10 rounded-md relative overflow-hidden"
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.textShadow = '0 0 8px rgba(139, 123, 168, 0.5)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.textShadow = 'none';
+                    }}
+                  >
+                    <span className="text-accent-purple/60 group-hover:text-accent-purple transition-colors duration-300">
+                      {link.icon}
+                    </span>
+                    <span className="font-serif">{link.label}</span>
+                    <div className="absolute inset-0 bg-accent-purple/0 group-hover:bg-accent-purple/5 transition-colors duration-300 rounded-md"></div>
+                  </a>
+                ))
+              ) : (
+                <div className="text-xs text-text-secondary/40 font-mono text-center py-8">
+                  <div className="mb-2">･ﾟ･｡･ﾟﾟ･</div>
+                  <div className="text-xs text-text-secondary/30 font-serif italic">
+                    Space for future links
+                  </div>
+                </div>
+              )}
             </nav>
             
             {/* Decorative divider */}

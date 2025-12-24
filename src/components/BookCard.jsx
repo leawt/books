@@ -54,7 +54,7 @@ const BookCard = ({ book }) => {
         {/* Back of card - Title & Author */}
         <div 
           className="book-face book-back absolute w-full h-full backface-hidden rounded-lg overflow-hidden
-                     bg-background border border-accent-purple/30 shadow-soft-lg
+                     bg-[#FAF9F6] border border-accent-purple/20 shadow-soft-lg
                      flex flex-col items-center justify-center p-4 sm:p-6 text-center"
           style={{ 
             backfaceVisibility: 'hidden',
@@ -66,9 +66,9 @@ const BookCard = ({ book }) => {
               {book.title}
             </h3>
             <div className="flex items-center justify-center gap-1 mb-3">
-              <span className="text-accent-purple/30 font-mono text-xs">✧</span>
-              <div className="h-px w-12 sm:w-16 bg-accent-purple/40"></div>
-              <span className="text-accent-purple/30 font-mono text-xs">✦</span>
+              <span className="text-accent-purple/20 font-mono text-xs">✧</span>
+              <div className="h-px w-12 sm:w-16 bg-accent-purple/30"></div>
+              <span className="text-accent-purple/20 font-mono text-xs">✦</span>
             </div>
             <p className="text-text-secondary text-xs sm:text-sm font-normal px-2">
               {book.author}

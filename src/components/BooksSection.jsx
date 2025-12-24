@@ -26,7 +26,7 @@ const BooksSection = () => {
           >
             {years.map((year) => (
               <option key={year} value={year} className="bg-background text-text-primary">
-                {year} ({booksData[year].length} books)
+                {year}
               </option>
             ))}
           </select>

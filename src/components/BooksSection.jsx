@@ -7,9 +7,9 @@ const BooksSection = () => {
   const [selectedYear, setSelectedYear] = useState(years[0]); // Default to most recent year
 
   return (
-    <div className="mt-8 sm:mt-12">
+    <div className="mt-8 sm:mt-12 flex flex-col items-center">
       {/* Year Selector Dropdown */}
-      <div className="flex justify-center mb-8 sm:mb-12 px-4">
+      <div className="flex justify-center mb-8 sm:mb-12 px-4 w-full">
         <div className="relative inline-block w-full sm:w-auto">
           <label htmlFor="year-select" className="block text-xs sm:text-sm font-light text-text-secondary mb-2 text-center">
             Select Year

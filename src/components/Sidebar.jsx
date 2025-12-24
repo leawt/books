@@ -41,7 +41,7 @@ const Sidebar = () => {
           isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
-        <div className="h-full w-64 bg-background/80 backdrop-blur-md border-r border-accent-purple/30 shadow-soft-lg">
+        <div className="h-full w-56 sm:w-64 bg-background/85 backdrop-blur-md border-r border-accent-purple/30 shadow-soft-lg">
           <div className="p-6 pt-16">
             <nav className="space-y-1">
               {links.map((link, index) => (

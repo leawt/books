@@ -1,0 +1,1778 @@
+{
+  "2025": [
+    {
+      "id": "book-2025-1",
+      "title": "Parade",
+      "author": "Rachel Cusk",
+      "isbn": "9780374610043",
+      "coverImage": "/covers/9780374610043.jpg"
+    },
+    {
+      "id": "book-2025-2",
+      "title": "Real Estate",
+      "author": "Deborah Levy",
+      "isbn": "9780241268018",
+      "coverImage": "/covers/9780241268018.jpg"
+    },
+    {
+      "id": "book-2025-3",
+      "title": "The Seven Ages",
+      "author": "Louise Glück",
+      "isbn": "9780060933494",
+      "coverImage": "/covers/9780060933494.jpg"
+    },
+    {
+      "id": "book-2025-4",
+      "title": "Hateship, Friendship, Courtship, Loveship, Marriage: Stories",
+      "author": "Alice Munro",
+      "isbn": "9780375727436",
+      "coverImage": "/covers/9780375727436.jpg"
+    },
+    {
+      "id": "book-2025-5",
+      "title": "Out of Sheer Rage: Wrestling With D.H. Lawrence",
+      "author": "Geoff Dyer",
+      "isbn": "9780865475403",
+      "coverImage": "/covers/9780865475403.jpg"
+    },
+    {
+      "id": "book-2025-6",
+      "title": "A Certain Smile",
+      "author": "Françoise Sagan",
+      "isbn": "9780140014440",
+      "coverImage": ""
+    },
+    {
+      "id": "book-2025-7",
+      "title": "A Change of Time",
+      "author": "Ida Jessen",
+      "isbn": "9781939810175",
+      "coverImage": "/covers/9781939810175.jpg"
+    },
+    {
+      "id": "book-2025-8",
+      "title": "Weather",
+      "author": "Jenny Offill",
+      "isbn": "9780385351102",
+      "coverImage": "/covers/9780385351102.jpg"
+    },
+    {
+      "id": "book-2025-9",
+      "title": "The Lonely City: Adventures in the Art of Being Alone",
+      "author": "Olivia Laing",
+      "isbn": "9781250039576",
+      "coverImage": "/covers/9781250039576.jpg"
+    },
+    {
+      "id": "book-2025-10",
+      "title": "Ways of Seeing",
+      "author": "John Berger",
+      "isbn": "9780140135152",
+      "coverImage": "/covers/9780140135152.jpg"
+    },
+    {
+      "id": "book-2025-11",
+      "title": "The Ravishing of Lol Stein",
+      "author": "Marguerite Duras",
+      "isbn": "9780394743042",
+      "coverImage": "/covers/9780394743042.jpg"
+    },
+    {
+      "id": "book-2025-12",
+      "title": "Saturday",
+      "author": "Margaret Ross",
+      "isbn": "9798987828878",
+      "coverImage": "/covers/9798987828878.jpg"
+    },
+    {
+      "id": "book-2025-13",
+      "title": "Audition",
+      "author": "Katie Kitamura",
+      "isbn": "9780593852323",
+      "coverImage": "/covers/9780593852323.jpg"
+    },
+    {
+      "id": "book-2025-14",
+      "title": "Alphabetical Diaries",
+      "author": "Sheila Heti",
+      "isbn": "9781804270776",
+      "coverImage": "/covers/9781804270776.jpg"
+    },
+    {
+      "id": "book-2025-15",
+      "title": "Bonjour Tristesse",
+      "author": "Françoise Sagan",
+      "isbn": "9780141032917",
+      "coverImage": "/covers/9780141032917.jpg"
+    },
+    {
+      "id": "book-2025-16",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "isbn": "9781631498190",
+      "coverImage": "/covers/9781631498190.jpg"
+    },
+    {
+      "id": "book-2025-17",
+      "title": "My Dog Tulip",
+      "author": "J.R. Ackerley",
+      "isbn": "9780940322110",
+      "coverImage": "/covers/9780940322110.jpg"
+    },
+    {
+      "id": "book-2025-18",
+      "title": "Couplets: A Love Story",
+      "author": "Maggie Millner",
+      "isbn": "9780374607951",
+      "coverImage": "/covers/9780374607951.jpg"
+    },
+    {
+      "id": "book-2025-19",
+      "title": "Against Interpretation: And Other Essays",
+      "author": "Susan Sontag",
+      "isbn": "9780312280864",
+      "coverImage": "/covers/9780312280864.jpg"
+    },
+    {
+      "id": "book-2025-20",
+      "title": "Joy Is My Middle Name",
+      "author": "Sasha Debevec-McKenney",
+      "isbn": "9781324110675",
+      "coverImage": "/covers/9781324110675.jpg"
+    },
+    {
+      "id": "book-2025-21",
+      "title": "Gay Bar: Why We Went Out",
+      "author": "Jeremy Atherton Lin",
+      "isbn": "0316458732",
+      "coverImage": "/covers/0316458732.jpg"
+    },
+    {
+      "id": "book-2025-22",
+      "title": "The Hour of the Star",
+      "author": "Clarice Lispector",
+      "isbn": "9780811211901",
+      "coverImage": "/covers/9780811211901.jpg"
+    },
+    {
+      "id": "book-2025-23",
+      "title": "Warlight",
+      "author": "Michael Ondaatje",
+      "isbn": "9781787330726",
+      "coverImage": "/covers/9781787330726.jpg"
+    },
+    {
+      "id": "book-2025-24",
+      "title": "The Anthropologists",
+      "author": "Ayşegül Savaş",
+      "isbn": "9781639733064",
+      "coverImage": "/covers/9781639733064.jpg"
+    },
+    {
+      "id": "book-2025-25",
+      "title": "Things in Nature Merely Grow",
+      "author": "Yiyun Li",
+      "isbn": "9780374617318",
+      "coverImage": "/covers/9780374617318.jpg"
+    },
+    {
+      "id": "book-2025-26",
+      "title": "Health and Safety: A Breakdown",
+      "author": "Emily Witt",
+      "isbn": "9780593317648",
+      "coverImage": "/covers/9780593317648.jpg"
+    },
+    {
+      "id": "book-2025-27",
+      "title": "A Handful of Dust",
+      "author": "Evelyn Waugh",
+      "isbn": "9780316926058",
+      "coverImage": "/covers/9780316926058.jpg"
+    },
+    {
+      "id": "book-2025-28",
+      "title": "Weird Fucks",
+      "author": "Lynne Tillman",
+      "isbn": "9781913512057",
+      "coverImage": "/covers/9781913512057.jpg"
+    },
+    {
+      "id": "book-2025-29",
+      "title": "The Ten Year Affair",
+      "author": "Erin Somers",
+      "isbn": "9781668081440",
+      "coverImage": "/covers/9781668081440.jpg"
+    },
+    {
+      "id": "book-2025-30",
+      "title": "Sempre Susan: A Memoir of Susan Sontag",
+      "author": "Sigrid Nunez",
+      "isbn": "9781935633228",
+      "coverImage": "/covers/9781935633228.jpg"
+    },
+    {
+      "id": "book-2025-31",
+      "title": "Rejection",
+      "author": "Tony Tulathimutte",
+      "isbn": "9780063337879",
+      "coverImage": "/covers/9780063337879.jpg"
+    },
+    {
+      "id": "book-2025-32",
+      "title": "Conversations with Friends",
+      "author": "Sally Rooney",
+      "isbn": "9780451499066",
+      "coverImage": "/covers/9780451499066.jpg"
+    },
+    {
+      "id": "book-2025-33",
+      "title": "Kairos",
+      "author": "Jenny Erpenbeck",
+      "isbn": "9780811229340",
+      "coverImage": "/covers/9780811229340.jpg"
+    },
+    {
+      "id": "book-2025-34",
+      "title": "Notes of a Native Son",
+      "author": "James Baldwin",
+      "isbn": "9780807064313",
+      "coverImage": "/covers/9780807064313.jpg"
+    },
+    {
+      "id": "book-2025-35",
+      "title": "A Room With a View",
+      "author": "E.M. Forster",
+      "isbn": "9781420925432",
+      "coverImage": "/covers/9781420925432.jpg"
+    },
+    {
+      "id": "book-2025-36",
+      "title": "Dunce",
+      "author": "Mary Ruefle",
+      "isbn": "9781940696850",
+      "coverImage": "/covers/9781940696850.jpg"
+    },
+    {
+      "id": "book-2025-37",
+      "title": "Raving",
+      "author": "McKenzie Wark",
+      "isbn": "9781478016762",
+      "coverImage": "/covers/9781478016762.jpg"
+    },
+    {
+      "id": "book-2025-38",
+      "title": "Henry and June",
+      "author": "Anaïs Nin",
+      "isbn": "9780140184686",
+      "coverImage": "/covers/9780140184686.jpg"
+    },
+    {
+      "id": "book-2025-39",
+      "title": "Didion and Babitz",
+      "author": "Lili Anolik",
+      "isbn": "9781668065488",
+      "coverImage": "/covers/9781668065488.jpg"
+    },
+    {
+      "id": "book-2025-40",
+      "title": "Motherhood",
+      "author": "Sheila Heti",
+      "isbn": "9781627790772",
+      "coverImage": "/covers/9781627790772.jpg"
+    },
+    {
+      "id": "book-2025-41",
+      "title": "Bad Behavior",
+      "author": "Mary Gaitskill",
+      "isbn": "9780679723271",
+      "coverImage": "/covers/9780679723271.jpg"
+    },
+    {
+      "id": "book-2025-42",
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "isbn": "9780670022076",
+      "coverImage": "/covers/9780670022076.jpg"
+    },
+    {
+      "id": "book-2025-43",
+      "title": "Objects of Desire",
+      "author": "Clare Sestanovich",
+      "isbn": "9780593318096",
+      "coverImage": "/covers/9780593318096.jpg"
+    },
+    {
+      "id": "book-2025-44",
+      "title": "A Game of Hide and Seek",
+      "author": "Elizabeth Taylor",
+      "isbn": "9781590174968",
+      "coverImage": ""
+    },
+    {
+      "id": "book-2025-45",
+      "title": "Lady Chatterley's Lover",
+      "author": "D.H. Lawrence",
+      "isbn": "9780394604305",
+      "coverImage": "/covers/9780394604305.jpg"
+    }
+  ],
+  "2024": [
+    {
+      "id": "book-2024-1",
+      "title": "A Room of One's Own",
+      "author": "Virginia Woolf",
+      "isbn": "9780141183534",
+      "coverImage": ""
+    },
+    {
+      "id": "book-2024-2",
+      "title": "Sex and Rage",
+      "author": "Eve Babitz",
+      "isbn": "9781619029354",
+      "coverImage": "/covers/9781619029354.jpg"
+    },
+    {
+      "id": "book-2024-3",
+      "title": "The Book",
+      "author": "Mary Ruefle",
+      "isbn": "9781950268849",
+      "coverImage": "/covers/9781950268849.jpg"
+    },
+    {
+      "id": "book-2024-4",
+      "title": "Intermezzo",
+      "author": "Sally Rooney",
+      "isbn": "9780571365463",
+      "coverImage": "/covers/9780571365463.jpg"
+    },
+    {
+      "id": "book-2024-5",
+      "title": "Stoner",
+      "author": "John Williams",
+      "isbn": "9781590171998",
+      "coverImage": "/covers/9781590171998.jpg"
+    },
+    {
+      "id": "book-2024-6",
+      "title": "Death and the Dervish",
+      "author": "Meša Selimović",
+      "isbn": "9780810112971",
+      "coverImage": "/covers/9780810112971.jpg"
+    },
+    {
+      "id": "book-2024-7",
+      "title": "The Argonauts",
+      "author": "Maggie Nelson",
+      "isbn": "9781555977078",
+      "coverImage": "/covers/9781555977078.jpg"
+    },
+    {
+      "id": "book-2024-8",
+      "title": "Trump Sky Alpha",
+      "author": "Mark Doten",
+      "isbn": "9781555978280",
+      "coverImage": "/covers/9781555978280.jpg"
+    },
+    {
+      "id": "book-2024-9",
+      "title": "The Rabbit Hutch",
+      "author": "Tess Gunty",
+      "isbn": "9780593534663",
+      "coverImage": "/covers/9780593534663.jpg"
+    },
+    {
+      "id": "book-2024-10",
+      "title": "August Blue",
+      "author": "Deborah Levy",
+      "isbn": "9780374602048",
+      "coverImage": "/covers/9780374602048.jpg"
+    },
+    {
+      "id": "book-2024-11",
+      "title": "The Details",
+      "author": "Ia Genberg",
+      "isbn": "9780063309715",
+      "coverImage": "/covers/9780063309715.jpg"
+    },
+    {
+      "id": "book-2024-12",
+      "title": "Eros the Bittersweet",
+      "author": "Anne Carson",
+      "isbn": "9781564781888",
+      "coverImage": "/covers/9781564781888.jpg"
+    },
+    {
+      "id": "book-2024-13",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "isbn": "9780143035008",
+      "coverImage": "/covers/9780143035008.jpg"
+    },
+    {
+      "id": "book-2024-14",
+      "title": "A Field Guide to Getting Lost",
+      "author": "Rebecca Solnit",
+      "isbn": "9780143037248",
+      "coverImage": "/covers/9780143037248.jpg"
+    },
+    {
+      "id": "book-2024-15",
+      "title": "A Horse at Night: On Writing",
+      "author": "Amina Cain",
+      "isbn": "978194898013",
+      "coverImage": "/covers/978194898013.jpg"
+    },
+    {
+      "id": "book-2024-16",
+      "title": "Encyclopedia of the Dead",
+      "author": "Danilo Kiš",
+      "isbn": "9780810115149",
+      "coverImage": "/covers/9780810115149.jpg"
+    },
+    {
+      "id": "book-2024-17",
+      "title": "Don't Let Me Be Lonely: An American Lyric",
+      "author": "Claudia Rankine",
+      "isbn": "9781555974077",
+      "coverImage": "/covers/9781555974077.jpg"
+    },
+    {
+      "id": "book-2024-18",
+      "title": "My Struggle, Book One",
+      "author": "Karl Ove Knausgård",
+      "isbn": "9780374534141",
+      "coverImage": "/covers/9780374534141.jpg"
+    },
+    {
+      "id": "book-2024-19",
+      "title": "Difficult Loves and Other Stories",
+      "author": "Italo Calvino",
+      "isbn": "",
+      "coverImage": "/covers/Difficult Loves and Other Stories_Italo Calvino.jpg"
+    },
+    {
+      "id": "book-2024-20",
+      "title": "The Guest",
+      "author": "Emma Cline",
+      "isbn": "9781784743734",
+      "coverImage": "/covers/9781784743734.jpg"
+    },
+    {
+      "id": "book-2024-21",
+      "title": "Erasure",
+      "author": "Percival Everett",
+      "isbn": "9780786888153",
+      "coverImage": "/covers/9780786888153.jpg"
+    },
+    {
+      "id": "book-2024-22",
+      "title": "Giovanni's Room",
+      "author": "James Baldwin",
+      "isbn": "9780141186351",
+      "coverImage": "/covers/9780141186351.jpg"
+    },
+    {
+      "id": "book-2024-23",
+      "title": "How Should a Person Be?",
+      "author": "Sheila Heti",
+      "isbn": "9780887842405",
+      "coverImage": "/covers/9780887842405.jpg"
+    },
+    {
+      "id": "book-2024-24",
+      "title": "Pleasure Principle: Poems",
+      "author": "Madeleine Cravens",
+      "isbn": "9781668037768",
+      "coverImage": "/covers/9781668037768.jpg"
+    },
+    {
+      "id": "book-2024-25",
+      "title": "The Lights",
+      "author": "Ben Lerner",
+      "isbn": "9781915051080",
+      "coverImage": "/covers/9781915051080.jpg"
+    },
+    {
+      "id": "book-2024-26",
+      "title": "Lost Children Archive",
+      "author": "Valeria Luiselli",
+      "isbn": "",
+      "coverImage": "/covers/Lost Children Archive_Valeria Luiselli.jpg"
+    },
+    {
+      "id": "book-2024-27",
+      "title": "All Fours",
+      "author": "Miranda July",
+      "isbn": "9781838853457",
+      "coverImage": "/covers/9781838853457.jpg"
+    },
+    {
+      "id": "book-2024-28",
+      "title": "Indelicacy",
+      "author": "Amina Cain",
+      "isbn": "9780374148379",
+      "coverImage": "/covers/9780374148379.jpg"
+    },
+    {
+      "id": "book-2024-29",
+      "title": "Fieldglass",
+      "author": "Catherine Pond",
+      "isbn": "9780809338146",
+      "coverImage": "/covers/9780809338146.jpg"
+    },
+    {
+      "id": "book-2024-30",
+      "title": "Modern Poetry: Poems",
+      "author": "Diane Seuss",
+      "isbn": "9781644452752",
+      "coverImage": "/covers/9781644452752.jpg"
+    },
+    {
+      "id": "book-2024-31",
+      "title": "Taipei",
+      "author": "Tao Lin",
+      "isbn": "9780307950178",
+      "coverImage": "/covers/9780307950178.jpg"
+    },
+    {
+      "id": "book-2024-32",
+      "title": "Dogs of Summer: A Novel",
+      "author": "Andrea Abreu, Julia Sanches",
+      "isbn": "9781662602450",
+      "coverImage": "/covers/9781662602450.jpg"
+    },
+    {
+      "id": "book-2024-33",
+      "title": "Ask Me Again",
+      "author": "Clare Sestanovich",
+      "isbn": "9780593318119",
+      "coverImage": "/covers/9780593318119.jpg"
+    },
+    {
+      "id": "book-2024-34",
+      "title": "Boulder",
+      "author": "Eva Baltasar",
+      "isbn": "9781913505387",
+      "coverImage": "/covers/9781913505387.jpg"
+    },
+    {
+      "id": "book-2024-35",
+      "title": "Underground Barbie",
+      "author": "Maša Kolanović",
+      "isbn": "9789533515120",
+      "coverImage": "/covers/9789533515120.jpg"
+    },
+    {
+      "id": "book-2024-36",
+      "title": "Coventry",
+      "author": "Rachel Cusk",
+      "isbn": "9780374126773",
+      "coverImage": "/covers/9780374126773.jpg"
+    },
+    {
+      "id": "book-2024-37",
+      "title": "Fake Accounts",
+      "author": "Lauren Oyler",
+      "isbn": "9781948226929",
+      "coverImage": "/covers/9781948226929.jpg"
+    },
+    {
+      "id": "book-2024-38",
+      "title": "The Bridge on the Drina",
+      "author": "Ivo Andrić",
+      "isbn": "9780226020457",
+      "coverImage": "/covers/9780226020457.jpg"
+    },
+    {
+      "id": "book-2024-39",
+      "title": "Runaway",
+      "author": "Alice Munro",
+      "isbn": "9781400077915",
+      "coverImage": "/covers/9781400077915.jpg"
+    },
+    {
+      "id": "book-2024-40",
+      "title": "Cracking the PM Interview: How to Land a Product Manager Job in Technology",
+      "author": "Gayle Laakmann McDowell, Jackie Bavaro",
+      "isbn": "9780984782819",
+      "coverImage": "/covers/9780984782819.jpg"
+    },
+    {
+      "id": "book-2024-41",
+      "title": "The Young Man",
+      "author": "Annie Ernaux",
+      "isbn": "9781644213209",
+      "coverImage": "/covers/9781644213209.jpg"
+    },
+    {
+      "id": "book-2024-42",
+      "title": "Family and Borghesia",
+      "author": "Natalia Ginzburg",
+      "isbn": "9781914198847",
+      "coverImage": "/covers/9781914198847.jpg"
+    },
+    {
+      "id": "book-2024-43",
+      "title": "The Bee Sting",
+      "author": "Paul Murray",
+      "isbn": "9780374600303",
+      "coverImage": "/covers/9780374600303.jpg"
+    },
+    {
+      "id": "book-2024-44",
+      "title": "Body Work",
+      "author": "Melissa Febos",
+      "isbn": "9781646220854",
+      "coverImage": "/covers/9781646220854.jpg"
+    },
+    {
+      "id": "book-2024-45",
+      "title": "Y/N",
+      "author": "Esther Yi",
+      "isbn": "9781662601538",
+      "coverImage": "/covers/9781662601538.jpg"
+    },
+    {
+      "id": "book-2024-46",
+      "title": "My First Book",
+      "author": "Honor Levy",
+      "isbn": "9780593656532",
+      "coverImage": "/covers/9780593656532.jpg"
+    },
+    {
+      "id": "book-2024-47",
+      "title": "The Diary of Anaïs Nin, Vol. 1: 1931-1934",
+      "author": "Anaïs Nin",
+      "isbn": "9780156260251",
+      "coverImage": "/covers/9780156260251.jpg"
+    },
+    {
+      "id": "book-2024-48",
+      "title": "Salvage the Bones",
+      "author": "Jesmyn Ward",
+      "isbn": "9781608195220",
+      "coverImage": "/covers/9781608195220.jpg"
+    },
+    {
+      "id": "book-2024-49",
+      "title": "Earth Room",
+      "author": "Rachel Mannheimer",
+      "isbn": "9781955125109",
+      "coverImage": "/covers/9781955125109.jpg"
+    },
+    {
+      "id": "book-2024-50",
+      "title": "Checkout 19",
+      "author": "Claire-Louise Bennett",
+      "isbn": "9781787333550",
+      "coverImage": "/covers/9781787333550.jpg"
+    }
+  ],
+  "2023": [
+    {
+      "id": "book-2023-1",
+      "title": "I Do Everything I'm Told",
+      "author": "Megan Fernandes",
+      "isbn": "9781953534880",
+      "coverImage": "/covers/9781953534880.jpg"
+    },
+    {
+      "id": "book-2023-2",
+      "title": "A Frozen Woman",
+      "author": "Annie Ernaux",
+      "isbn": "9781888363388",
+      "coverImage": "/covers/9781888363388.jpg"
+    },
+    {
+      "id": "book-2023-3",
+      "title": "Olive Kitteridge",
+      "author": "Elizabeth Strout",
+      "isbn": "9789025457501",
+      "coverImage": "/covers/9789025457501.jpg"
+    },
+    {
+      "id": "book-2023-4",
+      "title": "Life on Mars",
+      "author": "Tracy K. Smith",
+      "isbn": "9781555975845",
+      "coverImage": "/covers/9781555975845.jpg"
+    },
+    {
+      "id": "book-2023-5",
+      "title": "Gravity and Center: Selected Sonnets, 1994-2022",
+      "author": "Henri Cole",
+      "isbn": "9780374606688",
+      "coverImage": "/covers/9780374606688.jpg"
+    },
+    {
+      "id": "book-2023-6",
+      "title": "Was It for This: Poems",
+      "author": "Hannah Sullivan",
+      "isbn": "9780374607982",
+      "coverImage": "/covers/9780374607982.jpg"
+    },
+    {
+      "id": "book-2023-7",
+      "title": "Her Body and Other Parties",
+      "author": "Carmen Maria Machado",
+      "isbn": "9781555977887",
+      "coverImage": "/covers/9781555977887.jpg"
+    },
+    {
+      "id": "book-2023-8",
+      "title": "Judas Goat",
+      "author": "Gabrielle Bates",
+      "isbn": "9781953534644",
+      "coverImage": "/covers/9781953534644.jpg"
+    },
+    {
+      "id": "book-2023-9",
+      "title": "Customs: Poems",
+      "author": "Solmaz Sharif",
+      "isbn": "9781644450796",
+      "coverImage": "/covers/9781644450796.jpg"
+    },
+    {
+      "id": "book-2023-10",
+      "title": "Notes of a Crocodile",
+      "author": "Qiu Miaojin",
+      "isbn": "9781681370774",
+      "coverImage": "/covers/9781681370774.jpg"
+    },
+    {
+      "id": "book-2023-11",
+      "title": "Elena Knows",
+      "author": "Claudia Piñeiro",
+      "isbn": "9781999368494",
+      "coverImage": "/covers/9781999368494.jpg"
+    },
+    {
+      "id": "book-2023-12",
+      "title": "The Book of Goose",
+      "author": "Yiyun Li",
+      "isbn": "9780374606343",
+      "coverImage": "/covers/9780374606343.jpg"
+    },
+    {
+      "id": "book-2023-13",
+      "title": "Midwood: Poems",
+      "author": "Jana Prikryl",
+      "isbn": "9781324035213",
+      "coverImage": "/covers/9781324035213.jpg"
+    },
+    {
+      "id": "book-2023-14",
+      "title": "White Noise",
+      "author": "Don DeLillo",
+      "isbn": "9780143129554",
+      "coverImage": "/covers/9780143129554.jpg"
+    },
+    {
+      "id": "book-2023-15",
+      "title": "Catalog of Unabashed Gratitude",
+      "author": "Ross Gay",
+      "isbn": "9780822963318",
+      "coverImage": "/covers/9780822963318.jpg"
+    },
+    {
+      "id": "book-2023-16",
+      "title": "The Year of Magical Thinking",
+      "author": "Joan Didion",
+      "isbn": "9781400078431",
+      "coverImage": "/covers/9781400078431.jpg"
+    },
+    {
+      "id": "book-2023-17",
+      "title": "My life with Picasso",
+      "author": "Françoise Gilot",
+      "isbn": "9781853812330",
+      "coverImage": "/covers/9781853812330.jpg"
+    },
+    {
+      "id": "book-2023-18",
+      "title": "Greek Lessons",
+      "author": "Han Kang",
+      "isbn": "9780593595275",
+      "coverImage": "/covers/9780593595275.jpg"
+    },
+    {
+      "id": "book-2023-19",
+      "title": "Trace Evidence",
+      "author": "Charif Shanahan",
+      "isbn": "9781953534668",
+      "coverImage": "/covers/9781953534668.jpg"
+    },
+    {
+      "id": "book-2023-20",
+      "title": "The Days of Abandonment",
+      "author": "Elena Ferrante",
+      "isbn": "9781933372006",
+      "coverImage": "/covers/9781933372006.jpg"
+    },
+    {
+      "id": "book-2023-21",
+      "title": "The Goodbye People",
+      "author": "Gavin Lambert",
+      "isbn": "",
+      "coverImage": "/covers/The Goodbye People_Gavin Lambert.jpg"
+    },
+    {
+      "id": "book-2023-22",
+      "title": "Everyday Mojo Songs of Earth: New and Selected Poems, 2001-2021",
+      "author": "Yusef Komunyakaa",
+      "isbn": "9780374600136",
+      "coverImage": "/covers/9780374600136.jpg"
+    },
+    {
+      "id": "book-2023-23",
+      "title": "Eye Level: Poems",
+      "author": "Jenny Xie",
+      "isbn": "9781555978020",
+      "coverImage": "/covers/9781555978020.jpg"
+    },
+    {
+      "id": "book-2023-24",
+      "title": "Seven Empty Houses",
+      "author": "Samanta Schweblin",
+      "isbn": "9780525541394",
+      "coverImage": "/covers/9780525541394.jpg"
+    },
+    {
+      "id": "book-2023-25",
+      "title": "Stay and Fight",
+      "author": "Madeline ffitch",
+      "isbn": "9780374719715",
+      "coverImage": "/covers/9780374719715.jpg"
+    },
+    {
+      "id": "book-2023-26",
+      "title": "The Prime of Miss Jean Brodie",
+      "author": "Muriel Spark",
+      "isbn": "9780061711299",
+      "coverImage": "/covers/9780061711299.jpg"
+    },
+    {
+      "id": "book-2023-27",
+      "title": "Chilean Poet",
+      "author": "Alejandro Zambra",
+      "isbn": "9780593297940",
+      "coverImage": "/covers/9780593297940.jpg"
+    },
+    {
+      "id": "book-2023-28",
+      "title": "Dept. of Speculation",
+      "author": "Jenny Offill",
+      "isbn": "9780385350815",
+      "coverImage": "/covers/9780385350815.jpg"
+    },
+    {
+      "id": "book-2023-29",
+      "title": "Spring",
+      "author": "Karl Ove Knausgård",
+      "isbn": "9780399563362",
+      "coverImage": "/covers/9780399563362.jpg"
+    },
+    {
+      "id": "book-2023-30",
+      "title": "Border Vista: Poems",
+      "author": "Anni Liu",
+      "isbn": "9780892555451",
+      "coverImage": "/covers/9780892555451.jpg"
+    },
+    {
+      "id": "book-2023-31",
+      "title": "Daydream and Drunkenness of a Young Lady",
+      "author": "Clarice Lispector",
+      "isbn": "9780241337608",
+      "coverImage": "/covers/9780241337608.jpg"
+    },
+    {
+      "id": "book-2023-32",
+      "title": "Leaving the Atocha Station",
+      "author": "Ben Lerner",
+      "isbn": "9781566892742",
+      "coverImage": "/covers/9781566892742.jpg"
+    },
+    {
+      "id": "book-2023-33",
+      "title": "Cassandra at the Wedding",
+      "author": "Dorothy Baker",
+      "isbn": "9781590171127",
+      "coverImage": "/covers/9781590171127.jpg"
+    },
+    {
+      "id": "book-2023-34",
+      "title": "The Symmetry of Fish",
+      "author": "Su Cho",
+      "isbn": "9780143137252",
+      "coverImage": "/covers/9780143137252.jpg"
+    },
+    {
+      "id": "book-2023-35",
+      "title": "Madness, Rack, and Honey: Collected Lectures",
+      "author": "Mary Ruefle",
+      "isbn": "9781933517575",
+      "coverImage": "/covers/9781933517575.jpg"
+    },
+    {
+      "id": "book-2023-36",
+      "title": "The Lover",
+      "author": "Marguerite Duras",
+      "isbn": "9780007205004",
+      "coverImage": "/covers/9780007205004.jpg"
+    },
+    {
+      "id": "book-2023-37",
+      "title": "Sour Heart",
+      "author": "Jenny Zhang",
+      "isbn": "9780399589386",
+      "coverImage": "/covers/9780399589386.jpg"
+    },
+    {
+      "id": "book-2023-38",
+      "title": "Frank O'Hara: Selected Poems",
+      "author": "Frank O'Hara",
+      "isbn": "9780375711480",
+      "coverImage": "/covers/9780375711480.jpg"
+    },
+    {
+      "id": "book-2023-39",
+      "title": "Golden Ax",
+      "author": "Rio Cortez",
+      "isbn": "9780143137139",
+      "coverImage": "/covers/9780143137139.jpg"
+    },
+    {
+      "id": "book-2023-40",
+      "title": "The Trees Witness Everything",
+      "author": "Victoria Chang",
+      "isbn": "9781556596322",
+      "coverImage": "/covers/9781556596322.jpg"
+    },
+    {
+      "id": "book-2023-41",
+      "title": "Rouge Street: Three Novellas",
+      "author": "Shuang Xuetao",
+      "isbn": "9781250835871",
+      "coverImage": "/covers/9781250835871.jpg"
+    },
+    {
+      "id": "book-2023-42",
+      "title": "Just Kids",
+      "author": "Patti Smith",
+      "isbn": "9780066211312",
+      "coverImage": "/covers/9780066211312.jpg"
+    },
+    {
+      "id": "book-2023-43",
+      "title": "All of It Singing: New and Selected Poems",
+      "author": "Linda Gregg",
+      "isbn": "9781555975074",
+      "coverImage": "/covers/9781555975074.jpg"
+    },
+    {
+      "id": "book-2023-44",
+      "title": "Invisible Cities",
+      "author": "Italo Calvino",
+      "isbn": "9780156453806",
+      "coverImage": "/covers/9780156453806.jpg"
+    }
+  ],
+  "2022": [
+    {
+      "id": "book-2022-1",
+      "title": "Extracts From: The Second Sex",
+      "author": "Simone de Beauvoir",
+      "isbn": "9781784870386",
+      "coverImage": "/covers/9781784870386.jpg"
+    },
+    {
+      "id": "book-2022-2",
+      "title": "Love's Work: A Reckoning with Life",
+      "author": "Gillian Rose",
+      "isbn": "9780805210781",
+      "coverImage": "/covers/9780805210781.jpg"
+    },
+    {
+      "id": "book-2022-3",
+      "title": "Milk Fed",
+      "author": "Melissa Broder",
+      "isbn": "9781982142490",
+      "coverImage": "/covers/9781982142490.jpg"
+    },
+    {
+      "id": "book-2022-4",
+      "title": "Blue Front",
+      "author": "Martha Collins",
+      "isbn": "9781555974497",
+      "coverImage": "/covers/9781555974497.jpg"
+    },
+    {
+      "id": "book-2022-5",
+      "title": "Winter in Sokcho",
+      "author": "Elisa Shua Dusapin",
+      "isbn": "9781911547549",
+      "coverImage": "/covers/9781911547549.jpg"
+    },
+    {
+      "id": "book-2022-6",
+      "title": "The School for Good Mothers",
+      "author": "Jessamine Chan",
+      "isbn": "9781668000335",
+      "coverImage": "/covers/9781668000335.jpg"
+    },
+    {
+      "id": "book-2022-7",
+      "title": "The Triumph of Achilles",
+      "author": "Louise Glück",
+      "isbn": "9780880010825",
+      "coverImage": "/covers/9780880010825.jpg"
+    },
+    {
+      "id": "book-2022-8",
+      "title": "On Love",
+      "author": "Alain de Botton",
+      "isbn": "9780802142405",
+      "coverImage": ""
+    },
+    {
+      "id": "book-2022-9",
+      "title": "The Love Songs of W.E.B. Du Bois",
+      "author": "Honorée Fanonne Jeffers",
+      "isbn": "9780062942937",
+      "coverImage": "/covers/9780062942937.jpg"
+    },
+    {
+      "id": "book-2022-10",
+      "title": "The Left Hand of Darkness",
+      "author": "Ursula K. Le Guin",
+      "isbn": "9780441007318",
+      "coverImage": "/covers/9780441007318.jpg"
+    },
+    {
+      "id": "book-2022-11",
+      "title": "The Awakening",
+      "author": "Kate Chopin",
+      "isbn": "9780543898081",
+      "coverImage": "/covers/9780543898081.jpg"
+    },
+    {
+      "id": "book-2022-12",
+      "title": "Memorial Drive: A Daughter's Memoir",
+      "author": "Natasha Trethewey",
+      "isbn": "9780062248572",
+      "coverImage": "/covers/9780062248572.jpg"
+    },
+    {
+      "id": "book-2022-13",
+      "title": "The Best Short Stories 2021: The O. Henry Prize Winners",
+      "author": "Chimamanda Ngozi Adichie",
+      "isbn": "9780593311257",
+      "coverImage": "/covers/9780593311257.jpg"
+    },
+    {
+      "id": "book-2022-14",
+      "title": "Slouching Towards Bethlehem",
+      "author": "Joan Didion",
+      "isbn": "9781504045650",
+      "coverImage": "/covers/9781504045650.jpg"
+    },
+    {
+      "id": "book-2022-15",
+      "title": "The Idiot",
+      "author": "Elif Batuman",
+      "isbn": "9781594205613",
+      "coverImage": "/covers/9781594205613.jpg"
+    },
+    {
+      "id": "book-2022-16",
+      "title": "Either/Or",
+      "author": "Elif Batuman",
+      "isbn": "9780525557593",
+      "coverImage": "/covers/9780525557593.jpg"
+    },
+    {
+      "id": "book-2022-17",
+      "title": "No One Is Talking About This",
+      "author": "Patricia Lockwood",
+      "isbn": "9780593189580",
+      "coverImage": "/covers/9780593189580.jpg"
+    },
+    {
+      "id": "book-2022-18",
+      "title": "Free: A Child and a Country at the End of History",
+      "author": "Lea Ypi",
+      "isbn": "9780393867732",
+      "coverImage": "/covers/9780393867732.jpg"
+    },
+    {
+      "id": "book-2022-19",
+      "title": "The Three-Body Problem",
+      "author": "Cixin Liu",
+      "isbn": "9781784971564",
+      "coverImage": "/covers/9781784971564.jpg"
+    },
+    {
+      "id": "book-2022-20",
+      "title": "Matrix",
+      "author": "Lauren Groff",
+      "isbn": "9781594634499",
+      "coverImage": "/covers/9781594634499.jpg"
+    },
+    {
+      "id": "book-2022-21",
+      "title": "How Beautiful We Were",
+      "author": "Imbolo Mbue",
+      "isbn": "9780593132425",
+      "coverImage": "/covers/9780593132425.jpg"
+    },
+    {
+      "id": "book-2022-22",
+      "title": "Half Blood Blues",
+      "author": "Esi Edugyan",
+      "isbn": "9781846687754",
+      "coverImage": "/covers/9781846687754.jpg"
+    },
+    {
+      "id": "book-2022-23",
+      "title": "Laughter in the Dark",
+      "author": "Vladimir Nabokov",
+      "isbn": "9780679724506",
+      "coverImage": "/covers/9780679724506.jpg"
+    },
+    {
+      "id": "book-2022-24",
+      "title": "Kyrie: Poems",
+      "author": "Ellen Bryant Voigt",
+      "isbn": "9780393315615",
+      "coverImage": "/covers/9780393315615.jpg"
+    },
+    {
+      "id": "book-2022-25",
+      "title": "DMZ Colony",
+      "author": "Don Mee Choi",
+      "isbn": "9781940696966",
+      "coverImage": "/covers/9781940696966.jpg"
+    },
+    {
+      "id": "book-2022-26",
+      "title": "Barbarian Days",
+      "author": "William Finnegan",
+      "isbn": "9781594203473",
+      "coverImage": "/covers/9781594203473.jpg"
+    },
+    {
+      "id": "book-2022-27",
+      "title": "Leadbelly: Poems",
+      "author": "Tyehimba Jess",
+      "isbn": "9780974635330",
+      "coverImage": "/covers/9780974635330.jpg"
+    },
+    {
+      "id": "book-2022-28",
+      "title": "The Office of Historical Corrections",
+      "author": "Danielle Evans",
+      "isbn": "9781594487330",
+      "coverImage": "/covers/9781594487330.jpg"
+    },
+    {
+      "id": "book-2022-29",
+      "title": "The Door",
+      "author": "Magda Szabó",
+      "isbn": "9781843431930",
+      "coverImage": "/covers/9781843431930.jpg"
+    },
+    {
+      "id": "book-2022-30",
+      "title": "Monument: Poems New and Selected",
+      "author": "Natasha Trethewey",
+      "isbn": "9781328507846",
+      "coverImage": "/covers/9781328507846.jpg"
+    },
+    {
+      "id": "book-2022-31",
+      "title": "The Friend",
+      "author": "Sigrid Nunez",
+      "isbn": "9780735219458",
+      "coverImage": "/covers/9780735219458.jpg"
+    },
+    {
+      "id": "book-2022-32",
+      "title": "Kitchen",
+      "author": "Banana Yoshimoto",
+      "isbn": "9780802142443",
+      "coverImage": "/covers/9780802142443.jpg"
+    },
+    {
+      "id": "book-2022-33",
+      "title": "Portrait of an Unknown Lady",
+      "author": "María Gainza",
+      "isbn": "9781646220328",
+      "coverImage": "/covers/9781646220328.jpg"
+    },
+    {
+      "id": "book-2022-34",
+      "title": "100 Poems",
+      "author": "Seamus Heaney",
+      "isbn": "9780374100292",
+      "coverImage": "/covers/9780374100292.jpg"
+    },
+    {
+      "id": "book-2022-35",
+      "title": "The Dry Heart",
+      "author": "Natalia Ginzburg",
+      "isbn": "9780811228787",
+      "coverImage": "/covers/9780811228787.jpg"
+    },
+    {
+      "id": "book-2022-36",
+      "title": "The Incendiaries",
+      "author": "R.O. Kwon",
+      "isbn": "9780735213890",
+      "coverImage": "/covers/9780735213890.jpg"
+    },
+    {
+      "id": "book-2022-37",
+      "title": "Frank: Sonnets",
+      "author": "Diane Seuss",
+      "isbn": "9781644450451",
+      "coverImage": "/covers/9781644450451.jpg"
+    },
+    {
+      "id": "book-2022-38",
+      "title": "The Portrait of a Mirror",
+      "author": "A. Natasha Joukovsky",
+      "isbn": "9781419752162",
+      "coverImage": "/covers/9781419752162.jpg"
+    }
+  ],
+  "2021": [
+    {
+      "id": "book-2021-1",
+      "title": "Intimacies",
+      "author": "Katie Kitamura",
+      "isbn": "9780399576164",
+      "coverImage": "/covers/9780399576164.jpg"
+    },
+    {
+      "id": "book-2021-2",
+      "title": "Rest and Be Thankful",
+      "author": "Emma Glass",
+      "isbn": "9781526601070",
+      "coverImage": "/covers/9781526601070.jpg"
+    },
+    {
+      "id": "book-2021-3",
+      "title": "Are Prisons Obsolete?",
+      "author": "Angela Y. Davis",
+      "isbn": "9781583225813",
+      "coverImage": "/covers/9781583225813.jpg"
+    },
+    {
+      "id": "book-2021-4",
+      "title": "Outline",
+      "author": "Rachel Cusk",
+      "isbn": "9780571233625",
+      "coverImage": "/covers/9780571233625.jpg"
+    },
+    {
+      "id": "book-2021-5",
+      "title": "In the Dream House",
+      "author": "Carmen Maria Machado",
+      "isbn": "9781644450031",
+      "coverImage": "/covers/9781644450031.jpg"
+    },
+    {
+      "id": "book-2021-6",
+      "title": "Untamed",
+      "author": "Glennon Doyle",
+      "isbn": "9781984801258",
+      "coverImage": "/covers/9781984801258.jpg"
+    },
+    {
+      "id": "book-2021-7",
+      "title": "The Overstory",
+      "author": "Richard Powers",
+      "isbn": "9780393356687",
+      "coverImage": "/covers/9780393356687.jpg"
+    },
+    {
+      "id": "book-2021-8",
+      "title": "One Last Stop",
+      "author": "Casey McQuiston",
+      "isbn": "9781250244499",
+      "coverImage": "/covers/9781250244499.jpg"
+    },
+    {
+      "id": "book-2021-9",
+      "title": "The Silent Cry",
+      "author": "Kenzaburō Ōe",
+      "isbn": "9781852426026",
+      "coverImage": "/covers/9781852426026.jpg"
+    },
+    {
+      "id": "book-2021-10",
+      "title": "The Night Watchman",
+      "author": "Louise Erdrich",
+      "isbn": "9780062671189",
+      "coverImage": "/covers/9780062671189.jpg"
+    },
+    {
+      "id": "book-2021-11",
+      "title": "Afterparties",
+      "author": "Anthony Veasna So",
+      "isbn": "9780063049918",
+      "coverImage": "/covers/9780063049918.jpg"
+    },
+    {
+      "id": "book-2021-12",
+      "title": "My Year of Rest and Relaxation",
+      "author": "Ottessa Moshfegh",
+      "isbn": "9780525522133",
+      "coverImage": "/covers/9780525522133.jpg"
+    },
+    {
+      "id": "book-2021-13",
+      "title": "The Undocumented Americans",
+      "author": "Karla Cornejo Villavicencio",
+      "isbn": "9780399592683",
+      "coverImage": "/covers/9780399592683.jpg"
+    },
+    {
+      "id": "book-2021-14",
+      "title": "The Mothers",
+      "author": "Brit Bennett",
+      "isbn": "9781524709860",
+      "coverImage": "/covers/9781524709860.jpg"
+    },
+    {
+      "id": "book-2021-15",
+      "title": "A Desired Past: A Short History of Same-Sex Love in America",
+      "author": "Leila J. Rupp",
+      "isbn": "9780226731568",
+      "coverImage": "/covers/9780226731568.jpg"
+    },
+    {
+      "id": "book-2021-16",
+      "title": "An American Marriage",
+      "author": "Tayari Jones",
+      "isbn": "9781616201340",
+      "coverImage": "/covers/9781616201340.jpg"
+    },
+    {
+      "id": "book-2021-17",
+      "title": "Fresh Fruit, Broken Bodies: Migrant Farmworkers in the United States",
+      "author": "Seth Holmes",
+      "isbn": "9780520275140",
+      "coverImage": "/covers/9780520275140.jpg"
+    },
+    {
+      "id": "book-2021-18",
+      "title": "Such a Fun Age",
+      "author": "Kiley Reid",
+      "isbn": "9780525541929",
+      "coverImage": "/covers/9780525541929.jpg"
+    },
+    {
+      "id": "book-2021-19",
+      "title": "Middlesex",
+      "author": "Jeffrey Eugenides",
+      "isbn": "9780312422158",
+      "coverImage": "/covers/9780312422158.jpg"
+    },
+    {
+      "id": "book-2021-20",
+      "title": "A Tree Grows in Brooklyn",
+      "author": "Betty Smith",
+      "isbn": "9780061120077",
+      "coverImage": "/covers/9780061120077.jpg"
+    },
+    {
+      "id": "book-2021-21",
+      "title": "Breasts and Eggs",
+      "author": "Mieko Kawakami",
+      "isbn": "9781609456702",
+      "coverImage": "/covers/9781609456702.jpg"
+    },
+    {
+      "id": "book-2021-22",
+      "title": "The Death of Vivek Oji",
+      "author": "Akwaeke Emezi",
+      "isbn": "9780525541608",
+      "coverImage": "/covers/9780525541608.jpg"
+    },
+    {
+      "id": "book-2021-23",
+      "title": "Monogamy",
+      "author": "Sue Miller",
+      "isbn": "9780062969651",
+      "coverImage": "/covers/9780062969651.jpg"
+    },
+    {
+      "id": "book-2021-24",
+      "title": "Purity and Danger: An Analysis of Concepts of Pollution and Taboo",
+      "author": "Mary Douglas",
+      "isbn": "9780415289955",
+      "coverImage": "/covers/9780415289955.jpg"
+    },
+    {
+      "id": "book-2021-25",
+      "title": "Transcendent Kingdom",
+      "author": "Yaa Gyasi",
+      "isbn": "9780525658191",
+      "coverImage": "/covers/9780525658191.jpg"
+    },
+    {
+      "id": "book-2021-26",
+      "title": "The Copenhagen Trilogy: Childhood; Youth; Dependency",
+      "author": "Tove Ditlevsen",
+      "isbn": "9780374602390",
+      "coverImage": "/covers/9780374602390.jpg"
+    },
+    {
+      "id": "book-2021-27",
+      "title": "The Torture Letters: Reckoning with Police Violence",
+      "author": "Laurence Ralph",
+      "isbn": "9780226650098",
+      "coverImage": "/covers/9780226650098.jpg"
+    },
+    {
+      "id": "book-2021-28",
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "isbn": "9780241334140",
+      "coverImage": "/covers/9780241334140.jpg"
+    },
+    {
+      "id": "book-2021-29",
+      "title": "How to Change Your Mind",
+      "author": "Michael Pollan",
+      "isbn": "9780241294222",
+      "coverImage": "/covers/9780241294222.jpg"
+    },
+    {
+      "id": "book-2021-30",
+      "title": "Open Water",
+      "author": "Caleb Azumah Nelson",
+      "isbn": "9780241448779",
+      "coverImage": "/covers/9780241448779.jpg"
+    },
+    {
+      "id": "book-2021-31",
+      "title": "Beautiful World, Where Are You",
+      "author": "Sally Rooney",
+      "isbn": "9780374602604",
+      "coverImage": "/covers/9780374602604.jpg"
+    },
+    {
+      "id": "book-2021-32",
+      "title": "My Parents: An Introduction / This Does Not Belong to You",
+      "author": "Aleksandar Hemon",
+      "isbn": "9780374217433",
+      "coverImage": "/covers/9780374217433.jpg"
+    },
+    {
+      "id": "book-2021-33",
+      "title": "Catch the Rabbit",
+      "author": "Lana Bastašić",
+      "isbn": "9781529039603",
+      "coverImage": "/covers/9781529039603.jpg"
+    },
+    {
+      "id": "book-2021-34",
+      "title": "Circe",
+      "author": "Madeline Miller",
+      "isbn": "9780316556347",
+      "coverImage": "/covers/9780316556347.jpg"
+    },
+    {
+      "id": "book-2021-35",
+      "title": "The Collected Schizophrenias",
+      "author": "Esmé Weijun Wang",
+      "isbn": "9781555978273",
+      "coverImage": "/covers/9781555978273.jpg"
+    },
+    {
+      "id": "book-2021-36",
+      "title": "The Glass Hotel",
+      "author": "Emily St. John Mandel",
+      "isbn": "9780525521143",
+      "coverImage": "/covers/9780525521143.jpg"
+    },
+    {
+      "id": "book-2021-37",
+      "title": "Luster",
+      "author": "Raven Leilani",
+      "isbn": "9780374194321",
+      "coverImage": "/covers/9780374194321.jpg"
+    },
+    {
+      "id": "book-2021-38",
+      "title": "Transgender History",
+      "author": "Susan Stryker",
+      "isbn": "9781580052245",
+      "coverImage": "/covers/9781580052245.jpg"
+    },
+    {
+      "id": "book-2021-39",
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "isbn": "9780525559474",
+      "coverImage": "/covers/9780525559474.jpg"
+    },
+    {
+      "id": "book-2021-40",
+      "title": "How Much of These Hills Is Gold",
+      "author": "C Pam Zhang",
+      "isbn": "9780525537205",
+      "coverImage": "/covers/9780525537205.jpg"
+    },
+    {
+      "id": "book-2021-41",
+      "title": "Nothing to See Here",
+      "author": "Kevin Wilson",
+      "isbn": "9780062913494",
+      "coverImage": "/covers/9780062913494.jpg"
+    },
+    {
+      "id": "book-2021-42",
+      "title": "The Cook",
+      "author": "Maylis de Kerangal",
+      "isbn": "9780374120900",
+      "coverImage": "/covers/9780374120900.jpg"
+    },
+    {
+      "id": "book-2021-43",
+      "title": "Tastes Like War",
+      "author": "Grace M. Cho",
+      "isbn": "9781952177941",
+      "coverImage": "/covers/9781952177941.jpg"
+    },
+    {
+      "id": "book-2021-44",
+      "title": "Every Day Is for the Thief",
+      "author": "Teju Cole",
+      "isbn": "9789780805159",
+      "coverImage": "/covers/9789780805159.jpg"
+    }
+  ],
+  "2020": [
+    {
+      "id": "book-2020-1",
+      "title": "The Story of a New Name",
+      "author": "Elena Ferrante",
+      "isbn": "9781609451349",
+      "coverImage": "/covers/9781609451349.jpg"
+    },
+    {
+      "id": "book-2020-2",
+      "title": "The Bluest Eye",
+      "author": "Toni Morrison",
+      "isbn": "9780452287068",
+      "coverImage": "/covers/9780452287068.jpg"
+    },
+    {
+      "id": "book-2020-3",
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "isbn": "9780881032475",
+      "coverImage": "/covers/9780881032475.jpg"
+    },
+    {
+      "id": "book-2020-4",
+      "title": "The Sympathizer",
+      "author": "Viet Thanh Nguyen",
+      "isbn": "9780802123459",
+      "coverImage": "/covers/9780802123459.jpg"
+    },
+    {
+      "id": "book-2020-5",
+      "title": "A Tale for the Time Being",
+      "author": "Ruth Ozeki",
+      "isbn": "9780670026630",
+      "coverImage": "/covers/9780670026630.jpg"
+    },
+    {
+      "id": "book-2020-6",
+      "title": "On Earth We're Briefly Gorgeous",
+      "author": "Ocean Vuong",
+      "isbn": "9780525562023",
+      "coverImage": "/covers/9780525562023.jpg"
+    },
+    {
+      "id": "book-2020-7",
+      "title": "A Thousand Splendid Suns",
+      "author": "Khaled Hosseini",
+      "isbn": "9781594489501",
+      "coverImage": "/covers/9781594489501.jpg"
+    },
+    {
+      "id": "book-2020-8",
+      "title": "An Absolutely Remarkable Thing",
+      "author": "Hank Green",
+      "isbn": "9781473224216",
+      "coverImage": "/covers/9781473224216.jpg"
+    },
+    {
+      "id": "book-2020-9",
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "isbn": "9780735219113",
+      "coverImage": "/covers/9780735219113.jpg"
+    },
+    {
+      "id": "book-2020-10",
+      "title": "Freshwater",
+      "author": "Akwaeke Emezi",
+      "isbn": "9780802127358",
+      "coverImage": "/covers/9780802127358.jpg"
+    },
+    {
+      "id": "book-2020-11",
+      "title": "Lovers on All Saints' Day: Stories",
+      "author": "Juan Gabriel Vásquez",
+      "isbn": "9781594634277",
+      "coverImage": "/covers/9781594634277.jpg"
+    },
+    {
+      "id": "book-2020-12",
+      "title": "White Teeth",
+      "author": "Zadie Smith",
+      "isbn": "",
+      "coverImage": "/covers/White Teeth_Zadie Smith.jpg"
+    },
+    {
+      "id": "book-2020-13",
+      "title": "Emma",
+      "author": "Jane Austen",
+      "isbn": "9782253089056",
+      "coverImage": "/covers/9782253089056.jpg"
+    },
+    {
+      "id": "book-2020-14",
+      "title": "Interpreter of Maladies / The Namesake",
+      "author": "Jhumpa Lahiri",
+      "isbn": "9780547447810",
+      "coverImage": "/covers/9780547447810.jpg"
+    },
+    {
+      "id": "book-2020-15",
+      "title": "The Leavers",
+      "author": "Lisa Ko",
+      "isbn": "9781616206888",
+      "coverImage": "/covers/9781616206888.jpg"
+    },
+    {
+      "id": "book-2020-16",
+      "title": "Norwegian Wood",
+      "author": "Haruki Murakami",
+      "isbn": "9780375704024",
+      "coverImage": "/covers/9780375704024.jpg"
+    },
+    {
+      "id": "book-2020-17",
+      "title": "A Little Life",
+      "author": "Hanya Yanagihara",
+      "isbn": "9780804172707",
+      "coverImage": "/covers/9780804172707.jpg"
+    },
+    {
+      "id": "book-2020-18",
+      "title": "Interior Chinatown",
+      "author": "Charles Yu",
+      "isbn": "9780307907196",
+      "coverImage": "/covers/9780307907196.jpg"
+    },
+    {
+      "id": "book-2020-19",
+      "title": "Pachinko",
+      "author": "Min Jin Lee",
+      "isbn": "9786064305336",
+      "coverImage": "/covers/9786064305336.jpg"
+    },
+    {
+      "id": "book-2020-20",
+      "title": "Britt-Marie Was Here",
+      "author": "Fredrik Backman",
+      "isbn": "9781501142536",
+      "coverImage": "/covers/9781501142536.jpg"
+    },
+    {
+      "id": "book-2020-21",
+      "title": "The Vanishing Half",
+      "author": "Brit Bennett",
+      "isbn": "9780525536970",
+      "coverImage": "/covers/9780525536970.jpg"
+    },
+    {
+      "id": "book-2020-22",
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "isbn": "9781984822178",
+      "coverImage": "/covers/9781984822178.jpg"
+    },
+    {
+      "id": "book-2020-23",
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "isbn": "9780141184999",
+      "coverImage": "/covers/9780141184999.jpg"
+    },
+    {
+      "id": "book-2020-24",
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "isbn": "9780374275631",
+      "coverImage": "/covers/9780374275631.jpg"
+    },
+    {
+      "id": "book-2020-25",
+      "title": "The Brief and Wondrous Life of Oscar Wao",
+      "author": "Junot Díaz, Junot Díaz",
+      "isbn": "",
+      "coverImage": "/covers/The Brief and Wondrous Life of Oscar Wao_Junot Díaz.jpg"
+    },
+    {
+      "id": "book-2020-26",
+      "title": "The Abstinence Teacher",
+      "author": "Tom Perrotta",
+      "isbn": "9780307356369",
+      "coverImage": "/covers/9780307356369.jpg"
+    },
+    {
+      "id": "book-2020-27",
+      "title": "Girl, Woman, Other",
+      "author": "Bernardine Evaristo",
+      "isbn": "9780241364901",
+      "coverImage": "/covers/9780241364901.jpg"
+    },
+    {
+      "id": "book-2020-28",
+      "title": "Those Who Leave and Those Who Stay",
+      "author": "Elena Ferrante",
+      "isbn": "9781609452339",
+      "coverImage": "/covers/9781609452339.jpg"
+    },
+    {
+      "id": "book-2020-29",
+      "title": "The Chosen",
+      "author": "Chaim Potok",
+      "isbn": "9780449213445",
+      "coverImage": "/covers/9780449213445.jpg"
+    },
+    {
+      "id": "book-2020-30",
+      "title": "Autumn",
+      "author": "Ali Smith",
+      "isbn": "9780241207000",
+      "coverImage": "/covers/9780241207000.jpg"
+    },
+    {
+      "id": "book-2020-31",
+      "title": "My Brilliant Friend",
+      "author": "Elena Ferrante",
+      "isbn": "",
+      "coverImage": "/covers/My Brilliant Friend_Elena Ferrante.jpg"
+    }
+  ]
+}

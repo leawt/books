@@ -148,6 +148,52 @@
   .page-transition {
     animation: pageTransition 0.5s ease-out;
   }
+
+  /* Favorites shelf animations */
+  @keyframes favoriteStagger {
+    from {
+      opacity: 0;
+      transform: translateY(30px) scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .favorite-book-wrapper {
+    animation: favoriteStagger 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  /* Favorite book glow effect */
+  .favorite-glow {
+    position: relative;
+  }
+
+  .favorite-glow::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, rgba(139, 123, 168, 0.3), rgba(139, 123, 168, 0.1));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+  }
+
+  .favorite-glow:hover::before {
+    opacity: 1;
+  }
+
+  /* Enhanced favorite card animation */
+  .favorite-book-card-container {
+    transition: transform 0.3s ease;
+  }
+
+  .favorite-book-card-container:hover {
+    transform: translateY(-4px);
+  }
 }
 
 /* Custom cursor trail */

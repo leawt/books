@@ -24,9 +24,6 @@ const Bio = () => {
           Each title represents a story, a lesson, or a moment in time. Hover over the book 
           covers to see the title and author, or tap on mobile devices.
         </p>
-        <div className="text-xs text-accent-purple/30 font-mono mt-6">
-          ･ﾟ･｡･ﾟﾟ･
-        </div>
       </div>
     </div>
   );

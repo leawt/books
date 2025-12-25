@@ -69,9 +69,6 @@ const Sidebar = () => {
             
             {/* Decorative divider */}
             <div className="mt-8 pt-8 border-t border-accent-purple/20">
-              <div className="text-xs text-text-secondary/60 font-mono text-center">
-                ･ﾟ･｡･ﾟﾟ･
-              </div>
             </div>
           </div>
         </div>

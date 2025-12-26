@@ -129,7 +129,7 @@ const FictionNonFictionPieChart = ({ fictionCount, nonFictionCount, poetryCount,
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const tooltipRef = useRef(null);
   
-  const size = 120; // Smaller size
+  const size = 100; // Smaller size
   const center = size / 2;
   const radius = 45;
   const innerRadius = 20;
@@ -272,8 +272,8 @@ const FictionNonFictionPieChart = ({ fictionCount, nonFictionCount, poetryCount,
         {nonFictionCount > 0 && nonFictionAngle > 0 && (
           <path
             d={createArcPath(nonFictionStart, nonFictionStart + nonFictionAngle, radius, innerRadius)}
-            fill={hoveredSlice === 'nonfiction' ? 'rgba(139, 123, 168, 0.6)' : 'rgba(139, 123, 168, 0.4)'}
-            stroke="rgba(139, 123, 168, 0.8)"
+            fill={hoveredSlice === 'nonfiction' ? 'rgba(107, 142, 135, 0.8)' : 'rgba(107, 142, 135, 0.6)'}
+            stroke="rgba(107, 142, 135, 0.8)"
             strokeWidth="1"
             onMouseEnter={() => setHoveredSlice('nonfiction')}
             onMouseLeave={() => setHoveredSlice(null)}
@@ -285,8 +285,8 @@ const FictionNonFictionPieChart = ({ fictionCount, nonFictionCount, poetryCount,
         {poetryCount > 0 && poetryAngle > 0 && (
           <path
             d={createArcPath(poetryStart, poetryStart + poetryAngle, radius, innerRadius)}
-            fill={hoveredSlice === 'poetry' ? 'rgba(139, 123, 168, 0.5)' : 'rgba(139, 123, 168, 0.3)'}
-            stroke="rgba(139, 123, 168, 0.8)"
+            fill={hoveredSlice === 'poetry' ? 'rgba(180, 140, 120, 0.8)' : 'rgba(180, 140, 120, 0.6)'}
+            stroke="rgba(180, 140, 120, 0.8)"
             strokeWidth="1"
             onMouseEnter={() => setHoveredSlice('poetry')}
             onMouseLeave={() => setHoveredSlice(null)}
@@ -645,10 +645,33 @@ const YearAnalytics = ({ year, books }) => {
             return parseSingleRange(range);
           }
         }
-        // If no match, use the first range
-        return parseSingleRange(ranges[0]);
+        // If no match, try to find a range that overlaps with the target year
+        const targetYearStart = new Date(`${targetYear}-01-01`);
+        const targetYearEnd = new Date(`${targetYear}-12-31`);
+        targetYearEnd.setHours(23, 59, 59, 999);
+        
+        for (const range of ranges) {
+          const parsed = parseSingleRange(range);
+          if (parsed && parsed.start <= targetYearEnd && parsed.finish >= targetYearStart) {
+            return parsed;
+          }
+        }
+        // If still no match, return null (don't use first range if it doesn't match)
+        return null;
       } else {
-        return parseSingleRange(datesRead);
+        // For single range, check if it overlaps with target year
+        const parsed = parseSingleRange(datesRead);
+        if (!parsed) return null;
+        
+        const targetYearStart = new Date(`${targetYear}-01-01`);
+        const targetYearEnd = new Date(`${targetYear}-12-31`);
+        targetYearEnd.setHours(23, 59, 59, 999);
+        
+        // Only return if the date range overlaps with the target year
+        if (parsed.start <= targetYearEnd && parsed.finish >= targetYearStart) {
+          return parsed;
+        }
+        return null;
       }
     } catch (error) {
       console.warn('Error parsing datesRead:', datesRead, error);
@@ -718,9 +741,16 @@ const YearAnalytics = ({ year, books }) => {
 
         const yearStart = new Date(`${year}-01-01`);
         const yearEnd = new Date(`${year}-12-31`);
+        yearEnd.setHours(23, 59, 59, 999); // Set to end of year
         
         // Validate year dates
         if (isNaN(yearStart.getTime()) || isNaN(yearEnd.getTime())) return null;
+        
+        // Check if the book's date range overlaps with the target year at all
+        // If the book's finish date is before the year starts, or start date is after the year ends, skip it
+        if (finish < yearStart || start > yearEnd) {
+          return null;
+        }
         
         // Calculate position and width as percentage of year
         const yearDuration = yearEnd - yearStart;
@@ -948,11 +978,11 @@ const YearAnalytics = ({ year, books }) => {
         </div>
       )}
 
-      {/* Fiction vs Non-Fiction Pie Chart */}
+      {/* Genre Pie Chart */}
       <div className="mb-6 sm:mb-8">
-        <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-4 sm:p-6 shadow-soft">
+        <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/10 rounded-lg p-3 sm:p-4 shadow-soft">
           <h3 className="text-text-primary text-base font-semibold mb-3 text-center">
-            Fiction vs Non-Fiction
+            Genre
           </h3>
           <FictionNonFictionPieChart
             fictionCount={fictionCount}

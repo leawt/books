@@ -3817,7 +3817,7 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2021/04/09-2022/04/10"
+        "datesRead": "2022/04/09-2022/04/10"
       },
       {
         "id": "book-2022-10",
@@ -3867,7 +3867,7 @@
         "genres": [
           "Contemporary", "Autofiction"
         ],
-        "datesRead": "2021/04/27-2022/04/28"
+        "datesRead": "2022/04/27-2022/04/28"
       },
       {
         "id": "book-2022-17",
@@ -5634,7 +5634,7 @@
         "id": "book-2020-35",
         "title": "My Brilliant Friend",
         "author": "Elena Ferrante",
-        "isbn": "",
+        "isbn": "9781609450786",
         "coverImage": "",
         "format": "paperback",
         "rating": null,
@@ -5701,29 +5701,6 @@
           "Literary Fiction"
         ],
         "datesRead": "2020/04/03-2020/04/09"
-      }
-    ]
-  },
-  "unknown": {
-    "books": [
-      {
-        "id": "book-2020-1",
-        "title": "The Story of a New Name",
-        "author": "Elena Ferrante",
-        "isbn": "9781609451349",
-        "coverImage": "/covers/9781609451349.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ]
       },
       {
         "id": "book-2020-4",
@@ -5742,26 +5719,8 @@
         "fictionType": "Fiction",
         "genres": [
           "Contemporary"
-        ]
-      },
-      {
-        "id": "book-2020-28",
-        "title": "Those Who Leave and Those Who Stay",
-        "author": "Elena Ferrante",
-        "isbn": "9781609452339",
-        "coverImage": "/covers/9781609452339.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ]
+        ],
+        "datesRead": "2020/07/28-2020/08/01"
       },
       {
         "id": "book-2020-29",
@@ -5780,7 +5739,8 @@
         "fictionType": "Fiction",
         "genres": [
           "Literary Fiction"
-        ]
+        ],
+        "datesRead": "2020/01/31-2020/02/01"
       },
       {
         "id": "book-2020-30",
@@ -5799,26 +5759,8 @@
         "fictionType": "Fiction",
         "genres": [
           "Contemporary"
-        ]
-      },
-      {
-        "id": "book-2020-31",
-        "title": "My Brilliant Friend",
-        "author": "Elena Ferrante",
-        "isbn": "",
-        "coverImage": "",
-        "format": "digital",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ]
+        ],
+        "datesRead": "2020/09/18-2020/09/25"
       }
     ]
   }

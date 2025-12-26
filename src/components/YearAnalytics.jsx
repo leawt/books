@@ -122,6 +122,206 @@ const colorToRgba = (color, opacity = 1) => {
   return color; // Fallback
 };
 
+// Pie chart component for fiction/non-fiction/poetry
+const FictionNonFictionPieChart = ({ fictionCount, nonFictionCount, poetryCount, total }) => {
+  const [hoveredSlice, setHoveredSlice] = useState(null);
+  const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const tooltipRef = useRef(null);
+  
+  const size = 120; // Smaller size
+  const center = size / 2;
+  const radius = 45;
+  const innerRadius = 20;
+  
+  // Calculate angles
+  const fictionPercentage = total > 0 ? (fictionCount / total) * 100 : 0;
+  const nonFictionPercentage = total > 0 ? (nonFictionCount / total) * 100 : 0;
+  const poetryPercentage = total > 0 ? (poetryCount / total) * 100 : 0;
+  
+  const fictionAngle = (fictionPercentage / 100) * 360;
+  const nonFictionAngle = (nonFictionPercentage / 100) * 360;
+  const poetryAngle = (poetryPercentage / 100) * 360;
+  
+  // Helper function to create arc path for donut chart
+  const createArcPath = (startAngle, endAngle, outerRadius, innerRadius) => {
+    const angleDiff = endAngle - startAngle;
+    
+    // Handle full circle (360 degrees) - need to use a point slightly before the end
+    if (Math.abs(angleDiff) >= 360) {
+      const start = (startAngle * Math.PI) / 180;
+      const end = ((startAngle + 359.9) * Math.PI) / 180; // Use 359.9 to avoid same start/end point
+      const x1 = center + outerRadius * Math.cos(start);
+      const y1 = center + outerRadius * Math.sin(start);
+      const x2 = center + outerRadius * Math.cos(end);
+      const y2 = center + outerRadius * Math.sin(end);
+      const x3 = center + innerRadius * Math.cos(end);
+      const y3 = center + innerRadius * Math.sin(end);
+      const x4 = center + innerRadius * Math.cos(start);
+      const y4 = center + innerRadius * Math.sin(start);
+      
+      return [
+        `M ${x1} ${y1}`,
+        `A ${outerRadius} ${outerRadius} 0 1 1 ${x2} ${y2}`,
+        `L ${x3} ${y3}`,
+        `A ${innerRadius} ${innerRadius} 0 1 0 ${x4} ${y4}`,
+        'Z'
+      ].join(' ');
+    }
+    
+    // Normal arc path
+    const start = (startAngle * Math.PI) / 180;
+    const end = (endAngle * Math.PI) / 180;
+    const x1 = center + outerRadius * Math.cos(start);
+    const y1 = center + outerRadius * Math.sin(start);
+    const x2 = center + outerRadius * Math.cos(end);
+    const y2 = center + outerRadius * Math.sin(end);
+    const x3 = center + innerRadius * Math.cos(end);
+    const y3 = center + innerRadius * Math.sin(end);
+    const x4 = center + innerRadius * Math.cos(start);
+    const y4 = center + innerRadius * Math.sin(start);
+    
+    const largeArc = angleDiff > 180 ? 1 : 0;
+    
+    return [
+      `M ${x1} ${y1}`,
+      `A ${outerRadius} ${outerRadius} 0 ${largeArc} 1 ${x2} ${y2}`,
+      `L ${x3} ${y3}`,
+      `A ${innerRadius} ${innerRadius} 0 ${largeArc} 0 ${x4} ${y4}`,
+      'Z'
+    ].join(' ');
+  };
+  
+  // Calculate start angles for each slice
+  let currentAngle = -90; // Start at top
+  const fictionStart = currentAngle;
+  currentAngle += fictionAngle;
+  const nonFictionStart = currentAngle;
+  currentAngle += nonFictionAngle;
+  const poetryStart = currentAngle;
+  
+  // Update tooltip position
+  useEffect(() => {
+    if (!hoveredSlice || !tooltipRef.current) return;
+    
+    const tooltip = tooltipRef.current;
+    const tooltipRect = tooltip.getBoundingClientRect();
+    const padding = 12;
+    const offsetX = 8;
+    const offsetY = 8;
+    
+    let leftPos = mousePosition.x + offsetX;
+    let topPos = mousePosition.y + offsetY;
+    
+    if (leftPos + tooltipRect.width > window.innerWidth - padding) {
+      leftPos = mousePosition.x - tooltipRect.width - offsetX;
+    }
+    if (leftPos < padding) {
+      leftPos = padding;
+    }
+    
+    if (topPos + tooltipRect.height > window.innerHeight - padding) {
+      topPos = mousePosition.y - tooltipRect.height - offsetY;
+    }
+    if (topPos < padding) {
+      topPos = padding;
+    }
+    
+    setTooltipPosition({ left: leftPos, top: topPos });
+  }, [hoveredSlice, mousePosition]);
+  
+  const handleMouseMove = (e) => {
+    setMousePosition({ x: e.clientX, y: e.clientY });
+  };
+  
+  const getTooltipContent = () => {
+    if (!hoveredSlice) return null;
+    
+    if (hoveredSlice === 'fiction') {
+      return `${fictionCount} ${fictionCount === 1 ? 'book' : 'books'} (${Math.round(fictionPercentage)}%)`;
+    } else if (hoveredSlice === 'nonfiction') {
+      return `${nonFictionCount} ${nonFictionCount === 1 ? 'book' : 'books'} (${Math.round(nonFictionPercentage)}%)`;
+    } else if (hoveredSlice === 'poetry') {
+      return `${poetryCount} ${poetryCount === 1 ? 'book' : 'books'} (${Math.round(poetryPercentage)}%)`;
+    }
+    return null;
+  };
+  
+  return (
+    <div className="flex flex-col items-center">
+      <svg 
+        width={size} 
+        height={size} 
+        className="cursor-pointer"
+        onMouseMove={handleMouseMove}
+      >
+        {/* Fiction slice */}
+        {fictionCount > 0 && fictionAngle > 0 && (
+          <path
+            d={createArcPath(fictionStart, fictionStart + fictionAngle, radius, innerRadius)}
+            fill={hoveredSlice === 'fiction' ? 'rgba(139, 123, 168, 0.8)' : 'rgba(139, 123, 168, 0.6)'}
+            stroke="rgba(139, 123, 168, 0.8)"
+            strokeWidth="1"
+            onMouseEnter={() => setHoveredSlice('fiction')}
+            onMouseLeave={() => setHoveredSlice(null)}
+            style={{ transition: 'fill 0.2s ease' }}
+          />
+        )}
+        
+        {/* Non-fiction slice */}
+        {nonFictionCount > 0 && nonFictionAngle > 0 && (
+          <path
+            d={createArcPath(nonFictionStart, nonFictionStart + nonFictionAngle, radius, innerRadius)}
+            fill={hoveredSlice === 'nonfiction' ? 'rgba(139, 123, 168, 0.6)' : 'rgba(139, 123, 168, 0.4)'}
+            stroke="rgba(139, 123, 168, 0.8)"
+            strokeWidth="1"
+            onMouseEnter={() => setHoveredSlice('nonfiction')}
+            onMouseLeave={() => setHoveredSlice(null)}
+            style={{ transition: 'fill 0.2s ease' }}
+          />
+        )}
+        
+        {/* Poetry slice */}
+        {poetryCount > 0 && poetryAngle > 0 && (
+          <path
+            d={createArcPath(poetryStart, poetryStart + poetryAngle, radius, innerRadius)}
+            fill={hoveredSlice === 'poetry' ? 'rgba(139, 123, 168, 0.5)' : 'rgba(139, 123, 168, 0.3)'}
+            stroke="rgba(139, 123, 168, 0.8)"
+            strokeWidth="1"
+            onMouseEnter={() => setHoveredSlice('poetry')}
+            onMouseLeave={() => setHoveredSlice(null)}
+            style={{ transition: 'fill 0.2s ease' }}
+          />
+        )}
+      </svg>
+      
+      {/* Tooltip */}
+      {hoveredSlice && createPortal(
+        <div
+          ref={tooltipRef}
+          className="fixed pointer-events-none z-50"
+          style={{
+            left: `${tooltipPosition.left}px`,
+            top: `${tooltipPosition.top}px`,
+          }}
+        >
+          <div className="bg-background/98 backdrop-blur-md border border-accent-purple/50 rounded-lg shadow-soft-lg px-3 py-2">
+            <div className="text-sm font-medium text-text-primary">
+              {hoveredSlice === 'fiction' && 'Fiction'}
+              {hoveredSlice === 'nonfiction' && 'Non-Fiction'}
+              {hoveredSlice === 'poetry' && 'Poetry'}
+            </div>
+            <div className="text-xs text-text-secondary mt-0.5">
+              {getTooltipContent()}
+            </div>
+          </div>
+        </div>,
+        document.body
+      )}
+    </div>
+  );
+};
+
 // Timeline bar component with hover tooltip
 const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, formatDate, topOffset, barHeight = 10, hoveredBookId, onHoverChange, isLongRead = false, days = 1 }) => {
   const [dominantColor, setDominantColor] = useState('#8B7BA8');
@@ -399,25 +599,35 @@ const YearAnalytics = ({ year, books }) => {
   
   // Calculate stats
   const totalBooks = books.length;
+  
+  // Calculate total pages read
+  const totalPages = books.reduce((sum, book) => {
+    const pageCount = book.pageCount || 0;
+    return sum + (typeof pageCount === 'number' ? pageCount : 0);
+  }, 0);
 
-  // Extract genres and count them
-  const genreCounts = {};
+  // Calculate fiction, non-fiction, and poetry using fictionType field
+  let fictionCount = 0;
+  let nonFictionCount = 0;
+  let poetryCount = 0;
+  
   books.forEach((book) => {
     if (!book) return;
-    const genres = book.genres || (book.genre ? [book.genre] : []);
-    if (Array.isArray(genres)) {
-      genres.forEach((genre) => {
-        if (genre) {
-          genreCounts[genre] = (genreCounts[genre] || 0) + 1;
-        }
-      });
+    const fictionType = book.fictionType;
+    
+    if (fictionType) {
+      const normalizedType = fictionType.toLowerCase().trim();
+      if (normalizedType === 'fiction') {
+        fictionCount++;
+      } else if (normalizedType === 'non-fiction' || normalizedType === 'nonfiction') {
+        nonFictionCount++;
+      } else if (normalizedType === 'poetry') {
+        poetryCount++;
+      }
     }
   });
-
-  // Sort genres by count (descending)
-  const sortedGenres = Object.entries(genreCounts)
-    .sort(([, a], [, b]) => b - a)
-    .slice(0, 10); // Top 10 genres
+  
+  const totalCategorized = fictionCount + nonFictionCount + poetryCount;
 
   // Parse datesRead field (format: "2025/07/29-2025/08/07" or "2025/03/16-2025/03/16")
   // Can also have multiple ranges: "2025/08/24-2025/08/24, 2023/04/28-2023/05/03"
@@ -623,14 +833,27 @@ const YearAnalytics = ({ year, books }) => {
   return (
     <div className="animate-fadeIn w-full max-w-5xl mx-auto px-4">
       {/* Stats Overview */}
-      <div className="mb-6 sm:mb-8">
+      <div className="mb-6 sm:mb-8 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+        {/* Books Read Box */}
         <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-4 sm:p-6 shadow-soft">
           <div className="text-center">
             <div className="text-4xl sm:text-5xl font-bold text-accent-purple-hover mb-2">
               {totalBooks}
             </div>
             <div className="text-text-secondary text-sm sm:text-base font-medium">
-              {totalBooks === 1 ? 'Book' : 'Books'} Read in {year}
+              {totalBooks === 1 ? 'Book' : 'Books'} Read
+            </div>
+          </div>
+        </div>
+        
+        {/* Pages Read Box */}
+        <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-4 sm:p-6 shadow-soft">
+          <div className="text-center">
+            <div className="text-4xl sm:text-5xl font-bold text-accent-purple-hover mb-2">
+              {totalPages > 0 ? totalPages.toLocaleString() : '—'}
+            </div>
+            <div className="text-text-secondary text-sm sm:text-base font-medium">
+              Pages Read
             </div>
           </div>
         </div>
@@ -725,65 +948,20 @@ const YearAnalytics = ({ year, books }) => {
         </div>
       )}
 
-      {/* Genre Breakdown */}
-      {sortedGenres.length > 0 && (
-        <div className="mb-6 sm:mb-8">
-          <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-3 sm:p-4 shadow-soft">
-            <div className="space-y-2 sm:space-y-2.5">
-              {sortedGenres.map(([genre, count], index) => {
-                const maxCount = sortedGenres[0][1];
-                const percentage = (count / maxCount) * 100;
-                
-                return (
-                  <div
-                    key={genre}
-                    className="animate-fadeIn"
-                    style={{
-                      animationDelay: `${index * 0.1}s`,
-                      opacity: 0,
-                      animation: 'fadeIn 0.4s ease-out forwards',
-                    }}
-                  >
-                    <div className="flex items-center justify-between mb-1.5">
-                      <span className="text-sm sm:text-base font-medium text-text-primary">
-                        {genre}
-                      </span>
-                      <span className="text-xs sm:text-sm text-text-secondary font-medium">
-                        {count} {count === 1 ? 'book' : 'books'}
-                      </span>
-                    </div>
-                    <div className="h-6 sm:h-8 bg-accent-purple/10 rounded-md overflow-hidden border border-accent-purple/20">
-                      <div
-                        className="h-full bg-gradient-to-r from-accent-purple/40 to-accent-purple/60 rounded-md transition-all duration-500 ease-out flex items-center justify-end pr-2"
-                        style={{ width: `${percentage}%` }}
-                      >
-                        {percentage > 15 && (
-                          <span className="text-xs text-text-primary font-medium">
-                            {Math.round(percentage)}%
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
+      {/* Fiction vs Non-Fiction Pie Chart */}
+      <div className="mb-6 sm:mb-8">
+        <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-4 sm:p-6 shadow-soft">
+          <h3 className="text-text-primary text-base font-semibold mb-3 text-center">
+            Fiction vs Non-Fiction
+          </h3>
+          <FictionNonFictionPieChart
+            fictionCount={fictionCount}
+            nonFictionCount={nonFictionCount}
+            poetryCount={poetryCount}
+            total={totalBooks}
+          />
         </div>
-      )}
-
-      {sortedGenres.length === 0 && (
-        <div className="mb-8 sm:mb-12">
-          <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-6 sm:p-8 shadow-soft text-center">
-            <p className="text-text-secondary text-sm mb-2">
-              Genre data not available
-            </p>
-            <p className="text-text-secondary text-xs">
-              Add <code className="text-accent-purple/70">genre</code> or <code className="text-accent-purple/70">genres</code> fields to books in books.json
-            </p>
-          </div>
-        </div>
-      )}
+      </div>
     </div>
   );
 };

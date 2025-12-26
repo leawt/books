@@ -60,14 +60,6 @@ const YearSection = ({ year, books, allBooks, filters = {}, selectedFilter, onFi
             </button>
           </div>
         </div>
-        {/* Helper text */}
-        <div className="text-center mt-3">
-          <p className="text-text-secondary text-xs">
-            {viewMode === 'collections' 
-              ? 'Curated categories and collections' 
-              : 'Reading statistics and data insights'}
-          </p>
-        </div>
       </div>
 
       {/* Analytics View */}

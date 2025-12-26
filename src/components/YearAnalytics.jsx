@@ -624,13 +624,6 @@ const YearAnalytics = ({ year, books }) => {
     <div className="animate-fadeIn w-full max-w-5xl mx-auto px-4">
       {/* Stats Overview */}
       <div className="mb-6 sm:mb-8">
-        <div className="text-center mb-4">
-          <h3 className="text-xl sm:text-2xl font-semibold text-text-primary mb-2">
-            Reading Statistics
-          </h3>
-          <div className="h-px w-20 sm:w-32 bg-accent-purple/40 mx-auto mt-2"></div>
-        </div>
-        
         <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-4 sm:p-6 shadow-soft">
           <div className="text-center">
             <div className="text-4xl sm:text-5xl font-bold text-accent-purple-hover mb-2">
@@ -646,16 +639,6 @@ const YearAnalytics = ({ year, books }) => {
       {/* Timeline */}
       {timelineData.length > 0 && (
         <div className="mb-6 sm:mb-8">
-          <div className="text-center mb-4">
-            <h3 className="text-xl sm:text-2xl font-semibold text-text-primary mb-2">
-              Reading Timeline
-            </h3>
-            <p className="text-text-secondary text-xs sm:text-sm mb-4">
-              When you read each book throughout the year
-            </p>
-            <div className="h-px w-20 sm:w-32 bg-accent-purple/40 mx-auto mt-3"></div>
-          </div>
-
           <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-3 sm:p-4 shadow-soft">
             {/* Timeline bars - with smart lane assignment (no overlaps, minimal spacing, longest at bottom) */}
             <div 
@@ -731,12 +714,6 @@ const YearAnalytics = ({ year, books }) => {
 
       {timelineData.length === 0 && (
         <div className="mb-8 sm:mb-12">
-          <div className="text-center mb-6">
-            <h3 className="text-xl sm:text-2xl font-semibold text-text-primary mb-2">
-              Reading Timeline
-            </h3>
-            <div className="h-px w-20 sm:w-32 bg-accent-purple/40 mx-auto mt-3"></div>
-          </div>
           <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-6 sm:p-8 shadow-soft text-center">
             <p className="text-text-secondary text-sm mb-2">
               Timeline data not available
@@ -751,16 +728,6 @@ const YearAnalytics = ({ year, books }) => {
       {/* Genre Breakdown */}
       {sortedGenres.length > 0 && (
         <div className="mb-6 sm:mb-8">
-          <div className="text-center mb-4">
-            <h3 className="text-xl sm:text-2xl font-semibold text-text-primary mb-2">
-              Genre Breakdown
-            </h3>
-            <p className="text-text-secondary text-xs sm:text-sm mb-3">
-              Distribution of genres read this year
-            </p>
-            <div className="h-px w-20 sm:w-32 bg-accent-purple/40 mx-auto mt-2"></div>
-          </div>
-
           <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-3 sm:p-4 shadow-soft">
             <div className="space-y-2 sm:space-y-2.5">
               {sortedGenres.map(([genre, count], index) => {

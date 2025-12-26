@@ -1,10 +1,41 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 
-// Utility function to extract dominant color from an image
-const extractDominantColor = (imageUrl, callback) => {
+// Calculate complementary color (180° rotation on color wheel)
+const calculateComplementaryColor = (color) => {
+  let r, g, b;
+  
+  if (color.startsWith('rgb(')) {
+    const rgb = color.match(/\d+/g);
+    if (rgb && rgb.length >= 3) {
+      r = parseInt(rgb[0]);
+      g = parseInt(rgb[1]);
+      b = parseInt(rgb[2]);
+    } else {
+      return '#8B7BA8'; // Default fallback
+    }
+  } else if (color.startsWith('#')) {
+    const hex = color.replace('#', '');
+    r = parseInt(hex.substring(0, 2), 16);
+    g = parseInt(hex.substring(2, 4), 16);
+    b = parseInt(hex.substring(4, 6), 16);
+  } else {
+    return '#8B7BA8'; // Default fallback
+  }
+  
+  // Calculate complementary color (255 - each component)
+  const compR = Math.max(0, Math.min(255, 255 - r));
+  const compG = Math.max(0, Math.min(255, 255 - g));
+  const compB = Math.max(0, Math.min(255, 255 - b));
+  
+  return `rgb(${compR}, ${compG}, ${compB})`;
+};
+
+// Utility function to extract dominant and complementary colors from an image
+const extractColors = (imageUrl, callback) => {
+  const defaultColor = '#8B7BA8';
   if (!imageUrl) {
-    callback('#8B7BA8'); // Default purple color
+    callback(defaultColor, calculateComplementaryColor(defaultColor));
     return;
   }
 
@@ -46,7 +77,7 @@ const extractDominantColor = (imageUrl, callback) => {
       
       // Find the most common color
       let maxCount = 0;
-      let dominantColor = '#8B7BA8'; // Default
+      let dominantColor = defaultColor;
       
       for (const [colorKey, count] of Object.entries(colorMap)) {
         if (count > maxCount) {
@@ -56,15 +87,17 @@ const extractDominantColor = (imageUrl, callback) => {
         }
       }
       
-      callback(dominantColor);
+      // Calculate complementary color
+      const complementaryColor = calculateComplementaryColor(dominantColor);
+      callback(dominantColor, complementaryColor);
     } catch (error) {
       console.error('Error extracting color:', error);
-      callback('#8B7BA8'); // Fallback to default
+      callback(defaultColor, calculateComplementaryColor(defaultColor));
     }
   };
   
   img.onerror = () => {
-    callback('#8B7BA8'); // Fallback to default on error
+    callback(defaultColor, calculateComplementaryColor(defaultColor));
   };
   
   img.src = imageUrl;
@@ -90,8 +123,9 @@ const colorToRgba = (color, opacity = 1) => {
 };
 
 // Timeline bar component with hover tooltip
-const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, formatDate, topOffset, barHeight = 10, hoveredBookId, onHoverChange, isLongRead = false }) => {
+const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, formatDate, topOffset, barHeight = 10, hoveredBookId, onHoverChange, isLongRead = false, days = 1 }) => {
   const [dominantColor, setDominantColor] = useState('#8B7BA8');
+  const [complementaryColor, setComplementaryColor] = useState('#8B7BA8');
   const [isHovered, setIsHovered] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [tooltipPosition, setTooltipPosition] = useState({ left: 0, top: 0 });
@@ -103,9 +137,15 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
 
   useEffect(() => {
     if (book.coverImage) {
-      extractDominantColor(book.coverImage, (color) => {
-        setDominantColor(color);
+      extractColors(book.coverImage, (dominant, complementary) => {
+        setDominantColor(dominant);
+        setComplementaryColor(complementary);
       });
+    } else {
+      // Set default colors if no cover image
+      const defaultColor = '#8B7BA8';
+      setDominantColor(defaultColor);
+      setComplementaryColor(calculateComplementaryColor(defaultColor));
     }
   }, [book.coverImage]);
 
@@ -184,11 +224,14 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
       clearTimeout(hideTimeoutRef.current);
       hideTimeoutRef.current = null;
     }
-    // Show after short delay to prevent flickering but not too fast
+    // Immediately notify parent component of hover state change for focus effect
+    // This ensures the dimming effect happens immediately
+    if (onHoverChange) {
+      onHoverChange(book.id);
+    }
+    // Show tooltip after short delay to prevent flickering but not too fast
     showTimeoutRef.current = setTimeout(() => {
       setIsHovered(true);
-      // Notify parent component of hover state change for focus effect
-      onHoverChange?.(book.id);
     }, 30);
   };
 
@@ -198,11 +241,13 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
       clearTimeout(showTimeoutRef.current);
       showTimeoutRef.current = null;
     }
-    // Hide after delay to allow smooth transitions between bars
+    // Hide tooltip after delay to allow smooth transitions between bars
     hideTimeoutRef.current = setTimeout(() => {
       setIsHovered(false);
       // Notify parent component to clear focus state
-      onHoverChange?.(null);
+      if (onHoverChange) {
+        onHoverChange(null);
+      }
     }, 100);
   };
 
@@ -268,6 +313,22 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
   const minVisualBarPercentOfContainer = 50; // Minimum 50% of hover container = at least 1% of timeline
   const visualBarWidthPercent = Math.max(visualBarWidthAsPercentOfContainer, minVisualBarPercentOfContainer);
 
+  // Apply focus state: dim other bars when one is hovered
+  const isFocused = hoveredBookId === book.id;
+  const isDimmed = hoveredBookId && hoveredBookId !== book.id;
+  const baseOpacity = 1.0;
+  const finalOpacity = isDimmed ? baseOpacity * 0.4 : baseOpacity;
+
+  // Build background style
+  let backgroundStyle = {};
+  if (isLongRead) {
+    // Long reads: gradient from dominant to complementary color
+    backgroundStyle.background = `linear-gradient(90deg, ${colorToRgba(dominantColor, finalOpacity)} 0%, ${colorToRgba(complementaryColor, finalOpacity)} 100%)`;
+  } else {
+    // Regular reads: solid color
+    backgroundStyle.backgroundColor = colorToRgba(dominantColor, finalOpacity);
+  }
+
   return (
     <div
       ref={barRef}
@@ -284,21 +345,20 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
       onMouseMove={handleMouseMove}
     >
       <div
-        className="absolute rounded-sm transition-all duration-300 cursor-pointer shadow-sm hover:shadow-md hover:opacity-90 hover:z-10"
+        className="absolute transition-all duration-300 cursor-pointer hover:z-10"
         style={{
           top: `${hoverPadding}px`, // Position visual bar within hover area
           left: '0',
           width: `${visualBarWidthPercent}%`, // Use expanded visual width for better visibility
           height: `${barHeight}px`,
-          backgroundColor: dominantColor,
           minWidth: '2px', // Ensure very short reads are still visible
-          // Focus state: dim other bars when one is hovered
-          opacity: hoveredBookId && hoveredBookId !== book.id ? 0.4 : 1.0,
-          transition: 'opacity 0.2s ease-in-out',
-          // Long-read visual: apply smooth gradient fade for books spanning 4+ weeks
-          ...(isLongRead && {
-            background: `linear-gradient(90deg, ${dominantColor} 0%, ${colorToRgba(dominantColor, 0.95)} 30%, ${colorToRgba(dominantColor, 0.85)} 70%, ${colorToRgba(dominantColor, 0.75)} 100%)`,
-          }),
+          borderRadius: '3px', // Rounded corners
+          border: '1px solid rgba(255, 255, 255, 0.2)', // Thin high-contrast border
+          boxShadow: isFocused 
+            ? '0 2px 8px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)' 
+            : '0 1px 3px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1)', // Inner shadow for depth
+          transition: 'opacity 0.2s ease-in-out, box-shadow 0.2s ease-in-out',
+          ...backgroundStyle,
         }}
       />
       
@@ -459,8 +519,10 @@ const YearAnalytics = ({ year, books }) => {
         const leftPercent = (startOffset / yearDuration) * 100;
         const widthPercent = ((finishOffset - startOffset) / yearDuration) * 100;
 
-        // Calculate reading duration in weeks to detect long reads (4+ weeks)
-        const weeksDiff = (finish - start) / (1000 * 60 * 60 * 24 * 7);
+        // Calculate reading duration in days
+        const daysDiff = Math.ceil((finish - start) / (1000 * 60 * 60 * 24));
+        const days = Math.max(1, daysDiff); // Ensure at least 1 day
+        const weeksDiff = days / 7;
         const isLongRead = weeksDiff >= 4;
 
         return {
@@ -471,6 +533,7 @@ const YearAnalytics = ({ year, books }) => {
           finishStr,
           leftPercent: Math.max(0, leftPercent),
           widthPercent: Math.max(1, widthPercent), // Minimum 1% width for visibility
+          days,
           isLongRead,
         };
       } catch (error) {
@@ -499,8 +562,8 @@ const YearAnalytics = ({ year, books }) => {
   // Calculate lane assignments for bars (no overlaps allowed, longest at bottom)
   const assignLanes = (books) => {
     const lanes = [];
-    const BAR_HEIGHT = 28; // Increased bar height for better visibility
-    const LANE_SPACING = 0; // Bars touch each other
+    const BAR_HEIGHT = 28; // Fixed bar height
+    const LANE_SPACING = 3; // Small spacing between bars for better readability
 
     // Sort books by width (longest first) so they get priority for bottom lanes
     const sortedBooks = [...books].sort((a, b) => b.widthPercent - a.widthPercent);
@@ -602,6 +665,16 @@ const YearAnalytics = ({ year, books }) => {
                 minHeight: `${laneData.barHeight}px`,
               }}
             >
+              {/* Vertical grid lines at month boundaries */}
+              <div className="absolute inset-0 pointer-events-none">
+                {monthPositions.map((pos, i) => (
+                  <div
+                    key={`grid-${i}`}
+                    className="absolute top-0 bottom-0 w-px bg-accent-purple/10"
+                    style={{ left: `${pos}%` }}
+                  />
+                ))}
+              </div>
               {timelineData.map((book, index) => {
                 const laneIndex = laneData.getLane(book.id);
                 // Calculate from bottom: total height - (lane position from bottom)
@@ -630,6 +703,7 @@ const YearAnalytics = ({ year, books }) => {
                       hoveredBookId={hoveredBookId}
                       onHoverChange={setHoveredBookId}
                       isLongRead={book.isLongRead}
+                      days={book.days}
                     />
                   </div>
                 );
@@ -644,8 +718,8 @@ const YearAnalytics = ({ year, books }) => {
                   className="absolute top-0 h-full flex flex-col items-center"
                   style={{ left: `${pos}%` }}
                 >
-                  <div className="h-1.5 w-px bg-accent-purple/30"></div>
-                  <div className="text-xs text-text-secondary mt-0.5 whitespace-nowrap">
+                  <div className="h-2 w-0.5 bg-accent-purple/60"></div>
+                  <div className="text-xs text-text-primary font-medium mt-0.5 whitespace-nowrap">
                     {months[i]}
                   </div>
                 </div>

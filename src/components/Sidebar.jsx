@@ -16,11 +16,22 @@ const Sidebar = ({ currentPage, setCurrentPage }) => {
       page: 'about',
       icon: '◊',
     },
+    {
+      label: 'Substack',
+      href: 'https://consumptionchronicles.substack.com',
+      page: null,
+      icon: '✉',
+      external: true,
+    },
   ];
 
-  const handleLinkClick = (e, page) => {
+  const handleLinkClick = (e, link) => {
+    if (link.external) {
+      // External links open in new tab, don't prevent default
+      return;
+    }
     e.preventDefault();
-    setCurrentPage(page);
+    setCurrentPage(link.page);
   };
 
   return (
@@ -50,6 +61,7 @@ const Sidebar = ({ currentPage, setCurrentPage }) => {
         className={`fixed left-0 top-0 h-full z-40 transition-transform duration-500 ease-in-out ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
+        onClick={(e) => e.stopPropagation()}
       >
         <div className="h-full w-56 sm:w-64 bg-background/85 backdrop-blur-md border-r border-accent-purple/30 shadow-soft-lg">
           <div className="p-6 pt-16">
@@ -58,7 +70,9 @@ const Sidebar = ({ currentPage, setCurrentPage }) => {
                 <a
                   key={index}
                   href={link.href}
-                  onClick={(e) => handleLinkClick(e, link.page)}
+                  onClick={(e) => handleLinkClick(e, link)}
+                  target={link.external ? '_blank' : undefined}
+                  rel={link.external ? 'noopener noreferrer' : undefined}
                   className={`group flex items-center gap-3 px-4 py-2.5 text-sm font-light transition-all duration-300 hover:bg-accent-purple/10 rounded-md relative overflow-hidden ${
                     currentPage === link.page
                       ? 'text-accent-purple-hover bg-accent-purple/10'
@@ -91,10 +105,10 @@ const Sidebar = ({ currentPage, setCurrentPage }) => {
         </div>
       </aside>
 
-      {/* Overlay for mobile */}
+      {/* Overlay - closes sidebar when clicking outside */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black/10 backdrop-blur-sm z-30 md:hidden"
+          className="fixed inset-0 bg-black/10 backdrop-blur-sm z-30"
           onClick={() => setIsOpen(false)}
         />
       )}

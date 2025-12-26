@@ -36,9 +36,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
         "pageCount": 136,
         "datesRead": "2025/10/27-2025/11/05"
@@ -46,7 +46,7 @@
       {
         "id": "book-2025-3",
         "title": "The Seven Ages",
-        "author": "Louise Glück",
+        "author": "Louise Gl\u00fcck",
         "isbn": "9780060933494",
         "coverImage": "/covers/9780060933494.jpg",
         "format": "paperback",
@@ -98,16 +98,14 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
+        "fictionType": "Non-fiction",
+        "genres": [],
         "datesRead": "2025/03/06-2025/04/21"
       },
       {
         "id": "book-2025-6",
         "title": "A Certain Smile",
-        "author": "Françoise Sagan",
+        "author": "Fran\u00e7oise Sagan",
         "isbn": "9780140014440",
         "coverImage": "/covers/9780140014440.jpg",
         "format": "paperback",
@@ -164,26 +162,6 @@
         ],
         "pageCount": 224,
         "datesRead": "2025/05/14-2025/05/15"
-      },
-      {
-        "id": "book-2025-9",
-        "title": "The Lonely City: Adventures in the Art of Being Alone",
-        "author": "Olivia Laing",
-        "isbn": "9781250039576",
-        "coverImage": "/covers/9781250039576.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 2,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2024/12/29-2025/01/17"
       },
       {
         "id": "book-2025-10",
@@ -280,16 +258,16 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Diaries"
         ],
         "datesRead": "2025/07/24-2025/08/18"
       },
       {
         "id": "book-2025-15",
         "title": "Bonjour Tristesse",
-        "author": "Françoise Sagan",
+        "author": "Fran\u00e7oise Sagan",
         "isbn": "9780141032917",
         "coverImage": "/covers/9780141032917.jpg",
         "format": "paperback",
@@ -362,9 +340,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
         "datesRead": "2025/08/24-2025/08/24"
       },
@@ -402,9 +380,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
         "datesRead": "2025/10/20-2025/10/21"
       },
@@ -422,9 +400,10 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "LQBT",
+          "Clubbing"
         ],
         "datesRead": "2025/01/05-2025/01/06"
       },
@@ -472,7 +451,7 @@
       {
         "id": "book-2025-24",
         "title": "The Anthropologists",
-        "author": "Ayşegül Savaş",
+        "author": "Ay\u015feg\u00fcl Sava\u015f",
         "isbn": "9781639733064",
         "coverImage": "/covers/9781639733064.jpg",
         "format": "hardcover",
@@ -503,9 +482,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Memoir"
         ],
         "datesRead": "2025/11/09-2025/11/09"
       },
@@ -523,10 +502,8 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
+        "fictionType": "Non-fiction",
+        "genres": [],
         "datesRead": "2025/04/14-2025/04/20"
       },
       {
@@ -585,7 +562,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2025/11/06-2025/11/07"
       },
@@ -625,7 +602,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2025/05/20-2025/06/03"
       },
@@ -645,7 +622,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "pageCount": 321,
         "datesRead": "2025/12/14-2025/12/16"
@@ -666,7 +643,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2025/03/11-2025/03/21"
       },
@@ -684,9 +661,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
         "pageCount": 175,
         "datesRead": "2025/12/06-2025/12/12"
@@ -746,16 +723,16 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
         "datesRead": "2025/06/19-2025/06/19"
       },
       {
         "id": "book-2025-38",
         "title": "Henry and June",
-        "author": "Anaïs Nin",
+        "author": "Ana\u00efs Nin",
         "isbn": "9780140184686",
         "coverImage": "/covers/9780140184686.jpg",
         "format": "paperback",
@@ -768,7 +745,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Diaries"
         ],
         "datesRead": "2025/11/01-2025/11/30"
       },
@@ -786,10 +763,8 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
+        "fictionType": "Non-fiction",
+        "genres": [],
         "datesRead": "2025/06/26-2025/07/03"
       },
       {
@@ -808,7 +783,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Autofiction"
         ],
         "pageCount": 277,
         "datesRead": "2025/11/30-2025/12/01"
@@ -829,7 +804,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Short Stories"
         ],
         "datesRead": "2025/11/26-2025/11/27"
       },
@@ -849,7 +824,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "Classics"
         ],
         "pageCount": 327,
         "datesRead": "2025/01/30-2025/02/09"
@@ -870,7 +846,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary",
+          "Short Stories"
         ],
         "datesRead": "2025/08/17-2025/08/18"
       },
@@ -919,6 +896,27 @@
   },
   "2024": {
     "books": [
+      {
+        "id": "book-2025-9",
+        "title": "The Lonely City: Adventures in the Art of Being Alone",
+        "author": "Olivia Laing",
+        "isbn": "9781250039576",
+        "coverImage": "/covers/9781250039576.jpg",
+        "format": "hardcover",
+        "rating": null,
+        "readCount": 2,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "fictionType": "Non-fiction",
+        "genres": [
+          "Essays",
+          "Art Criticism"
+        ],
+        "datesRead": "2024/12/29-2025/01/17"
+      },
       {
         "id": "book-2024-1",
         "title": "A Room of One's Own",
@@ -996,7 +994,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "pageCount": 448,
         "datesRead": "2024/11/23-2024/11/23"
@@ -1025,7 +1023,7 @@
       {
         "id": "book-2024-6",
         "title": "Death and the Dervish",
-        "author": "Meša Selimović",
+        "author": "Me\u0161a Selimovi\u0107",
         "isbn": "9780810112971",
         "coverImage": "/covers/9780810112971.jpg",
         "format": "paperback",
@@ -1038,7 +1036,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "Yugoslav Literature"
         ],
         "datesRead": "2024/10/27-2024/11/09"
       },
@@ -1056,9 +1055,10 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary",
+          "Poetry"
         ],
         "pageCount": 143,
         "datesRead": "2024/11/09-2024/11/25"
@@ -1076,10 +1076,10 @@
         "moods": [],
         "pace": null,
         "characterOrPlot": null,
-        "review": "<div>“A great artistic failure” -my professor&nbsp;</div>",
+        "review": "<div>\u201cA great artistic failure\u201d -my professor&nbsp;</div>",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2024/05/01-2024/05/08"
       },
@@ -1099,7 +1099,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2024/05/15-2024/05/30"
       },
@@ -1119,7 +1119,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2024/08/30-2024/08/30"
       },
@@ -1139,7 +1139,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2024/07/22-2024/07/23"
       },
@@ -1157,9 +1157,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
         "datesRead": "2024/04/22-2024/04/29"
       },
@@ -1179,7 +1179,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "Classics"
         ],
         "pageCount": 864,
         "datesRead": "2024/07/04-2024/08/12"
@@ -1198,9 +1199,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
         "datesRead": "2024/07/09-2024/07/11"
       },
@@ -1218,16 +1219,16 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
         "datesRead": "2024/12/19-2024/12/23"
       },
       {
         "id": "book-2024-16",
         "title": "Encyclopedia of the Dead",
-        "author": "Danilo Kiš",
+        "author": "Danilo Ki\u0161",
         "isbn": "9780810115149",
         "coverImage": "/covers/9780810115149.jpg",
         "format": "paperback",
@@ -1240,7 +1241,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "Yugoslav Literature"
         ],
         "datesRead": "2024/11/09-2024/11/09"
       },
@@ -1258,16 +1260,16 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
         "datesRead": "2024/11/02-2024/11/02"
       },
       {
         "id": "book-2024-18",
         "title": "My Struggle, Book One",
-        "author": "Karl Ove Knausgård",
+        "author": "Karl Ove Knausg\u00e5rd",
         "isbn": "9780374534141",
         "coverImage": "/covers/9780374534141.jpg",
         "format": "paperback",
@@ -1280,7 +1282,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary",
+          "Autofiction"
         ],
         "datesRead": "2024/09/18-2024/11/02"
       },
@@ -1320,7 +1323,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2024/02/13-2024/02/24"
       },
@@ -1340,7 +1343,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "pageCount": 264,
         "datesRead": "2024/04/29-2024/05/01"
@@ -1382,7 +1385,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary",
+          "Autofiction"
         ],
         "datesRead": "2024/05/02-2024/05/03"
       },
@@ -1420,9 +1424,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
         "datesRead": "2024/03/06-2024/03/25"
       },
@@ -1442,7 +1446,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2024/04/14-2024/04/20"
       },
@@ -1462,7 +1466,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2024/12/24-2024/12/25"
       },
@@ -1500,9 +1504,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
         "datesRead": "2024/05/01-2024/05/01"
       },
@@ -1542,7 +1546,9 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary",
+          "Autofiction",
+          "Internet Novel"
         ],
         "datesRead": "2024/11/25-2024/12/15"
       },
@@ -1562,7 +1568,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2024/03/31-2024/04/01"
       },
@@ -1582,7 +1588,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2024/09/27-2024/09/28"
       },
@@ -1609,7 +1615,7 @@
       {
         "id": "book-2024-35",
         "title": "Underground Barbie",
-        "author": "Maša Kolanović",
+        "author": "Ma\u0161a Kolanovi\u0107",
         "isbn": "9789533515120",
         "coverImage": "/covers/9789533515120.jpg",
         "format": "paperback",
@@ -1622,7 +1628,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary",
+          "Yugoslav Literature"
         ],
         "datesRead": "2024/11/23-2024/11/23"
       },
@@ -1640,9 +1647,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
         "datesRead": "2024/07/11-2024/07/15"
       },
@@ -1662,14 +1669,14 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2024/04/02-2024/04/08"
       },
       {
         "id": "book-2024-38",
         "title": "The Bridge on the Drina",
-        "author": "Ivo Andrić",
+        "author": "Ivo Andri\u0107",
         "isbn": "9780226020457",
         "coverImage": "/covers/9780226020457.jpg",
         "format": "paperback",
@@ -1682,7 +1689,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "Yugoslav Literature"
         ],
         "pageCount": 432,
         "datesRead": "2024/10/01-2024/10/10"
@@ -1703,7 +1711,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "Short Stories"
         ],
         "pageCount": 335,
         "datesRead": "2024/07/15-2024/07/19"
@@ -1722,10 +1731,8 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
+        "fictionType": "Non-fiction",
+        "genres": [],
         "datesRead": "2024/05/21-2024/05/21"
       },
       {
@@ -1744,7 +1751,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "Autofiction"
         ],
         "datesRead": "2024/07/15-2024/07/15"
       },
@@ -1769,27 +1777,6 @@
         "datesRead": "2024/08/01-2024/08/01"
       },
       {
-        "id": "book-2024-43",
-        "title": "The Bee Sting",
-        "author": "Paul Murray",
-        "isbn": "9780374600303",
-        "coverImage": "/covers/9780374600303.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": "<div>too long</div>",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "pageCount": 656,
-        "datesRead": "2023/12/29-2024/01/06"
-      },
-      {
         "id": "book-2024-44",
         "title": "Body Work",
         "author": "Melissa Febos",
@@ -1803,9 +1790,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
         "datesRead": "2024/10/18-2024/10/18"
       },
@@ -1825,7 +1812,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2024/05/09-2024/05/15"
       },
@@ -1845,14 +1832,15 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary",
+          "Internet Novel"
         ],
         "datesRead": "2024/09/28-2024/11/23"
       },
       {
         "id": "book-2024-47",
-        "title": "The Diary of Anaïs Nin, Vol. 1: 1931-1934",
-        "author": "Anaïs Nin",
+        "title": "The Diary of Ana\u00efs Nin, Vol. 1: 1931-1934",
+        "author": "Ana\u00efs Nin",
         "isbn": "9780156260251",
         "coverImage": "/covers/9780156260251.jpg",
         "format": "paperback",
@@ -1935,6 +1923,28 @@
   "2023": {
     "books": [
       {
+        "id": "book-2024-43",
+        "title": "The Bee Sting",
+        "author": "Paul Murray",
+        "isbn": "9780374600303",
+        "coverImage": "/covers/9780374600303.jpg",
+        "format": "hardcover",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": "<div>too long</div>",
+        "fictionType": "Fiction",
+        "genres": [
+          "Literary Fiction",
+          "Contemporary"
+        ],
+        "pageCount": 656,
+        "datesRead": "2023/12/29-2024/01/06"
+      },
+      {
         "id": "book-2023-1",
         "title": "I Do Everything I'm Told",
         "author": "Megan Fernandes",
@@ -2016,11 +2026,11 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
-        "datesRead": "2023/06/05-2023/06/05"
+        "datesRead": "2023/06/04-2023/06/05"
       },
       {
         "id": "book-2023-5",
@@ -2044,7 +2054,7 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2023/06/05-2023/06/05"
+        "datesRead": "2023/06/05-2023/06/06"
       },
       {
         "id": "book-2023-6",
@@ -2084,9 +2094,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Memoir"
         ],
         "datesRead": "2023/10/10-2023/10/10"
       },
@@ -2154,14 +2164,15 @@
         "yearPublished": "2017",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "LGBT"
         ],
         "datesRead": "2023/07/29-2023/08/31"
       },
       {
         "id": "book-2023-11",
         "title": "Elena Knows",
-        "author": "Claudia Piñeiro",
+        "author": "Claudia Pi\u00f1eiro",
         "isbn": "9781999368494",
         "coverImage": "/covers/9781999368494.jpg",
         "format": "digital",
@@ -2276,9 +2287,9 @@
         "pageCount": 112,
         "publisher": "University of Pittsburgh Press",
         "yearPublished": "2015",
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
         "datesRead": "2023/02/13-2023/02/13"
       },
@@ -2296,16 +2307,16 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Memoir"
         ],
         "datesRead": "2023/12/26-2023/12/29"
       },
       {
         "id": "book-2023-17",
         "title": "My life with Picasso",
-        "author": "Françoise Gilot",
+        "author": "Fran\u00e7oise Gilot",
         "isbn": "9781853812330",
         "coverImage": "/covers/9781853812330.jpg",
         "format": "paperback",
@@ -2360,9 +2371,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
         "datesRead": "2023/10/09-2023/10/09"
       },
@@ -2410,7 +2421,8 @@
         "yearPublished": "1999",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "Los Angeles Novel"
         ],
         "datesRead": "2023/01/02-2023/01/02"
       },
@@ -2436,7 +2448,7 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2023/06/05-2023/06/05"
+        "datesRead": "2023/06/06-2023/06/07"
       },
       {
         "id": "book-2023-23",
@@ -2482,9 +2494,10 @@
         "yearPublished": "2022",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary",
+          "Short Stories"
         ],
-        "datesRead": "2023/01/10-2023/03/21"
+        "datesRead": "2023/03/17-2023/03/21"
       },
       {
         "id": "book-2023-25",
@@ -2585,7 +2598,7 @@
       {
         "id": "book-2023-29",
         "title": "Spring",
-        "author": "Karl Ove Knausgård",
+        "author": "Karl Ove Knausg\u00e5rd",
         "isbn": "9780399563362",
         "coverImage": "/covers/9780399563362.jpg",
         "format": "hardcover",
@@ -2598,7 +2611,8 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "Autofiction"
         ],
         "datesRead": "2023/07/02-2023/07/02"
       },
@@ -2646,7 +2660,8 @@
         "yearPublished": "2018",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "Short Stories"
         ],
         "datesRead": "2023/12/05-2023/12/05"
       },
@@ -2670,7 +2685,7 @@
         "yearPublished": "2011",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction", "Autofiction"
         ],
         "datesRead": "2023/02/24-2023/03/14"
       },
@@ -2683,7 +2698,9 @@
         "format": "paperback",
         "rating": 5.0,
         "readCount": 1,
-        "tags": [],
+        "tags": [
+          "favorites"
+        ],
         "moods": [],
         "pace": null,
         "characterOrPlot": null,
@@ -2712,9 +2729,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
         "datesRead": "2023/03/07-2023/03/07"
       },
@@ -2736,9 +2753,10 @@
         "pageCount": 326,
         "publisher": "Wave Books",
         "yearPublished": "2012",
-        "fictionType": "Poetry",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Poetry"
+          "Writing Theory",
+          "Essays"
         ],
         "datesRead": "2023/02/13-2023/03/01"
       },
@@ -2786,9 +2804,10 @@
         "yearPublished": "2017",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction",
+          "Short Stories"
         ],
-        "datesRead": "2023/08/06-2023/06/09"
+        "datesRead": "2023/05/30-2023/06/09"
       },
       {
         "id": "book-2023-38",
@@ -2824,9 +2843,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
         "datesRead": "2023/11/06-2023/11/06"
       },
@@ -2848,11 +2867,11 @@
         "pageCount": 144,
         "publisher": "Copper Canyon Press",
         "yearPublished": "2022",
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
-        "datesRead": "2023/06/05-2023/06/05"
+        "datesRead": "2023/06/07-2023/06/08"
       },
       {
         "id": "book-2023-41",
@@ -2920,7 +2939,7 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2023/06/01-2023/06/05"
+        "datesRead": "2023/06/08-2023/06/09"
       },
       {
         "id": "book-2023-44",
@@ -2944,79 +2963,7 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2023/08/13-2023/05/19"
-      },
-      {
-        "id": "book-2023-45",
-        "title": "Selected Poems of Frank O'Hara",
-        "author": "Frank O'Hara",
-        "isbn": "9780375711480",
-        "coverImage": "/covers/9780375711480.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.34",
-        "pageCount": 265,
-        "publisher": "Knopf",
-        "yearPublished": "2009",
-        "fictionType": "Poetry",
-        "genres": [
-          "Poetry"
-        ],
-        "datesRead": "2023/10/09-2023/11/30"
-      },
-      {
-        "id": "book-2023-46",
-        "title": "Golden Ax (Penguin Poets)",
-        "author": "Rio Cortez",
-        "isbn": "9780143137139",
-        "coverImage": "/covers/9780143137139.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.00",
-        "pageCount": 80,
-        "publisher": "Penguin Books",
-        "yearPublished": "2022",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2023/11/06-2023/11/06"
-      },
-      {
-        "id": "book-2023-47",
-        "title": "Her Body and Other Parties: Stories",
-        "author": "Carmen Maria Machado",
-        "isbn": "9781555977887",
-        "coverImage": "/covers/9781555977887.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.80",
-        "pageCount": 248,
-        "publisher": "Graywolf Press",
-        "yearPublished": "2017",
-        "fictionType": "Fiction",
-        "genres": [
-          "Short Stories"
-        ],
-        "datesRead": "2023/10/05-2023/10/10"
+        "datesRead": "2023/05/13-2023/05/19"
       },
       {
         "id": "book-2023-48",
@@ -3044,7 +2991,7 @@
       },
       {
         "id": "book-2023-49",
-        "title": "Olive Kitteridge (Olive Kitteridge, #1)",
+        "title": "Olive Kitteridge",
         "author": "Elizabeth Strout",
         "isbn": "",
         "coverImage": "",
@@ -3065,150 +3012,6 @@
           "Literary Fiction"
         ],
         "datesRead": "2023/09/20-2023/09/21"
-      },
-      {
-        "id": "book-2023-50",
-        "title": "Life with Picasso",
-        "author": "Françoise Gilot",
-        "isbn": "9781853812330",
-        "coverImage": "/covers/9781853812330.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.09",
-        "pageCount": 358,
-        "publisher": "Virago (London)",
-        "yearPublished": "1990",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2023/01/14-2023/08/12"
-      },
-      {
-        "id": "book-2023-51",
-        "title": "Spring (Seasons Quartet, #3)",
-        "author": "Karl Ove Knausgård",
-        "isbn": "9780399563362",
-        "coverImage": "/covers/9780399563362.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.30",
-        "pageCount": 192,
-        "publisher": "Penguin Press",
-        "yearPublished": "2018",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2023/06/27-2023/07/02"
-      },
-      {
-        "id": "book-2023-52",
-        "title": "Life on Mars: Poems",
-        "author": "Tracy K. Smith",
-        "isbn": "9781555975845",
-        "coverImage": "/covers/9781555975845.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.09",
-        "pageCount": 75,
-        "publisher": "Graywolf Press",
-        "yearPublished": "2011",
-        "fictionType": "Poetry",
-        "genres": [
-          "Poetry"
-        ],
-        "datesRead": "2023/06/05-2023/06/05"
-      },
-      {
-        "id": "book-2023-53",
-        "title": "Couplets",
-        "author": "Maggie Millner",
-        "isbn": "9780374607951",
-        "coverImage": "/covers/9780374607951.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.72",
-        "pageCount": 128,
-        "publisher": "Farrar, Straus and Giroux",
-        "yearPublished": "2023",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2023/06/05-2023/01/01"
-      },
-      {
-        "id": "book-2023-54",
-        "title": "The Symmetry of Fish (Penguin Poets)",
-        "author": "Su Cho",
-        "isbn": "9780143137252",
-        "coverImage": "/covers/9780143137252.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.80",
-        "pageCount": 80,
-        "publisher": "Penguin Books",
-        "yearPublished": "2022",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2023/03/05-2023/03/07"
-      },
-      {
-        "id": "book-2023-55",
-        "title": "Judas Goat: Poems",
-        "author": "Gabrielle Bates",
-        "isbn": "9781953534644",
-        "coverImage": "/covers/9781953534644.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.17",
-        "pageCount": 104,
-        "publisher": "Tin House",
-        "yearPublished": "2023",
-        "fictionType": "Poetry",
-        "genres": [
-          "Poetry"
-        ],
-        "datesRead": "2023/03/05-2023/03/07"
       }
     ]
   },
@@ -3256,11 +3059,11 @@
         "pageCount": 144,
         "publisher": "Schocken",
         "yearPublished": "1997",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
-        "datesRead": "2022/07/05-2022/08/22"
+        "datesRead": "2022/07/24-2022/08/22"
       },
       {
         "id": "book-2022-3",
@@ -3282,7 +3085,7 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2022/07/04-2022/07/10"
       },
@@ -3307,32 +3110,6 @@
         "datesRead": "2022/03/02-2022/03/02"
       },
       {
-        "id": "book-2022-5",
-        "title": "Winter in Sokcho",
-        "author": "Elisa Shua Dusapin",
-        "isbn": "9781911547549",
-        "coverImage": "/covers/9781911547549.jpg",
-        "format": "paperback",
-        "rating": 5.0,
-        "readCount": 1,
-        "tags": [
-          "favorites"
-        ],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.53",
-        "pageCount": 154,
-        "publisher": "Daunt Books Publishing",
-        "yearPublished": "2020",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2021/11/21-2022/04/10"
-      },
-      {
         "id": "book-2022-6",
         "title": "The School for Good Mothers",
         "author": "Jessamine Chan",
@@ -3352,14 +3129,14 @@
         "yearPublished": "2022",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2022/07/06-2022/07/08"
       },
       {
         "id": "book-2022-7",
         "title": "The Triumph of Achilles",
-        "author": "Louise Glück",
+        "author": "Louise Gl\u00fcck",
         "isbn": "9780880010825",
         "coverImage": "/covers/9780880010825.jpg",
         "format": "paperback",
@@ -3398,16 +3175,16 @@
         "pageCount": 194,
         "publisher": "Grove Press",
         "yearPublished": "2006",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
         "datesRead": "2022/04/07-2022/04/09"
       },
       {
         "id": "book-2022-9",
         "title": "The Love Songs of W.E.B. Du Bois",
-        "author": "Honorée Fanonne Jeffers",
+        "author": "Honor\u00e9e Fanonne Jeffers",
         "isbn": "9780062942937",
         "coverImage": "/covers/9780062942937.jpg",
         "format": "hardcover",
@@ -3424,35 +3201,9 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
-        "datesRead": "2022/01/19-2022/08/22"
-      },
-      {
-        "id": "book-2022-10",
-        "title": "The Left Hand of Darkness",
-        "author": "Ursula K. Le Guin",
-        "isbn": "9780441007318",
-        "coverImage": "/covers/9780441007318.jpg",
-        "format": "paperback",
-        "rating": 5.0,
-        "readCount": 1,
-        "tags": [
-          "favorites"
-        ],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": "This book leaves so much to think about-- the most astounding feature being that it was published in 1969 and explore concepts regarding gendered and interpersonal relationships that are still being discussed and pondered today.",
-        "goodreadsRating": "4.10",
-        "pageCount": 304,
-        "publisher": "Ace",
-        "yearPublished": "2000",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2021/12/28-2022/01/02"
+        "datesRead": "2022/08/11-2022/08/22"
       },
       {
         "id": "book-2022-11",
@@ -3540,35 +3291,11 @@
         "pageCount": 238,
         "publisher": "Farrar Straus Giroux",
         "yearPublished": "2008",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
         "datesRead": "2022/08/25-2022/09/22"
-      },
-      {
-        "id": "book-2022-15",
-        "title": "The Idiot",
-        "author": "Elif Batuman",
-        "isbn": "9781594205613",
-        "coverImage": "/covers/9781594205613.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.64",
-        "pageCount": 423,
-        "publisher": "Penguin Press",
-        "yearPublished": "2017",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2021/12/25-2022/04/17"
       },
       {
         "id": "book-2022-16",
@@ -3590,33 +3317,9 @@
         "yearPublished": "2022",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
-        "datesRead": "2022/04/21-2022/06/19"
-      },
-      {
-        "id": "book-2022-17",
-        "title": "No One Is Talking About This",
-        "author": "Patricia Lockwood",
-        "isbn": "9780593189580",
-        "coverImage": "/covers/9780593189580.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.55",
-        "pageCount": 210,
-        "publisher": "Riverhead Books",
-        "yearPublished": "2021",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2021/12/03-2022/03/22"
+        "datesRead": "2022/06/14-2022/06/19"
       },
       {
         "id": "book-2022-18",
@@ -3636,31 +3339,11 @@
         "pageCount": 288,
         "publisher": "W. W. Norton & Company",
         "yearPublished": "2022",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Biography/Memoir"
         ],
-        "datesRead": "2022/04/18-2022/10/07"
-      },
-      {
-        "id": "book-2022-19",
-        "title": "The Three-Body Problem",
-        "author": "Cixin Liu",
-        "isbn": "9781784971564",
-        "coverImage": "/covers/9781784971564.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2022/04/16-2022/04/16"
+        "datesRead": "2022/10/04-2022/10/07"
       },
       {
         "id": "book-2022-20",
@@ -3682,33 +3365,9 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
-        "datesRead": "2022/07/12-2022/08/31"
-      },
-      {
-        "id": "book-2022-21",
-        "title": "How Beautiful We Were",
-        "author": "Imbolo Mbue",
-        "isbn": "9780593132425",
-        "coverImage": "/covers/9780593132425.jpg",
-        "format": "hardcover",
-        "rating": 3.0,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.95",
-        "pageCount": 364,
-        "publisher": "Random House",
-        "yearPublished": "2021",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2021/12/03-2022/03/24"
+        "datesRead": "2022/08/11-2022/08/31"
       },
       {
         "id": "book-2022-22",
@@ -3730,9 +3389,9 @@
         "yearPublished": "2011",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
-        "datesRead": "2022/01/08-2022/04/26"
+        "datesRead": "2022/04/21-2022/04/26"
       },
       {
         "id": "book-2022-23",
@@ -3800,9 +3459,9 @@
         "pageCount": 128,
         "publisher": "Wave Books",
         "yearPublished": "2020",
-        "fictionType": "Fiction",
+        "fictionType": "Poetry",
         "genres": [
-          "Literary Fiction"
+          "Poetry"
         ],
         "datesRead": "2022/03/02-2022/03/02"
       },
@@ -3820,9 +3479,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Biography/Memoir"
         ],
         "datesRead": "2022/09/05-2022/09/05"
       },
@@ -3866,14 +3525,14 @@
         "yearPublished": "2020",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2022/07/16-2022/07/24"
       },
       {
         "id": "book-2022-29",
         "title": "The Door",
-        "author": "Magda Szabó",
+        "author": "Magda Szab\u00f3",
         "isbn": "9781843431930",
         "coverImage": "/covers/9781843431930.jpg",
         "format": "hardcover",
@@ -3892,7 +3551,7 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2022/08/15-2022/09/28"
+        "datesRead": "2022/09/22-2022/09/28"
       },
       {
         "id": "book-2022-30",
@@ -3938,7 +3597,7 @@
         "yearPublished": "2019",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2022/07/25-2022/08/02"
       },
@@ -3969,7 +3628,7 @@
       {
         "id": "book-2022-33",
         "title": "Portrait of an Unknown Lady",
-        "author": "María Gainza",
+        "author": "Mar\u00eda Gainza",
         "isbn": "9781646220328",
         "coverImage": "/covers/9781646220328.jpg",
         "format": "hardcover",
@@ -4083,6 +3742,182 @@
         "datesRead": "2022/11/29-2022/11/29"
       },
       {
+        "id": "book-2022-41",
+        "title": "The Best American Short Stories 2016",
+        "author": "Junot D\u00edaz",
+        "isbn": "9780544582897",
+        "coverImage": "/covers/9780544582897.jpg",
+        "format": "paperback",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "3.81",
+        "pageCount": 336,
+        "publisher": "Mariner Books",
+        "yearPublished": "2016",
+        "fictionType": "Fiction",
+        "genres": [
+          "Short Stories"
+        ],
+        "datesRead": "2022/07/06-2022/07/12"
+      },
+      {
+        "id": "book-2022-43",
+        "title": "The Three-Body Problem",
+        "author": "Liu Cixin",
+        "isbn": "",
+        "coverImage": "",
+        "format": "hardcover",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "4.08",
+        "pageCount": 472,
+        "publisher": "Tor Books",
+        "yearPublished": "2014",
+        "fictionType": "Fiction",
+        "genres": [
+          "Literary Fiction", "Science Fiction"
+        ],
+        "datesRead": "2022/04/10-2022/04/16"
+      }
+    ]
+  },
+  "2021": {
+    "books": [
+      {
+        "id": "book-2022-5",
+        "title": "Winter in Sokcho",
+        "author": "Elisa Shua Dusapin",
+        "isbn": "9781911547549",
+        "coverImage": "/covers/9781911547549.jpg",
+        "format": "paperback",
+        "rating": 5.0,
+        "readCount": 1,
+        "tags": [
+          "favorites"
+        ],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "3.53",
+        "pageCount": 154,
+        "publisher": "Daunt Books Publishing",
+        "yearPublished": "2020",
+        "fictionType": "Fiction",
+        "genres": [
+          "Literary Fiction"
+        ],
+        "datesRead": "2021/04/09-2022/04/10"
+      },
+      {
+        "id": "book-2022-10",
+        "title": "The Left Hand of Darkness",
+        "author": "Ursula K. Le Guin",
+        "isbn": "9780441007318",
+        "coverImage": "/covers/9780441007318.jpg",
+        "format": "paperback",
+        "rating": 5.0,
+        "readCount": 1,
+        "tags": [
+          "favorites"
+        ],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": "This book leaves so much to think about-- the most astounding feature being that it was published in 1969 and explore concepts regarding gendered and interpersonal relationships that are still being discussed and pondered today.",
+        "goodreadsRating": "4.10",
+        "pageCount": 304,
+        "publisher": "Ace",
+        "yearPublished": "2000",
+        "fictionType": "Fiction",
+        "genres": [
+          "Literary Fiction", "Science Fiction"
+        ],
+        "datesRead": "2021/12/28-2022/01/02"
+      },
+      {
+        "id": "book-2022-15",
+        "title": "The Idiot",
+        "author": "Elif Batuman",
+        "isbn": "9781594205613",
+        "coverImage": "/covers/9781594205613.jpg",
+        "format": "hardcover",
+        "rating": null,
+        "readCount": 1,
+        "tags": [ "favorites" ],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "3.64",
+        "pageCount": 423,
+        "publisher": "Penguin Press",
+        "yearPublished": "2017",
+        "fictionType": "Fiction",
+        "genres": [
+          "Contemporary", "Autofiction"
+        ],
+        "datesRead": "2021/04/27-2022/04/28"
+      },
+      {
+        "id": "book-2022-17",
+        "title": "No One Is Talking About This",
+        "author": "Patricia Lockwood",
+        "isbn": "9780593189580",
+        "coverImage": "/covers/9780593189580.jpg",
+        "format": "hardcover",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "3.55",
+        "pageCount": 210,
+        "publisher": "Riverhead Books",
+        "yearPublished": "2021",
+        "fictionType": "Fiction",
+        "genres": [
+          "Contemporary", "Internet Novel"
+        ],
+        "datesRead": "2022/03/22-2022/03/22"
+      },
+      {
+        "id": "book-2022-21",
+        "title": "How Beautiful We Were",
+        "author": "Imbolo Mbue",
+        "isbn": "9780593132425",
+        "coverImage": "/covers/9780593132425.jpg",
+        "format": "hardcover",
+        "rating": 3.0,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "3.95",
+        "pageCount": 364,
+        "publisher": "Random House",
+        "yearPublished": "2021",
+        "fictionType": "Fiction",
+        "genres": [
+          "Literary Fiction"
+        ],
+        "datesRead": "2022/01/04-2022/03/24"
+      },
+      {
         "id": "book-2022-38",
         "title": "The Portrait of a Mirror",
         "author": "A. Natasha Joukovsky",
@@ -4102,182 +3937,10 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
-        "datesRead": "2021/08/05-2022/06/23"
+        "datesRead": "2022/06/19-2022/06/23"
       },
-      {
-        "id": "book-2022-39",
-        "title": "frank: sonnets",
-        "author": "Diane Seuss",
-        "isbn": "9781644450451",
-        "coverImage": "/covers/9781644450451.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.49",
-        "pageCount": 137,
-        "publisher": "Graywolf Press",
-        "yearPublished": "2021",
-        "fictionType": "Poetry",
-        "genres": [
-          "Poetry"
-        ],
-        "datesRead": "2022/11/07-2022/11/29"
-      },
-      {
-        "id": "book-2022-40",
-        "title": "Barbarian Days: A Surfing Life",
-        "author": "William Finnegan",
-        "isbn": "9781594203473",
-        "coverImage": "/covers/9781594203473.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.28",
-        "pageCount": 447,
-        "publisher": "Penguin Press",
-        "yearPublished": "2015",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2022/06/30-2022/09/05"
-      },
-      {
-        "id": "book-2022-41",
-        "title": "The Best American Short Stories 2016",
-        "author": "Junot Díaz",
-        "isbn": "9780544582897",
-        "coverImage": "/covers/9780544582897.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.81",
-        "pageCount": 336,
-        "publisher": "Mariner Books",
-        "yearPublished": "2016",
-        "fictionType": "Fiction",
-        "genres": [
-          "Short Stories"
-        ],
-        "datesRead": "2022/07/12-2022/07/06"
-      },
-      {
-        "id": "book-2022-42",
-        "title": "The Best Short Stories 2021: The O. Henry Prize Winners (The O. Henry Prize Collection)",
-        "author": "Chimamanda Ngozi Adichie",
-        "isbn": "9780593311257",
-        "coverImage": "/covers/9780593311257.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.89",
-        "pageCount": 400,
-        "publisher": "Anchor",
-        "yearPublished": "2021",
-        "fictionType": "Fiction",
-        "genres": [
-          "Short Stories"
-        ],
-        "datesRead": "2022/05/26-2022/06/14"
-      },
-      {
-        "id": "book-2022-43",
-        "title": "The Three-Body Problem (Remembrance of Earth’s Past, #1)",
-        "author": "Liu Cixin",
-        "isbn": "",
-        "coverImage": "",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.08",
-        "pageCount": 472,
-        "publisher": "Tor Books",
-        "yearPublished": "2014",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2022/01/03-2022/04/16"
-      },
-      {
-        "id": "book-2022-44",
-        "title": "Blue Front: Poems",
-        "author": "Martha Collins",
-        "isbn": "9781555974497",
-        "coverImage": "/covers/9781555974497.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.94",
-        "pageCount": 84,
-        "publisher": "Graywolf Press",
-        "yearPublished": "2006",
-        "fictionType": "Poetry",
-        "genres": [
-          "Poetry"
-        ],
-        "datesRead": "2022/03/02-2022/03/02"
-      },
-      {
-        "id": "book-2022-45",
-        "title": "leadbelly",
-        "author": "Tyehimba Jess",
-        "isbn": "9780974635330",
-        "coverImage": "/covers/9780974635330.jpg",
-        "format": "paperback",
-        "rating": 5.0,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.37",
-        "pageCount": 128,
-        "publisher": "Wave Books",
-        "yearPublished": "2005",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2022/01/08-2022/01/12"
-      }
-    ]
-  },
-  "2021": {
-    "books": [
       {
         "id": "book-2021-1",
         "title": "Intimacies",
@@ -4300,7 +3963,7 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/11/23-2021/12/13"
       },
@@ -4324,7 +3987,7 @@
         "yearPublished": "2020",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/09/14-2021/09/14"
       },
@@ -4346,9 +4009,8 @@
         "pageCount": 128,
         "publisher": "Seven Stories Press",
         "yearPublished": "2003",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
         ],
         "datesRead": "2021/07/26-2021/07/26"
       },
@@ -4372,33 +4034,9 @@
         "yearPublished": "2014",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary", "Autofiction"
         ],
         "datesRead": "2021/11/28-2021/12/03"
-      },
-      {
-        "id": "book-2021-5",
-        "title": "In the Dream House",
-        "author": "Carmen Maria Machado",
-        "isbn": "9781644450031",
-        "coverImage": "/covers/9781644450031.jpg",
-        "format": "hardcover",
-        "rating": 5.0,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.39",
-        "pageCount": 251,
-        "publisher": "Graywolf Press",
-        "yearPublished": "2019",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/11/12-2021/01/10"
       },
       {
         "id": "book-2021-6",
@@ -4418,9 +4056,9 @@
         "pageCount": 333,
         "publisher": "The Dial Press",
         "yearPublished": "2020",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Biography/Memoir"
         ],
         "datesRead": "2021/08/01-2021/08/03"
       },
@@ -4444,9 +4082,9 @@
         "yearPublished": "2019",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
-        "datesRead": "2021/08-2021/08"
+        "datesRead": "2022/07/27-2022/08/12"
       },
       {
         "id": "book-2021-8",
@@ -4468,14 +4106,14 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary", "LGBT", "Romance"
         ],
         "datesRead": "2021/07/02-2021/07/30"
       },
       {
         "id": "book-2021-9",
         "title": "The Silent Cry",
-        "author": "Kenzaburō Ōe",
+        "author": "Kenzabur\u014d \u014ce",
         "isbn": "9781852426026",
         "coverImage": "/covers/9781852426026.jpg",
         "format": "paperback",
@@ -4516,7 +4154,7 @@
         "yearPublished": "2020",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/01/05-2021/01/15"
       },
@@ -4540,7 +4178,7 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary", "Short Stories"
         ],
         "datesRead": "2021/08/02-2021/08/17"
       },
@@ -4564,7 +4202,7 @@
         "yearPublished": "2019",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/06/07-2021/06/07"
       },
@@ -4586,9 +4224,8 @@
         "pageCount": 208,
         "publisher": "One World",
         "yearPublished": "2020",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
         ],
         "datesRead": "2021/08/21-2021/08/21"
       },
@@ -4608,7 +4245,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporaryn"
         ],
         "datesRead": "2021/06/20-2021/06/20"
       },
@@ -4630,11 +4267,11 @@
         "pageCount": 232,
         "publisher": "University of Chicago Press",
         "yearPublished": "2002",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "LGBT"
         ],
-        "datesRead": "2021/07/02-2021/04/30"
+        "datesRead": "2021/04/22-2021/04/30"
       },
       {
         "id": "book-2021-16",
@@ -4656,7 +4293,7 @@
         "yearPublished": "2018",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/07/01-2021/07/02"
       },
@@ -4678,11 +4315,10 @@
         "pageCount": 234,
         "publisher": "University of California Press",
         "yearPublished": "2013",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
         ],
-        "datesRead": "2021/07/02-2021/05/02"
+        "datesRead": "2021/05/01-2021/05/02"
       },
       {
         "id": "book-2021-18",
@@ -4704,7 +4340,7 @@
         "yearPublished": "2019",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/08/09-2021/09/08"
       },
@@ -4728,7 +4364,7 @@
         "yearPublished": "2002",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/06/27-2021/07/19"
       },
@@ -4781,30 +4417,6 @@
         "datesRead": "2021/09/12-2021/10/23"
       },
       {
-        "id": "book-2021-22",
-        "title": "The Death of Vivek Oji",
-        "author": "Akwaeke Emezi",
-        "isbn": "9780525541608",
-        "coverImage": "/covers/9780525541608.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.12",
-        "pageCount": 248,
-        "publisher": "Riverhead Books",
-        "yearPublished": "2020",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/12/20-2021/07/03"
-      },
-      {
         "id": "book-2021-23",
         "title": "Monogamy",
         "author": "Sue Miller",
@@ -4824,7 +4436,7 @@
         "yearPublished": "2020",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/09/11-2021/09/17"
       },
@@ -4842,35 +4454,10 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
         ],
-        "datesRead": "2021-2021"
-      },
-      {
-        "id": "book-2021-25",
-        "title": "Transcendent Kingdom",
-        "author": "Yaa Gyasi",
-        "isbn": "9780525658191",
-        "coverImage": "/covers/9780525658191.jpg",
-        "format": "digital",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.10",
-        "pageCount": 264,
-        "publisher": "Knopf",
-        "yearPublished": "2020",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/12/24-2021/01/23"
+        "datesRead": "2022/04/06-2022/04/23"
       },
       {
         "id": "book-2021-26",
@@ -4888,9 +4475,9 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Biography/Memoir"
         ],
         "datesRead": "2021/08/05-2021/08/05"
       },
@@ -4912,35 +4499,10 @@
         "pageCount": 248,
         "publisher": "University of Chicago Press",
         "yearPublished": "2020",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
         ],
-        "datesRead": "2021/07/02-2021/04/01"
-      },
-      {
-        "id": "book-2021-28",
-        "title": "Becoming",
-        "author": "Michelle Obama",
-        "isbn": "9780241334140",
-        "coverImage": "/covers/9780241334140.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.44",
-        "pageCount": 448,
-        "publisher": "Crown",
-        "yearPublished": "2018",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/08/21-2021/02/08"
+        "datesRead": "2021/03/28-2021/04/01"
       },
       {
         "id": "book-2021-29",
@@ -4956,9 +4518,8 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
         ],
         "datesRead": "2021/12/25-2021/12/25"
       },
@@ -4982,7 +4543,7 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/12/22-2021/12/27"
       },
@@ -5006,9 +4567,9 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
-        "datesRead": "2021/08/05-2021/09/28"
+        "datesRead": "2021/09/23-2021/09/28"
       },
       {
         "id": "book-2021-32",
@@ -5028,16 +4589,16 @@
         "pageCount": 368,
         "publisher": "MCD",
         "yearPublished": "2019",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Memoir"
         ],
         "datesRead": "2021/12/13-2021/12/17"
       },
       {
         "id": "book-2021-33",
         "title": "Catch the Rabbit",
-        "author": "Lana Bastašić",
+        "author": "Lana Basta\u0161i\u0107",
         "isbn": "9781529039603",
         "coverImage": "/covers/9781529039603.jpg",
         "format": "hardcover",
@@ -5054,38 +4615,14 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary", "Yugoslav Literature"
         ],
-        "datesRead": "2021/10/03-2021/11/23"
-      },
-      {
-        "id": "book-2021-34",
-        "title": "Circe",
-        "author": "Madeline Miller",
-        "isbn": "9780316556347",
-        "coverImage": "/covers/9780316556347.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.22",
-        "pageCount": 393,
-        "publisher": "Little, Brown and Company",
-        "yearPublished": "2018",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/10/30-2021/06/27"
+        "datesRead": "2021/10/24-2021/11/23"
       },
       {
         "id": "book-2021-35",
         "title": "The Collected Schizophrenias",
-        "author": "Esmé Weijun Wang",
+        "author": "Esm\u00e9 Weijun Wang",
         "isbn": "9781555978273",
         "coverImage": "/covers/9781555978273.jpg",
         "format": "paperback",
@@ -5096,35 +4633,11 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Essays"
         ],
         "datesRead": "2021/08/10-2021/08/10"
-      },
-      {
-        "id": "book-2021-36",
-        "title": "The Glass Hotel",
-        "author": "Emily St. John Mandel",
-        "isbn": "9780525521143",
-        "coverImage": "/covers/9780525521143.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.69",
-        "pageCount": 307,
-        "publisher": "Alfred A. Knopf",
-        "yearPublished": "2020",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/12/20-2021/01/19"
       },
       {
         "id": "book-2021-37",
@@ -5146,7 +4659,7 @@
         "yearPublished": "2020",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/09/08-2021/09/11"
       },
@@ -5168,59 +4681,11 @@
         "pageCount": 208,
         "publisher": "Seal Press",
         "yearPublished": "2008",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "LGBT"
         ],
-        "datesRead": "2021/08/03-2021/05/04"
-      },
-      {
-        "id": "book-2021-39",
-        "title": "The Midnight Library",
-        "author": "Matt Haig",
-        "isbn": "9780525559474",
-        "coverImage": "/covers/9780525559474.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.98",
-        "pageCount": 288,
-        "publisher": "Viking",
-        "yearPublished": "2020",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/12/20-2021/06/22"
-      },
-      {
-        "id": "book-2021-40",
-        "title": "How Much of These Hills Is Gold",
-        "author": "C Pam Zhang",
-        "isbn": "9780525537205",
-        "coverImage": "/covers/9780525537205.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.78",
-        "pageCount": 288,
-        "publisher": "Riverhead Books",
-        "yearPublished": "2020",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/12/20-2021/09/11"
+        "datesRead": "2021/05/01-2021/05/04"
       },
       {
         "id": "book-2021-41",
@@ -5242,7 +4707,7 @@
         "yearPublished": "2020",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/07/03-2021/08/01"
       },
@@ -5288,11 +4753,11 @@
         "pageCount": 289,
         "publisher": "The Feminist Press",
         "yearPublished": "2021",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
+          "Memoir"
         ],
-        "datesRead": "2021/10/06-2021/12/11"
+        "datesRead": "2021/12/05-2021/12/11"
       },
       {
         "id": "book-2021-44",
@@ -5314,105 +4779,9 @@
         "yearPublished": "2007",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/09/17-2021/09/23"
-      },
-      {
-        "id": "book-2021-45",
-        "title": "The Copenhagen Trilogy (The Copenhagen Trilogy, #1-3)",
-        "author": "Tove Ditlevsen",
-        "isbn": "9780374602390",
-        "coverImage": "/covers/9780374602390.jpg",
-        "format": "hardcover",
-        "rating": 5.0,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.36",
-        "pageCount": 371,
-        "publisher": "Farrar, Straus and Giroux",
-        "yearPublished": "2021",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2021/08/01-2021/08/05"
-      },
-      {
-        "id": "book-2021-46",
-        "title": "How to Change Your Mind: The New Science of Psychedelics",
-        "author": "Michael Pollan",
-        "isbn": "9780241294222",
-        "coverImage": "/covers/9780241294222.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.27",
-        "pageCount": 480,
-        "publisher": "ALLEN LANE",
-        "yearPublished": "2018",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2021/12/19-2021/12/25"
-      },
-      {
-        "id": "book-2021-47",
-        "title": "The Collected Schizophrenias: Essays",
-        "author": "Esmé Weijun Wang",
-        "isbn": "9781555978273",
-        "coverImage": "/covers/9781555978273.jpg",
-        "format": "paperback",
-        "rating": 5.0,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.13",
-        "pageCount": 224,
-        "publisher": "Graywolf Press",
-        "yearPublished": "2019",
-        "fictionType": "Non-fiction",
-        "genres": [
-          "Essays"
-        ],
-        "datesRead": "2021/08/02-2021/08/10"
-      },
-      {
-        "id": "book-2021-48",
-        "title": "Purity and Danger (Routledge Classics)",
-        "author": "Mary Douglas",
-        "isbn": "9780415289955",
-        "coverImage": "/covers/9780415289955.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.00",
-        "pageCount": 244,
-        "publisher": "Routledge",
-        "yearPublished": "2002",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2021/07/02-2021/04/23"
       },
       {
         "id": "book-2021-49",
@@ -5434,13 +4803,13 @@
         "yearPublished": "2013",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2021/06/21-2021/06/21"
       },
       {
         "id": "book-2021-50",
-        "title": "Less (Arthur Less, #1)",
+        "title": "Less",
         "author": "Andrew Sean Greer",
         "isbn": "",
         "coverImage": "",
@@ -5460,43 +4829,43 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2021/06/20-2021/06/18"
-      },
-      {
-        "id": "book-2021-51",
-        "title": "The Mothers: A Novel",
-        "author": "Brit Bennett",
-        "isbn": "9781524709860",
-        "coverImage": "/covers/9781524709860.jpg",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.88",
-        "pageCount": 400,
-        "publisher": "Random House ",
-        "yearPublished": "2016",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2021/06/08-2021/06/20"
+        "datesRead": "2021/06/18-2021/06/20"
       }
     ]
   },
   "2020": {
     "books": [
       {
-        "id": "book-2020-1",
-        "title": "The Story of a New Name",
-        "author": "Elena Ferrante",
-        "isbn": "9781609451349",
-        "coverImage": "/covers/9781609451349.jpg",
-        "format": "paperback",
+        "id": "book-2021-5",
+        "title": "In the Dream House",
+        "author": "Carmen Maria Machado",
+        "isbn": "9781644450031",
+        "coverImage": "/covers/9781644450031.jpg",
+        "format": "hardcover",
+        "rating": 5.0,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "4.39",
+        "pageCount": 251,
+        "publisher": "Graywolf Press",
+        "yearPublished": "2019",
+        "fictionType": "Non-fiction",
+        "genres": [
+          "Memoir"
+        ],
+        "datesRead": "2021/01/08-2021/01/10"
+      },
+      {
+        "id": "book-2021-22",
+        "title": "The Death of Vivek Oji",
+        "author": "Akwaeke Emezi",
+        "isbn": "9780525541608",
+        "coverImage": "/covers/9780525541608.jpg",
+        "format": "hardcover",
         "rating": null,
         "readCount": 1,
         "tags": [],
@@ -5504,10 +4873,159 @@
         "pace": null,
         "characterOrPlot": null,
         "review": null,
+        "goodreadsRating": "4.12",
+        "pageCount": 248,
+        "publisher": "Riverhead Books",
+        "yearPublished": "2020",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
-        ]
+          "Literary Fiction", "Autofiction"
+        ],
+        "datesRead": "2021/07/02-2021/07/03"
+      },
+      {
+        "id": "book-2021-25",
+        "title": "Transcendent Kingdom",
+        "author": "Yaa Gyasi",
+        "isbn": "9780525658191",
+        "coverImage": "/covers/9780525658191.jpg",
+        "format": "digital",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "4.10",
+        "pageCount": 264,
+        "publisher": "Knopf",
+        "yearPublished": "2020",
+        "fictionType": "Fiction",
+        "genres": [
+          "Contemporary"
+        ],
+        "datesRead": "2020/12/24-2021/01/23"
+      },
+      {
+        "id": "book-2021-28",
+        "title": "Becoming",
+        "author": "Michelle Obama",
+        "isbn": "9780241334140",
+        "coverImage": "/covers/9780241334140.jpg",
+        "format": "hardcover",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "4.44",
+        "pageCount": 448,
+        "publisher": "Crown",
+        "yearPublished": "2018",
+        "fictionType": "Non-fiction",
+        "genres": [
+          "Biography/Memoir"
+        ],
+        "datesRead": "2021/01/24-2021/02/08"
+      },
+      {
+        "id": "book-2021-34",
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "isbn": "9780316556347",
+        "coverImage": "/covers/9780316556347.jpg",
+        "format": "hardcover",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "4.22",
+        "pageCount": 393,
+        "publisher": "Little, Brown and Company",
+        "yearPublished": "2018",
+        "fictionType": "Fiction",
+        "genres": [
+          "Contemporary"
+        ],
+        "datesRead": "2021/06/26-2021/06/27"
+      },
+      {
+        "id": "book-2021-36",
+        "title": "The Glass Hotel",
+        "author": "Emily St. John Mandel",
+        "isbn": "9780525521143",
+        "coverImage": "/covers/9780525521143.jpg",
+        "format": "hardcover",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "3.69",
+        "pageCount": 307,
+        "publisher": "Alfred A. Knopf",
+        "yearPublished": "2020",
+        "fictionType": "Fiction",
+        "genres": [
+          "Contemporary"
+        ],
+        "datesRead": "2020/12/20-2021/01/19"
+      },
+      {
+        "id": "book-2021-39",
+        "title": "The Midnight Library",
+        "author": "Matt Haig",
+        "isbn": "9780525559474",
+        "coverImage": "/covers/9780525559474.jpg",
+        "format": "hardcover",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "3.98",
+        "pageCount": 288,
+        "publisher": "Viking",
+        "yearPublished": "2020",
+        "fictionType": "Fiction",
+        "genres": [
+          "Contemporary"
+        ],
+        "datesRead": "2021/06/21-2021/06/22"
+      },
+      {
+        "id": "book-2021-40",
+        "title": "How Much of These Hills Is Gold",
+        "author": "C Pam Zhang",
+        "isbn": "9780525537205",
+        "coverImage": "/covers/9780525537205.jpg",
+        "format": "hardcover",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "3.78",
+        "pageCount": 288,
+        "publisher": "Riverhead Books",
+        "yearPublished": "2020",
+        "fictionType": "Fiction",
+        "genres": [
+          "Contemporary"
+        ],
+        "datesRead": "2021/09/09-2021/09/11"
       },
       {
         "id": "book-2020-2",
@@ -5531,7 +5049,7 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2020/08/21-2020/07/01"
+        "datesRead": "2020/06/30-2020/07/01"
       },
       {
         "id": "book-2020-3",
@@ -5553,28 +5071,9 @@
         "yearPublished": "1989",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction", "Philosophy"
         ],
-        "datesRead": "2020/08/21-2020/11/02"
-      },
-      {
-        "id": "book-2020-4",
-        "title": "The Sympathizer",
-        "author": "Viet Thanh Nguyen",
-        "isbn": "9780802123459",
-        "coverImage": "/covers/9780802123459.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ]
+        "datesRead": "2020/10/28-2020/11/02"
       },
       {
         "id": "book-2020-5",
@@ -5598,7 +5097,7 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2020/08/21-2020/07/01"
+        "datesRead": "2020/06/29-2020/07/01"
       },
       {
         "id": "book-2020-6",
@@ -5620,9 +5119,9 @@
         "yearPublished": "2019",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction", "Poetry"
         ],
-        "datesRead": "2020/08/21-2020/08/01"
+        "datesRead": "2020/08/01-2020/08/21"
       },
       {
         "id": "book-2020-7",
@@ -5649,25 +5148,6 @@
         "datesRead": "2020/08/21-2020/08/26"
       },
       {
-        "id": "book-2020-8",
-        "title": "An Absolutely Remarkable Thing",
-        "author": "Hank Green",
-        "isbn": "9781473224216",
-        "coverImage": "/covers/9781473224216.jpg",
-        "format": "digital",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ]
-      },
-      {
         "id": "book-2020-9",
         "title": "Where the Crawdads Sing",
         "author": "Delia Owens",
@@ -5683,13 +5163,13 @@
         "review": null,
         "goodreadsRating": "4.37",
         "pageCount": 384,
-        "publisher": "G.P. Putnam’s Sons",
+        "publisher": "G.P. Putnam\u2019s Sons",
         "yearPublished": "2018",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
-        "datesRead": "2020/09/06-2020/10/22"
+        "datesRead": "2020/10/21-2020/10/22"
       },
       {
         "id": "book-2020-10",
@@ -5713,12 +5193,12 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2020/08/21-2020/06/20"
+        "datesRead": "2020/06/19-2020/06/20"
       },
       {
         "id": "book-2020-11",
         "title": "Lovers on All Saints' Day: Stories",
-        "author": "Juan Gabriel Vásquez",
+        "author": "Juan Gabriel V\u00e1squez",
         "isbn": "9781594634277",
         "coverImage": "/covers/9781594634277.jpg",
         "format": "paperback",
@@ -5761,7 +5241,7 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2020/08/21-2020/07/01"
+        "datesRead": "2020/06/21-2020/07/01"
       },
       {
         "id": "book-2020-13",
@@ -5783,7 +5263,7 @@
         "yearPublished": "2003",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Literary Fiction", "Classics"
         ],
         "datesRead": "2020/08/23-2020/09/07"
       },
@@ -5809,7 +5289,7 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2020/08/23-2020/12/14"
+        "datesRead": "2020/11/23-2020/12/14"
       },
       {
         "id": "book-2020-15",
@@ -5831,9 +5311,9 @@
         "yearPublished": "2017",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
-        "datesRead": "2020/08/21-2020/03/01"
+        "datesRead": "2020/02/27-2020/03/01"
       },
       {
         "id": "book-2020-16",
@@ -5857,7 +5337,7 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2020/08/23-2020/10/15"
+        "datesRead": "2020/10/12-2020/10/15"
       },
       {
         "id": "book-2020-17",
@@ -5879,9 +5359,9 @@
         "yearPublished": "2015",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
-        "datesRead": "2020/10/01-2020/12/11"
+        "datesRead": "2020/12/09-2020/12/11"
       },
       {
         "id": "book-2020-18",
@@ -5903,7 +5383,7 @@
         "yearPublished": "2020",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2020/11/19-2020/12/26"
       },
@@ -5927,9 +5407,9 @@
         "yearPublished": "2017",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
-        "datesRead": "2020/08/21-2020/12/19"
+        "datesRead": "2020/12/14-2020/12/19"
       },
       {
         "id": "book-2020-20",
@@ -5951,7 +5431,7 @@
         "yearPublished": "2016",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2020/10/01-2020/10/08"
       },
@@ -5977,7 +5457,7 @@
         "yearPublished": "2020",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2020/08/23-2020/09/29"
       },
@@ -6003,14 +5483,14 @@
         "yearPublished": "2019",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2020/08/21-2020/08/21"
       },
       {
         "id": "book-2020-23",
         "title": "One Hundred Years of Solitude",
-        "author": "Gabriel García Márquez",
+        "author": "Gabriel Garc\u00eda M\u00e1rquez",
         "isbn": "9780141184999",
         "coverImage": "/covers/9780141184999.jpg",
         "format": "paperback",
@@ -6029,7 +5509,7 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2020/10/24-2020/12/11"
+        "datesRead": "2020/11/04-2020/12/11"
       },
       {
         "id": "book-2020-24",
@@ -6049,16 +5529,15 @@
         "pageCount": 499,
         "publisher": "Farrar, Straus and Giroux",
         "yearPublished": "2011",
-        "fictionType": "Fiction",
+        "fictionType": "Non-fiction",
         "genres": [
-          "Literary Fiction"
         ],
-        "datesRead": "2020/08/21-2020/10/09"
+        "datesRead": "2020/08/21-2020/09/01"
       },
       {
         "id": "book-2020-25",
         "title": "The Brief and Wondrous Life of Oscar Wao",
-        "author": "Junot Díaz, Junot Díaz",
+        "author": "Junot D\u00edaz, Junot D\u00edaz",
         "isbn": "",
         "coverImage": "",
         "format": "paperback",
@@ -6077,7 +5556,7 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2020/08/21-2020/03/01"
+        "datesRead": "2020/03/04-2020/03/09"
       },
       {
         "id": "book-2020-26",
@@ -6101,7 +5580,7 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2020/08/21-2020/03/01"
+        "datesRead": "2020/03/09-2020/03/14"
       },
       {
         "id": "book-2020-27",
@@ -6123,9 +5602,147 @@
         "yearPublished": "2019",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ],
         "datesRead": "2020/09/18-2020/10/28"
+      },
+      {
+        "id": "book-2020-33",
+        "title": "An Absolutely Remarkable Thing",
+        "author": "Hank Green",
+        "isbn": "9781524743451",
+        "coverImage": "/covers/9781524743451.jpg",
+        "format": "kindle edition",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "4.03",
+        "pageCount": 343,
+        "publisher": "Dutton",
+        "yearPublished": "2018",
+        "fictionType": "Fiction",
+        "genres": [
+          "Literary Fiction"
+        ],
+        "datesRead": "2020/03/24-2020/04/01"
+      },
+      {
+        "id": "book-2020-35",
+        "title": "My Brilliant Friend",
+        "author": "Elena Ferrante",
+        "isbn": "",
+        "coverImage": "",
+        "format": "paperback",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "4.05",
+        "pageCount": 331,
+        "publisher": "Penguin Random House ",
+        "yearPublished": "2012",
+        "fictionType": "Fiction",
+        "genres": [
+          "Literary Fiction"
+        ],
+        "datesRead": "2020/03/12-2020/04/01"
+      },
+      {
+        "id": "book-2020-36",
+        "title": "The Story of a New Name",
+        "author": "Elena Ferrante",
+        "isbn": "",
+        "coverImage": "",
+        "format": "paperback",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "4.46",
+        "pageCount": 471,
+        "publisher": "Europa Editions",
+        "yearPublished": "2013",
+        "fictionType": "Fiction",
+        "genres": [
+          "Literary Fiction"
+        ],
+        "datesRead": "2020/04/01-2020/04/03"
+      },
+      {
+        "id": "book-2020-38",
+        "title": "Those Who Leave and Those Who Stay",
+        "author": "Elena Ferrante",
+        "isbn": "",
+        "coverImage": "",
+        "format": "paperback",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "goodreadsRating": "4.36",
+        "pageCount": 418,
+        "publisher": "Europa Editions",
+        "yearPublished": "2014",
+        "fictionType": "Fiction",
+        "genres": [
+          "Literary Fiction"
+        ],
+        "datesRead": "2020/04/03-2020/04/09"
+      }
+    ]
+  },
+  "unknown": {
+    "books": [
+      {
+        "id": "book-2020-1",
+        "title": "The Story of a New Name",
+        "author": "Elena Ferrante",
+        "isbn": "9781609451349",
+        "coverImage": "/covers/9781609451349.jpg",
+        "format": "paperback",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "fictionType": "Fiction",
+        "genres": [
+          "Literary Fiction"
+        ]
+      },
+      {
+        "id": "book-2020-4",
+        "title": "The Sympathizer",
+        "author": "Viet Thanh Nguyen",
+        "isbn": "9780802123459",
+        "coverImage": "/covers/9780802123459.jpg",
+        "format": "hardcover",
+        "rating": null,
+        "readCount": 1,
+        "tags": [],
+        "moods": [],
+        "pace": null,
+        "characterOrPlot": null,
+        "review": null,
+        "fictionType": "Fiction",
+        "genres": [
+          "Contemporary"
+        ]
       },
       {
         "id": "book-2020-28",
@@ -6181,7 +5798,7 @@
         "review": null,
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction"
+          "Contemporary"
         ]
       },
       {
@@ -6202,174 +5819,6 @@
         "genres": [
           "Literary Fiction"
         ]
-      },
-      {
-        "id": "book-2020-32",
-        "title": "Autumn (Seasonal Quartet, #1)",
-        "author": "Ali Smith",
-        "isbn": "9780241207000",
-        "coverImage": "/covers/9780241207000.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "3.65",
-        "pageCount": 264,
-        "publisher": "Hamish Hamilton",
-        "yearPublished": "2016",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/09/18-2020/09/25"
-      },
-      {
-        "id": "book-2020-33",
-        "title": "An Absolutely Remarkable Thing (The Carls, #1)",
-        "author": "Hank Green",
-        "isbn": "9781524743451",
-        "coverImage": "/covers/9781524743451.jpg",
-        "format": "kindle edition",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.03",
-        "pageCount": 343,
-        "publisher": "Dutton",
-        "yearPublished": "2018",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/08/21-2020/04/01"
-      },
-      {
-        "id": "book-2020-34",
-        "title": "The Chosen (Reuven Malter, #1)",
-        "author": "Chaim Potok",
-        "isbn": "9780449213445",
-        "coverImage": "/covers/9780449213445.jpg",
-        "format": "mass market paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.07",
-        "pageCount": 291,
-        "publisher": "Ballantine Books",
-        "yearPublished": "1982",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/08/21-2020/02/01"
-      },
-      {
-        "id": "book-2020-35",
-        "title": "My Brilliant Friend (Neapolitan Novels, #1)",
-        "author": "Elena Ferrante",
-        "isbn": "",
-        "coverImage": "",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.05",
-        "pageCount": 331,
-        "publisher": "Penguin Random House ",
-        "yearPublished": "2012",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/08/21-2020/04/01"
-      },
-      {
-        "id": "book-2020-36",
-        "title": "The Story of a New Name (Neapolitan Novels, #2)",
-        "author": "Elena Ferrante",
-        "isbn": "",
-        "coverImage": "",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.46",
-        "pageCount": 471,
-        "publisher": "Europa Editions",
-        "yearPublished": "2013",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/08/21-2020/04/01"
-      },
-      {
-        "id": "book-2020-37",
-        "title": "The Sympathizer (The Sympathizer, #1)",
-        "author": "Viet Thanh Nguyen",
-        "isbn": "9780802123459",
-        "coverImage": "/covers/9780802123459.jpg",
-        "format": "hardcover",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.01",
-        "pageCount": 384,
-        "publisher": "Grove Press",
-        "yearPublished": "2015",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/08/21-2020/08/02"
-      },
-      {
-        "id": "book-2020-38",
-        "title": "Those Who Leave and Those Who Stay (Neapolitan Novels, #3)",
-        "author": "Elena Ferrante",
-        "isbn": "",
-        "coverImage": "",
-        "format": "paperback",
-        "rating": null,
-        "readCount": 1,
-        "tags": [],
-        "moods": [],
-        "pace": null,
-        "characterOrPlot": null,
-        "review": null,
-        "goodreadsRating": "4.36",
-        "pageCount": 418,
-        "publisher": "Europa Editions",
-        "yearPublished": "2014",
-        "fictionType": "Fiction",
-        "genres": [
-          "Literary Fiction"
-        ],
-        "datesRead": "2020/08/21-2020/04/01"
       }
     ]
   }

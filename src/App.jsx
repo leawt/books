@@ -49,7 +49,7 @@ function App() {
       <CursorTrail />
       <FloatingParticles />
       <Sidebar currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 transition-all duration-500 page-transition relative z-10">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-8 sm:pb-12 transition-all duration-500 page-transition relative z-10">
         {currentPage === 'home' ? (
           <>
             <Bio />

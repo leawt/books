@@ -226,3 +226,90 @@
   background: #6B5B95;
 }
 
+/* Mobile-specific styles */
+@layer utilities {
+  /* Touch-friendly interactions */
+  @media (max-width: 768px) {
+    /* Ensure minimum touch target size (44x44px recommended) */
+    button,
+    a,
+    [role="button"],
+    .book-card-container,
+    .favorite-book-card-container {
+      min-height: 44px;
+      min-width: 44px;
+    }
+
+    /* Prevent text selection on touch interactions */
+    .book-card-container,
+    .favorite-book-card-container,
+    [role="button"] {
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Timeline horizontal scroll with momentum */
+    .timeline-scroll-container {
+      overflow-x: auto;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(139, 123, 135, 0.3) transparent;
+      touch-action: pan-x pinch-zoom;
+      cursor: grab;
+    }
+    
+    .timeline-scroll-container:active {
+      cursor: grabbing;
+    }
+
+    .timeline-scroll-container::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .timeline-scroll-container::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .timeline-scroll-container::-webkit-scrollbar-thumb {
+      background: rgba(139, 123, 168, 0.3);
+      border-radius: 3px;
+    }
+
+    /* Prevent double-tap zoom on interactive elements */
+    .book-card-container,
+    .favorite-book-card-container,
+    svg[class*="cursor-pointer"],
+    button,
+    [role="button"] {
+      touch-action: manipulation;
+    }
+
+    /* Improve tooltip positioning on mobile */
+    .mobile-tooltip {
+      max-width: calc(100vw - 24px);
+      word-wrap: break-word;
+    }
+
+    /* Better spacing for touch interactions */
+    .touch-target {
+      padding: 8px;
+      margin: -8px;
+    }
+  }
+
+  /* Smooth scrolling for timeline on all devices */
+  .timeline-scroll-container {
+    scroll-behavior: smooth;
+  }
+
+  /* Prevent pull-to-refresh on timeline scroll area */
+  @media (max-width: 768px) {
+    .timeline-scroll-container {
+      overscroll-behavior-x: contain;
+    }
+  }
+}
+

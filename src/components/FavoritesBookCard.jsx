@@ -1,15 +1,52 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import { useIsMobile } from '../utils/mobileDetection';
 
 const FavoritesBookCard = ({ book, yearRead }) => {
   const [isFlipped, setIsFlipped] = useState(false);
+  const isMobile = useIsMobile();
+  const touchStartTimeRef = useRef(0);
+  const hasTouchedRef = useRef(false);
+
+  // Handle touch (mobile only)
+  const handleTouchStart = (e) => {
+    e.preventDefault();
+    hasTouchedRef.current = true;
+    setIsFlipped(!isFlipped);
+    // Reset touch flag after a delay
+    setTimeout(() => {
+      hasTouchedRef.current = false;
+    }, 300);
+  };
+
+  // Handle mouse hover (desktop only)
+  const handleMouseEnter = () => {
+    if (!isMobile) {
+      setIsFlipped(true);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (!isMobile) {
+      setIsFlipped(false);
+    }
+  };
+
+  // Handle click (desktop only)
+  const handleClick = (e) => {
+    // Only handle click on desktop (not mobile)
+    if (!isMobile && !hasTouchedRef.current) {
+      setIsFlipped(!isFlipped);
+    }
+  };
 
   return (
     <div 
       className="favorite-book-card-container perspective-1000 w-full max-w-[200px] sm:max-w-[240px] md:max-w-[280px] mx-auto"
-      onMouseEnter={() => setIsFlipped(true)}
-      onMouseLeave={() => setIsFlipped(false)}
-      onClick={() => setIsFlipped(!isFlipped)}
-      onTouchStart={() => setIsFlipped(!isFlipped)}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onClick={handleClick}
+      onTouchStart={handleTouchStart}
+      style={{ touchAction: 'manipulation' }}
     >
       <div 
         className={`favorite-book-card-inner relative w-full transition-transform duration-700 transform-style-3d ${

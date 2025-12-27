@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
+import { useIsMobile } from '../utils/mobileDetection';
 
 // Calculate complementary color (180° rotation on color wheel)
 const calculateComplementaryColor = (color) => {
@@ -323,12 +324,13 @@ const FictionNonFictionPieChart = ({ fictionCount, nonFictionCount, poetryCount,
 };
 
 // Timeline bar component with hover tooltip
-const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, formatDate, topOffset, barHeight = 10, hoveredBookId, onHoverChange, isLongRead = false, days = 1 }) => {
+const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, formatDate, topOffset, barHeight = 10, hoveredBookId, onHoverChange, isLongRead = false, days = 1, isMobile = false }) => {
   const [dominantColor, setDominantColor] = useState('#8B7BA8');
   const [complementaryColor, setComplementaryColor] = useState('#8B7BA8');
   const [isHovered, setIsHovered] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [tooltipPosition, setTooltipPosition] = useState({ left: 0, top: 0 });
+  const [tappedBookId, setTappedBookId] = useState(null); // Track tapped book on mobile
   const barRef = useRef(null);
   const tooltipRef = useRef(null);
   const showTimeoutRef = useRef(null);
@@ -350,29 +352,43 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
   }, [book.coverImage]);
 
   // Function to calculate and update tooltip position
-  const updateTooltipPosition = (x, y) => {
+  const updateTooltipPosition = (x, y, useBarCenter = false) => {
     if (!tooltipRef.current) return;
     
     const tooltip = tooltipRef.current;
     const tooltipRect = tooltip.getBoundingClientRect();
     const padding = 12;
-    const offsetX = 8; // Reduced offset from cursor for closer positioning
-    const offsetY = 8; // Reduced offset from cursor for closer positioning
     
-    // Calculate position near cursor
-    let leftPos = x + offsetX;
-    let topPos = y + offsetY;
+    let leftPos, topPos;
+    
+    if (useBarCenter && barRef.current) {
+      // On mobile, center tooltip above/below the bar
+      const barRect = barRef.current.getBoundingClientRect();
+      leftPos = barRect.left + (barRect.width / 2) - (tooltipRect.width / 2);
+      topPos = barRect.top - tooltipRect.height - 8; // Position above bar
+      
+      // If tooltip would go off top, position below
+      if (topPos < padding) {
+        topPos = barRect.bottom + 8;
+      }
+    } else {
+      // Desktop: position near cursor
+      const offsetX = 8;
+      const offsetY = 8;
+      leftPos = x + offsetX;
+      topPos = y + offsetY;
+    }
     
     // Keep tooltip within viewport with padding
     if (leftPos + tooltipRect.width > window.innerWidth - padding) {
-      leftPos = x - tooltipRect.width - offsetX;
+      leftPos = window.innerWidth - tooltipRect.width - padding;
     }
     if (leftPos < padding) {
       leftPos = padding;
     }
     
     if (topPos + tooltipRect.height > window.innerHeight - padding) {
-      topPos = y - tooltipRect.height - offsetY;
+      topPos = window.innerHeight - tooltipRect.height - padding;
     }
     if (topPos < padding) {
       topPos = padding;
@@ -387,8 +403,14 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
     
     // When tooltip first appears, wait for it to be rendered
     const updatePosition = () => {
-      if (tooltipRef.current && isHovered && mousePosition.x > 0 && mousePosition.y > 0) {
-        updateTooltipPosition(mousePosition.x, mousePosition.y);
+      if (tooltipRef.current && isHovered) {
+        if (isMobile) {
+          // On mobile, center tooltip relative to bar
+          updateTooltipPosition(0, 0, true);
+        } else if (mousePosition.x > 0 && mousePosition.y > 0) {
+          // On desktop, position near cursor
+          updateTooltipPosition(mousePosition.x, mousePosition.y);
+        }
       }
     };
     
@@ -400,11 +422,11 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
     return () => {
       if (rafId1) cancelAnimationFrame(rafId1);
     };
-  }, [isHovered]);
+  }, [isHovered, isMobile]);
 
-  // Continuously update position as mouse moves
+  // Continuously update position as mouse moves (desktop only)
   useEffect(() => {
-    if (!isHovered || !tooltipRef.current) return;
+    if (!isHovered || !tooltipRef.current || isMobile) return;
     
     // Update position using requestAnimationFrame for smooth updates
     const rafId = requestAnimationFrame(() => {
@@ -416,9 +438,10 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
     return () => {
       cancelAnimationFrame(rafId);
     };
-  }, [mousePosition.x, mousePosition.y, isHovered]);
+  }, [mousePosition.x, mousePosition.y, isHovered, isMobile]);
 
   const handleMouseEnter = () => {
+    if (isMobile) return; // Skip on mobile
     // Clear any pending hide
     if (hideTimeoutRef.current) {
       clearTimeout(hideTimeoutRef.current);
@@ -436,6 +459,7 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
   };
 
   const handleMouseLeave = () => {
+    if (isMobile) return; // Skip on mobile
     // Clear any pending show
     if (showTimeoutRef.current) {
       clearTimeout(showTimeoutRef.current);
@@ -452,10 +476,65 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
   };
 
   const handleMouseMove = (e) => {
+    if (isMobile) return; // Skip on mobile
     // Always update mouse position to track cursor
     const newPosition = { x: e.clientX, y: e.clientY };
     setMousePosition(newPosition);
   };
+
+  const handleTouchStart = (e) => {
+    if (!isMobile) return;
+    e.preventDefault();
+    e.stopPropagation();
+    
+    // Toggle tooltip on tap
+    if (tappedBookId === book.id) {
+      // Already tapped, hide it
+      setTappedBookId(null);
+      setIsHovered(false);
+      if (onHoverChange) {
+        onHoverChange(null);
+      }
+    } else {
+      // New tap, show this tooltip
+      setTappedBookId(book.id);
+      setIsHovered(true);
+      if (onHoverChange) {
+        onHoverChange(book.id);
+      }
+      // Update position after a short delay to ensure DOM is ready
+      setTimeout(() => {
+        updateTooltipPosition(0, 0, true);
+      }, 50);
+    }
+  };
+
+  // Handle clicks outside to close tooltip on mobile
+  useEffect(() => {
+    if (!isMobile || !isHovered) return;
+    
+    const handleClickOutside = (e) => {
+      if (barRef.current && !barRef.current.contains(e.target)) {
+        setTappedBookId(null);
+        setIsHovered(false);
+        if (onHoverChange) {
+          onHoverChange(null);
+        }
+      }
+    };
+    
+    // Use a small delay to avoid immediate closing
+    const timeoutId = setTimeout(() => {
+      document.addEventListener('touchstart', handleClickOutside);
+      document.addEventListener('click', handleClickOutside);
+    }, 100);
+    
+    return () => {
+      clearTimeout(timeoutId);
+      document.removeEventListener('touchstart', handleClickOutside);
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [isMobile, isHovered, onHoverChange]);
 
   // Cleanup timeouts on unmount
   useEffect(() => {
@@ -539,10 +618,12 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
         width: `${minHoverWidthPercent}%`,
         height: `${hoverAreaHeight}px`,
         padding: `${hoverPadding}px 0`, // Vertical padding for larger hover area
+        touchAction: 'manipulation', // Prevent double-tap zoom
       }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onMouseMove={handleMouseMove}
+      onTouchStart={handleTouchStart}
     >
       <div
         className="absolute transition-all duration-300 cursor-pointer hover:z-10"
@@ -571,6 +652,8 @@ const TimelineBar = ({ book, leftPercent, widthPercent, startStr, finishStr, for
 const YearAnalytics = ({ year, books }) => {
   // Focus state: track which book is currently hovered
   const [hoveredBookId, setHoveredBookId] = useState(null);
+  // Mobile detection
+  const isMobile = useIsMobile();
   
   // Safety checks - prevent crashes if props are missing
   if (!books || !Array.isArray(books)) {
@@ -859,6 +942,10 @@ const YearAnalytics = ({ year, books }) => {
   };
 
   const laneData = assignLanes(timelineData);
+  
+  // Calculate minimum width for timeline on mobile (ensure it's scrollable)
+  // Use a fixed width that's wider than mobile screens to enable horizontal scrolling
+  const timelineMinWidth = isMobile ? '1200px' : '100%';
 
   return (
     <div className="animate-fadeIn w-full max-w-5xl mx-auto px-4">
@@ -893,14 +980,30 @@ const YearAnalytics = ({ year, books }) => {
       {timelineData.length > 0 && (
         <div className="mb-6 sm:mb-8">
           <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-3 sm:p-4 shadow-soft">
-            {/* Timeline bars - with smart lane assignment (no overlaps, minimal spacing, longest at bottom) */}
+            {/* Mobile: Wrap timeline in horizontally scrollable container */}
             <div 
-              className="relative mb-1.5"
-              style={{
-                height: `${laneData.totalLanes * (laneData.barHeight + laneData.laneSpacing) - laneData.laneSpacing}px`,
-                minHeight: `${laneData.barHeight}px`,
-              }}
+              className={isMobile ? "timeline-scroll-container" : ""}
+              style={isMobile ? {
+                marginLeft: '-12px',
+                marginRight: '-12px',
+                paddingLeft: '12px',
+                paddingRight: '12px',
+                width: '100%',
+                overflowX: 'auto',
+                WebkitOverflowScrolling: 'touch',
+                touchAction: 'pan-x pinch-zoom',
+              } : {}}
             >
+              {/* Timeline bars - with smart lane assignment (no overlaps, minimal spacing, longest at bottom) */}
+              <div 
+                className="relative mb-1.5"
+                style={{
+                  height: `${laneData.totalLanes * (laneData.barHeight + laneData.laneSpacing) - laneData.laneSpacing}px`,
+                  minHeight: `${laneData.barHeight}px`,
+                  width: isMobile ? timelineMinWidth : '100%',
+                  minWidth: isMobile ? timelineMinWidth : '100%',
+                }}
+              >
               {/* Vertical grid lines at month boundaries */}
               <div className="absolute inset-0 pointer-events-none">
                 {monthPositions.map((pos, i) => (
@@ -940,26 +1043,34 @@ const YearAnalytics = ({ year, books }) => {
                       onHoverChange={setHoveredBookId}
                       isLongRead={book.isLongRead}
                       days={book.days}
+                      isMobile={isMobile}
                     />
                   </div>
                 );
               })}
-            </div>
+              </div>
 
-            {/* Month markers */}
-            <div className="relative h-5 border-t border-accent-purple/20">
-              {monthPositions.map((pos, i) => (
-                <div
-                  key={i}
-                  className="absolute top-0 h-full flex flex-col items-center"
-                  style={{ left: `${pos}%` }}
-                >
-                  <div className="h-2 w-0.5 bg-accent-purple/60"></div>
-                  <div className="text-xs text-text-primary font-medium mt-0.5 whitespace-nowrap">
-                    {months[i]}
+              {/* Month markers */}
+              <div 
+                className="relative h-5 border-t border-accent-purple/20"
+                style={{
+                  width: isMobile ? timelineMinWidth : '100%',
+                  minWidth: isMobile ? timelineMinWidth : '100%',
+                }}
+              >
+                {monthPositions.map((pos, i) => (
+                  <div
+                    key={i}
+                    className="absolute top-0 h-full flex flex-col items-center"
+                    style={{ left: `${pos}%` }}
+                  >
+                    <div className="h-2 w-0.5 bg-accent-purple/60"></div>
+                    <div className="text-xs text-text-primary font-medium mt-0.5 whitespace-nowrap">
+                      {months[i]}
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>

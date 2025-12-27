@@ -46,7 +46,7 @@
       {
         "id": "book-2025-3",
         "title": "The Seven Ages",
-        "author": "Louise Gl\u00fcck",
+        "author": "Louise Glück",
         "isbn": "9780060933494",
         "coverImage": "/covers/9780060933494.jpg",
         "format": "paperback",
@@ -105,7 +105,7 @@
       {
         "id": "book-2025-6",
         "title": "A Certain Smile",
-        "author": "Fran\u00e7oise Sagan",
+        "author": "Françoise Sagan",
         "isbn": "9780140014440",
         "coverImage": "/covers/9780140014440.jpg",
         "format": "paperback",
@@ -209,7 +209,7 @@
         "title": "Saturday",
         "author": "Margaret Ross",
         "isbn": "9798987828878",
-        "coverImage": "/covers/9798987828878.jpg",
+        "coverImage": "",
         "format": "paperback",
         "rating": null,
         "readCount": 1,
@@ -267,9 +267,9 @@
       {
         "id": "book-2025-15",
         "title": "Bonjour Tristesse",
-        "author": "Fran\u00e7oise Sagan",
+        "author": "Françoise Sagan",
         "isbn": "9780141032917",
-        "coverImage": "/covers/9780141032917.jpg",
+        "coverImage": "",
         "format": "paperback",
         "rating": null,
         "readCount": 1,
@@ -451,7 +451,7 @@
       {
         "id": "book-2025-24",
         "title": "The Anthropologists",
-        "author": "Ay\u015feg\u00fcl Sava\u015f",
+        "author": "Ayşegül Savaş",
         "isbn": "9781639733064",
         "coverImage": "/covers/9781639733064.jpg",
         "format": "hardcover",
@@ -551,7 +551,7 @@
         "title": "The Ten Year Affair",
         "author": "Erin Somers",
         "isbn": "9781668081440",
-        "coverImage": "/covers/9781668081440.jpg",
+        "coverImage": "",
         "format": "hardcover",
         "rating": null,
         "readCount": 2,
@@ -694,7 +694,7 @@
         "title": "Dunce",
         "author": "Mary Ruefle",
         "isbn": "9781940696850",
-        "coverImage": "/covers/9781940696850.jpg",
+        "coverImage": "",
         "format": "hardcover",
         "rating": null,
         "readCount": 2,
@@ -732,7 +732,7 @@
       {
         "id": "book-2025-38",
         "title": "Henry and June",
-        "author": "Ana\u00efs Nin",
+        "author": "Anaïs Nin",
         "isbn": "9780140184686",
         "coverImage": "/covers/9780140184686.jpg",
         "format": "paperback",
@@ -856,7 +856,7 @@
         "title": "A Game of Hide and Seek",
         "author": "Elizabeth Taylor",
         "isbn": "9781590174968",
-        "coverImage": "/covers/9781590174968.jpg",
+        "coverImage": "",
         "format": "paperback",
         "rating": null,
         "readCount": 1,
@@ -963,7 +963,7 @@
         "title": "The Book",
         "author": "Mary Ruefle",
         "isbn": "9781950268849",
-        "coverImage": "/covers/9781950268849.jpg",
+        "coverImage": "",
         "format": "hardcover",
         "rating": null,
         "readCount": 1,
@@ -1023,7 +1023,7 @@
       {
         "id": "book-2024-6",
         "title": "Death and the Dervish",
-        "author": "Me\u0161a Selimovi\u0107",
+        "author": "Meša Selimović",
         "isbn": "9780810112971",
         "coverImage": "/covers/9780810112971.jpg",
         "format": "paperback",
@@ -1076,7 +1076,7 @@
         "moods": [],
         "pace": null,
         "characterOrPlot": null,
-        "review": "<div>\u201cA great artistic failure\u201d -my professor&nbsp;</div>",
+        "review": "<div>“A great artistic failure” -my professor&nbsp;</div>",
         "fictionType": "Fiction",
         "genres": [
           "Contemporary"
@@ -1228,7 +1228,7 @@
       {
         "id": "book-2024-16",
         "title": "Encyclopedia of the Dead",
-        "author": "Danilo Ki\u0161",
+        "author": "Danilo Kiš",
         "isbn": "9780810115149",
         "coverImage": "/covers/9780810115149.jpg",
         "format": "paperback",
@@ -1269,7 +1269,7 @@
       {
         "id": "book-2024-18",
         "title": "My Struggle, Book One",
-        "author": "Karl Ove Knausg\u00e5rd",
+        "author": "Karl Ove Knausgård",
         "isbn": "9780374534141",
         "coverImage": "/covers/9780374534141.jpg",
         "format": "paperback",
@@ -1435,7 +1435,7 @@
         "title": "Lost Children Archive",
         "author": "Valeria Luiselli",
         "isbn": "",
-        "coverImage": "",
+        "coverImage": "/covers/Lost Children Archive_Valeria Luiselli.jpg",
         "format": "paperback",
         "rating": null,
         "readCount": 1,
@@ -1615,9 +1615,9 @@
       {
         "id": "book-2024-35",
         "title": "Underground Barbie",
-        "author": "Ma\u0161a Kolanovi\u0107",
+        "author": "Maša Kolanović",
         "isbn": "9789533515120",
-        "coverImage": "/covers/9789533515120.jpg",
+        "coverImage": "",
         "format": "paperback",
         "rating": null,
         "readCount": 2,
@@ -1676,7 +1676,7 @@
       {
         "id": "book-2024-38",
         "title": "The Bridge on the Drina",
-        "author": "Ivo Andri\u0107",
+        "author": "Ivo Andrić",
         "isbn": "9780226020457",
         "coverImage": "/covers/9780226020457.jpg",
         "format": "paperback",
@@ -1839,8 +1839,8 @@
       },
       {
         "id": "book-2024-47",
-        "title": "The Diary of Ana\u00efs Nin, Vol. 1: 1931-1934",
-        "author": "Ana\u00efs Nin",
+        "title": "The Diary of Anaïs Nin, Vol. 1: 1931-1934",
+        "author": "Anaïs Nin",
         "isbn": "9780156260251",
         "coverImage": "/covers/9780156260251.jpg",
         "format": "paperback",
@@ -1883,7 +1883,7 @@
         "title": "Earth Room",
         "author": "Rachel Mannheimer",
         "isbn": "9781955125109",
-        "coverImage": "/covers/9781955125109.jpg",
+        "coverImage": "",
         "format": null,
         "rating": null,
         "readCount": 1,
@@ -2172,7 +2172,7 @@
       {
         "id": "book-2023-11",
         "title": "Elena Knows",
-        "author": "Claudia Pi\u00f1eiro",
+        "author": "Claudia Piñeiro",
         "isbn": "9781999368494",
         "coverImage": "/covers/9781999368494.jpg",
         "format": "digital",
@@ -2316,7 +2316,7 @@
       {
         "id": "book-2023-17",
         "title": "My life with Picasso",
-        "author": "Fran\u00e7oise Gilot",
+        "author": "Françoise Gilot",
         "isbn": "9781853812330",
         "coverImage": "/covers/9781853812330.jpg",
         "format": "paperback",
@@ -2598,7 +2598,7 @@
       {
         "id": "book-2023-29",
         "title": "Spring",
-        "author": "Karl Ove Knausg\u00e5rd",
+        "author": "Karl Ove Knausgård",
         "isbn": "9780399563362",
         "coverImage": "/covers/9780399563362.jpg",
         "format": "hardcover",
@@ -2685,7 +2685,8 @@
         "yearPublished": "2011",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction", "Autofiction"
+          "Literary Fiction",
+          "Autofiction"
         ],
         "datesRead": "2023/02/24-2023/03/14"
       },
@@ -2926,7 +2927,7 @@
         "title": "All of It Singing: New and Selected Poems",
         "author": "Linda Gregg",
         "isbn": "9781555975074",
-        "coverImage": "/covers/9781555975074.jpg",
+        "coverImage": "",
         "format": "hardcover",
         "rating": null,
         "readCount": 2,
@@ -2970,7 +2971,7 @@
         "title": "Trace Evidence: Poems",
         "author": "Charif Shanahan",
         "isbn": "",
-        "coverImage": "",
+        "coverImage": "/covers/Trace Evidence Poems_Charif Shanahan.jpg",
         "format": "paperback",
         "rating": null,
         "readCount": 1,
@@ -2994,7 +2995,7 @@
         "title": "Olive Kitteridge",
         "author": "Elizabeth Strout",
         "isbn": "",
-        "coverImage": "",
+        "coverImage": "/covers/Olive Kitteridge_Elizabeth Strout.jpg",
         "format": "hardcover",
         "rating": null,
         "readCount": 1,
@@ -3136,7 +3137,7 @@
       {
         "id": "book-2022-7",
         "title": "The Triumph of Achilles",
-        "author": "Louise Gl\u00fcck",
+        "author": "Louise Glück",
         "isbn": "9780880010825",
         "coverImage": "/covers/9780880010825.jpg",
         "format": "paperback",
@@ -3184,7 +3185,7 @@
       {
         "id": "book-2022-9",
         "title": "The Love Songs of W.E.B. Du Bois",
-        "author": "Honor\u00e9e Fanonne Jeffers",
+        "author": "Honorée Fanonne Jeffers",
         "isbn": "9780062942937",
         "coverImage": "/covers/9780062942937.jpg",
         "format": "hardcover",
@@ -3532,7 +3533,7 @@
       {
         "id": "book-2022-29",
         "title": "The Door",
-        "author": "Magda Szab\u00f3",
+        "author": "Magda Szabó",
         "isbn": "9781843431930",
         "coverImage": "/covers/9781843431930.jpg",
         "format": "hardcover",
@@ -3628,7 +3629,7 @@
       {
         "id": "book-2022-33",
         "title": "Portrait of an Unknown Lady",
-        "author": "Mar\u00eda Gainza",
+        "author": "María Gainza",
         "isbn": "9781646220328",
         "coverImage": "/covers/9781646220328.jpg",
         "format": "hardcover",
@@ -3744,7 +3745,7 @@
       {
         "id": "book-2022-41",
         "title": "The Best American Short Stories 2016",
-        "author": "Junot D\u00edaz",
+        "author": "Junot Díaz",
         "isbn": "9780544582897",
         "coverImage": "/covers/9780544582897.jpg",
         "format": "paperback",
@@ -3770,7 +3771,7 @@
         "title": "The Three-Body Problem",
         "author": "Liu Cixin",
         "isbn": "",
-        "coverImage": "",
+        "coverImage": "/covers/The Three-Body Problem_Liu Cixin.jpg",
         "format": "hardcover",
         "rating": null,
         "readCount": 1,
@@ -3785,7 +3786,8 @@
         "yearPublished": "2014",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction", "Science Fiction"
+          "Literary Fiction",
+          "Science Fiction"
         ],
         "datesRead": "2022/04/10-2022/04/16"
       }
@@ -3841,7 +3843,8 @@
         "yearPublished": "2000",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction", "Science Fiction"
+          "Literary Fiction",
+          "Science Fiction"
         ],
         "datesRead": "2021/12/28-2022/01/02"
       },
@@ -3854,7 +3857,9 @@
         "format": "hardcover",
         "rating": null,
         "readCount": 1,
-        "tags": [ "favorites" ],
+        "tags": [
+          "favorites"
+        ],
         "moods": [],
         "pace": null,
         "characterOrPlot": null,
@@ -3865,7 +3870,8 @@
         "yearPublished": "2017",
         "fictionType": "Fiction",
         "genres": [
-          "Contemporary", "Autofiction"
+          "Contemporary",
+          "Autofiction"
         ],
         "datesRead": "2022/04/27-2022/04/28"
       },
@@ -3889,7 +3895,8 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Contemporary", "Internet Novel"
+          "Contemporary",
+          "Internet Novel"
         ],
         "datesRead": "2022/03/22-2022/03/22"
       },
@@ -4010,8 +4017,7 @@
         "publisher": "Seven Stories Press",
         "yearPublished": "2003",
         "fictionType": "Non-fiction",
-        "genres": [
-        ],
+        "genres": [],
         "datesRead": "2021/07/26-2021/07/26"
       },
       {
@@ -4034,7 +4040,8 @@
         "yearPublished": "2014",
         "fictionType": "Fiction",
         "genres": [
-          "Contemporary", "Autofiction"
+          "Contemporary",
+          "Autofiction"
         ],
         "datesRead": "2021/11/28-2021/12/03"
       },
@@ -4106,14 +4113,16 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Contemporary", "LGBT", "Romance"
+          "Contemporary",
+          "LGBT",
+          "Romance"
         ],
         "datesRead": "2021/07/02-2021/07/30"
       },
       {
         "id": "book-2021-9",
         "title": "The Silent Cry",
-        "author": "Kenzabur\u014d \u014ce",
+        "author": "Kenzaburō Ōe",
         "isbn": "9781852426026",
         "coverImage": "/covers/9781852426026.jpg",
         "format": "paperback",
@@ -4178,7 +4187,8 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Contemporary", "Short Stories"
+          "Contemporary",
+          "Short Stories"
         ],
         "datesRead": "2021/08/02-2021/08/17"
       },
@@ -4225,8 +4235,7 @@
         "publisher": "One World",
         "yearPublished": "2020",
         "fictionType": "Non-fiction",
-        "genres": [
-        ],
+        "genres": [],
         "datesRead": "2021/08/21-2021/08/21"
       },
       {
@@ -4316,8 +4325,7 @@
         "publisher": "University of California Press",
         "yearPublished": "2013",
         "fictionType": "Non-fiction",
-        "genres": [
-        ],
+        "genres": [],
         "datesRead": "2021/05/01-2021/05/02"
       },
       {
@@ -4455,8 +4463,7 @@
         "characterOrPlot": null,
         "review": null,
         "fictionType": "Non-fiction",
-        "genres": [
-        ],
+        "genres": [],
         "datesRead": "2022/04/06-2022/04/23"
       },
       {
@@ -4500,8 +4507,7 @@
         "publisher": "University of Chicago Press",
         "yearPublished": "2020",
         "fictionType": "Non-fiction",
-        "genres": [
-        ],
+        "genres": [],
         "datesRead": "2021/03/28-2021/04/01"
       },
       {
@@ -4519,8 +4525,7 @@
         "characterOrPlot": null,
         "review": null,
         "fictionType": "Non-fiction",
-        "genres": [
-        ],
+        "genres": [],
         "datesRead": "2021/12/25-2021/12/25"
       },
       {
@@ -4598,7 +4603,7 @@
       {
         "id": "book-2021-33",
         "title": "Catch the Rabbit",
-        "author": "Lana Basta\u0161i\u0107",
+        "author": "Lana Bastašić",
         "isbn": "9781529039603",
         "coverImage": "/covers/9781529039603.jpg",
         "format": "hardcover",
@@ -4615,14 +4620,15 @@
         "yearPublished": "2021",
         "fictionType": "Fiction",
         "genres": [
-          "Contemporary", "Yugoslav Literature"
+          "Contemporary",
+          "Yugoslav Literature"
         ],
         "datesRead": "2021/10/24-2021/11/23"
       },
       {
         "id": "book-2021-35",
         "title": "The Collected Schizophrenias",
-        "author": "Esm\u00e9 Weijun Wang",
+        "author": "Esmé Weijun Wang",
         "isbn": "9781555978273",
         "coverImage": "/covers/9781555978273.jpg",
         "format": "paperback",
@@ -4879,7 +4885,8 @@
         "yearPublished": "2020",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction", "Autofiction"
+          "Literary Fiction",
+          "Autofiction"
         ],
         "datesRead": "2021/07/02-2021/07/03"
       },
@@ -5071,7 +5078,8 @@
         "yearPublished": "1989",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction", "Philosophy"
+          "Literary Fiction",
+          "Philosophy"
         ],
         "datesRead": "2020/10/28-2020/11/02"
       },
@@ -5119,7 +5127,8 @@
         "yearPublished": "2019",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction", "Poetry"
+          "Literary Fiction",
+          "Poetry"
         ],
         "datesRead": "2020/08/01-2020/08/21"
       },
@@ -5163,7 +5172,7 @@
         "review": null,
         "goodreadsRating": "4.37",
         "pageCount": 384,
-        "publisher": "G.P. Putnam\u2019s Sons",
+        "publisher": "G.P. Putnam’s Sons",
         "yearPublished": "2018",
         "fictionType": "Fiction",
         "genres": [
@@ -5198,7 +5207,7 @@
       {
         "id": "book-2020-11",
         "title": "Lovers on All Saints' Day: Stories",
-        "author": "Juan Gabriel V\u00e1squez",
+        "author": "Juan Gabriel Vásquez",
         "isbn": "9781594634277",
         "coverImage": "/covers/9781594634277.jpg",
         "format": "paperback",
@@ -5263,7 +5272,8 @@
         "yearPublished": "2003",
         "fictionType": "Fiction",
         "genres": [
-          "Literary Fiction", "Classics"
+          "Literary Fiction",
+          "Classics"
         ],
         "datesRead": "2020/08/23-2020/09/07"
       },
@@ -5392,7 +5402,7 @@
         "title": "Pachinko",
         "author": "Min Jin Lee",
         "isbn": "9786064305336",
-        "coverImage": "/covers/9786064305336.jpg",
+        "coverImage": "",
         "format": "paperback",
         "rating": null,
         "readCount": 1,
@@ -5490,7 +5500,7 @@
       {
         "id": "book-2020-23",
         "title": "One Hundred Years of Solitude",
-        "author": "Gabriel Garc\u00eda M\u00e1rquez",
+        "author": "Gabriel García Márquez",
         "isbn": "9780141184999",
         "coverImage": "/covers/9780141184999.jpg",
         "format": "paperback",
@@ -5530,14 +5540,13 @@
         "publisher": "Farrar, Straus and Giroux",
         "yearPublished": "2011",
         "fictionType": "Non-fiction",
-        "genres": [
-        ],
+        "genres": [],
         "datesRead": "2020/08/21-2020/09/01"
       },
       {
         "id": "book-2020-25",
         "title": "The Brief and Wondrous Life of Oscar Wao",
-        "author": "Junot D\u00edaz, Junot D\u00edaz",
+        "author": "Junot Díaz, Junot Díaz",
         "isbn": "",
         "coverImage": "",
         "format": "paperback",
@@ -5635,7 +5644,7 @@
         "title": "My Brilliant Friend",
         "author": "Elena Ferrante",
         "isbn": "9781609450786",
-        "coverImage": "",
+        "coverImage": "/covers/9781609450786.jpg",
         "format": "paperback",
         "rating": null,
         "readCount": 1,
@@ -5659,7 +5668,7 @@
         "title": "The Story of a New Name",
         "author": "Elena Ferrante",
         "isbn": "",
-        "coverImage": "",
+        "coverImage": "/covers/The Story of a New Name_Elena Ferrante.jpg",
         "format": "paperback",
         "rating": null,
         "readCount": 1,
@@ -5683,7 +5692,7 @@
         "title": "Those Who Leave and Those Who Stay",
         "author": "Elena Ferrante",
         "isbn": "",
-        "coverImage": "",
+        "coverImage": "/covers/Those Who Leave and Those Who Stay_Elena Ferrante.jpg",
         "format": "paperback",
         "rating": null,
         "readCount": 1,

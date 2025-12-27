@@ -12,10 +12,10 @@ def update_cover_paths():
     """Update books.json with cover paths for manually added images"""
     
     # Load books data
-    with open('src/data/books.json', 'r', encoding='utf-8') as f:
+    with open('../src/data/books.json', 'r', encoding='utf-8') as f:
         books_data = json.load(f)
     
-    covers_dir = Path('public/covers')
+    covers_dir = Path('../public/covers')
     updated_count = 0
     missing_files = []
     
@@ -62,11 +62,11 @@ def update_cover_paths():
     
     # Save updated JSON
     if updated_count > 0:
-        with open('src/data/books.json', 'w', encoding='utf-8') as f:
+        with open('../src/data/books.json', 'w', encoding='utf-8') as f:
             json.dump(books_data, f, indent=2, ensure_ascii=False)
         
         print(f"\n✨ Updated {updated_count} book(s) with cover images!")
-        print(f"📄 Saved to: src/data/books.json")
+        print(f"📄 Saved to: ../src/data/books.json")
     else:
         print("ℹ️  No updates needed. All covers are already linked correctly.")
     

@@ -217,11 +217,11 @@ def sanitize_filename(text):
 
 def main():
     # Load the books data
-    with open('src/data/books.json', 'r', encoding='utf-8') as f:
+    with open('../src/data/books.json', 'r', encoding='utf-8') as f:
         books_data = json.load(f)
     
     # Create covers directory
-    covers_dir = Path('public/covers')
+    covers_dir = Path('../public/covers')
     covers_dir.mkdir(exist_ok=True, parents=True)
     
     print("🎨 Starting enhanced book cover download...\n")
@@ -323,7 +323,7 @@ def main():
         print()
     
     # Save updated JSON
-    with open('src/data/books_with_covers.json', 'w', encoding='utf-8') as f:
+    with open('books_with_covers.json', 'w', encoding='utf-8') as f:
         json.dump(books_data, f, indent=2, ensure_ascii=False)
     
     # Print summary
@@ -339,13 +339,13 @@ def main():
     total_success = stats['openlibrary_success'] + stats['google_success'] + stats['internet_archive_success'] + stats['already_exists']
     print(f"\nSuccess rate: {(total_success / stats['total'] * 100):.1f}%")
     print(f"\n📁 Covers saved to: {covers_dir.absolute()}")
-    print(f"📄 Updated JSON: books_with_covers.json")
+    print(f"📄 Updated JSON: scripts/books_with_covers.json")
     
     print("\n" + "=" * 70)
     print("💡 NEXT STEPS")
     print("=" * 70)
     print("1. Copy the 'covers' folder to your-project/public/covers/")
-    print("2. Copy 'books_with_covers.json' to your-project/src/data/books.json")
+    print("2. Copy 'scripts/books_with_covers.json' to your-project/src/data/books.json")
     print("3. For books without covers, you can:")
     print("   • Search for covers manually on Amazon, Goodreads, etc.")
     print("   • Use a placeholder image")

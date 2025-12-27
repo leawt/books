@@ -36,7 +36,7 @@ The filename depends on whether the book has an ISBN:
 After adding your cover images, run the helper script:
 
 ```bash
-python3 update_manual_covers.py
+python3 scripts/update_manual_covers.py
 ```
 
 This script will:
@@ -49,7 +49,7 @@ This script will:
 To replace an existing cover:
 1. **Delete the old cover** from `public/covers/` (or just overwrite it)
 2. **Add your new cover** with the same filename
-3. Run `update_manual_covers.py` to verify the path is correct
+3. Run `scripts/update_manual_covers.py` to verify the path is correct
 
 ---
 
@@ -83,7 +83,7 @@ Here are the 15 books that need covers:
 - With ISBN: `{ISBN}.jpg`
 - Without ISBN: `{Title}_{Author}.jpg`
 
-**Update script:** `python3 update_manual_covers.py`
+**Update script:** `python3 scripts/update_manual_covers.py`
 
 **Verify:** After running the script, check your website to see the new covers!
 

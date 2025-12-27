@@ -1,4 +1,4 @@
-# My Virtual Bookshelf
+# lea.earth
 
 I wanted a Spotify-wrapped version for the books I read this year and I also had a bit of nostalgia for my tumblr blog that I maintained back in 2014. What resulted is [lea.earth](https://lea.earth/)
 

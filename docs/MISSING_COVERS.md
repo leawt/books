@@ -54,7 +54,7 @@ The following 4 books need manual cover images:
 The enhanced download script might find covers on a second run:
 
 ```bash
-python3 download_covers_enhanced.py
+python3 scripts/download_covers_enhanced.py
 ```
 
 ### Option 3: Use Online URLs

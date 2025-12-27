@@ -5,7 +5,7 @@ const Bio = () => {
     <div className="mb-12 sm:mb-16 text-center relative z-10">
       <div className="inline-block">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal mb-3 text-text-primary tracking-tight">
-          my virtual bookshelf
+          lea.earth
         </h1>
         <div className="flex items-center justify-center gap-2 mb-3">
           <span className="text-accent-purple/40 font-mono text-xs">✦</span>

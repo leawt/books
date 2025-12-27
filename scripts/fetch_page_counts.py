@@ -58,7 +58,7 @@ def get_page_count_from_google_books(isbn, title, author):
 
 def main():
     # Load the books data
-    books_file = Path('src/data/books.json')
+    books_file = Path('../src/data/books.json')
     with open(books_file, 'r', encoding='utf-8') as f:
         books_data = json.load(f)
     

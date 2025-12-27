@@ -82,7 +82,8 @@
         "genres": [
           "Short Stories"
         ],
-        "datesRead": "2025/01/24-2025/02/09"
+        "datesRead": "2025/01/24-2025/02/09",
+        "pageCount": 340
       },
       {
         "id": "book-2025-5",
@@ -100,7 +101,8 @@
         "review": null,
         "fictionType": "Non-fiction",
         "genres": [],
-        "datesRead": "2025/03/06-2025/04/21"
+        "datesRead": "2025/03/06-2025/04/21",
+        "pageCount": 266
       },
       {
         "id": "book-2025-6",
@@ -120,7 +122,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2025/04/22-2025/05/01"
+        "datesRead": "2025/04/22-2025/05/01",
+        "pageCount": 111
       },
       {
         "id": "book-2025-7",
@@ -140,7 +143,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2025/08/07-2025/08/12"
+        "datesRead": "2025/08/07-2025/08/12",
+        "pageCount": 249
       },
       {
         "id": "book-2025-8",
@@ -202,7 +206,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2025/04/08-2025/04/13"
+        "datesRead": "2025/04/08-2025/04/13",
+        "pageCount": 194
       },
       {
         "id": "book-2025-12",
@@ -222,6 +227,7 @@
         "genres": [
           "Literary Fiction"
         ],
+        "pageCount": 96,
         "datesRead": "2025/01/24-2025/01/24"
       },
       {
@@ -242,7 +248,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2025/08/13-2025/08/13"
+        "datesRead": "2025/08/13-2025/08/13",
+        "pageCount": 209
       },
       {
         "id": "book-2025-14",
@@ -262,7 +269,8 @@
         "genres": [
           "Diaries"
         ],
-        "datesRead": "2025/07/24-2025/08/18"
+        "datesRead": "2025/07/24-2025/08/18",
+        "pageCount": 225
       },
       {
         "id": "book-2025-15",
@@ -324,7 +332,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2025/08/25-2025/08/31"
+        "datesRead": "2025/08/25-2025/08/31",
+        "pageCount": 212
       },
       {
         "id": "book-2025-18",
@@ -344,7 +353,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2025/08/24-2025/08/24"
+        "datesRead": "2025/08/24-2025/08/24",
+        "pageCount": 86
       },
       {
         "id": "book-2025-19",
@@ -364,7 +374,8 @@
         "genres": [
           "Essays"
         ],
-        "datesRead": "2025/03/30-2025/04/04"
+        "datesRead": "2025/03/30-2025/04/04",
+        "pageCount": 340
       },
       {
         "id": "book-2025-20",
@@ -384,7 +395,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2025/10/20-2025/10/21"
+        "datesRead": "2025/10/20-2025/10/21",
+        "pageCount": 145
       },
       {
         "id": "book-2025-21",
@@ -405,7 +417,8 @@
           "LQBT",
           "Clubbing"
         ],
-        "datesRead": "2025/01/05-2025/01/06"
+        "datesRead": "2025/01/05-2025/01/06",
+        "pageCount": 320
       },
       {
         "id": "book-2025-22",
@@ -425,7 +438,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2025/05/09-2025/05/14"
+        "datesRead": "2025/05/09-2025/05/14",
+        "pageCount": 100
       },
       {
         "id": "book-2025-23",
@@ -466,7 +480,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2025/01/10-2025/01/10"
+        "datesRead": "2025/01/10-2025/01/10",
+        "pageCount": 195
       },
       {
         "id": "book-2025-25",
@@ -486,7 +501,8 @@
         "genres": [
           "Memoir"
         ],
-        "datesRead": "2025/11/09-2025/11/09"
+        "datesRead": "2025/11/09-2025/11/09",
+        "pageCount": 111
       },
       {
         "id": "book-2025-26",
@@ -504,7 +520,8 @@
         "review": null,
         "fictionType": "Non-fiction",
         "genres": [],
-        "datesRead": "2025/04/14-2025/04/20"
+        "datesRead": "2025/04/14-2025/04/20",
+        "pageCount": 273
       },
       {
         "id": "book-2025-27",
@@ -524,7 +541,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2025/08/13-2025/08/17"
+        "datesRead": "2025/08/13-2025/08/17",
+        "pageCount": 186
       },
       {
         "id": "book-2025-28",
@@ -544,6 +562,7 @@
         "genres": [
           "Literary Fiction"
         ],
+        "pageCount": 112,
         "datesRead": "2025/04/05-2025/04/05"
       },
       {
@@ -564,7 +583,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2025/11/06-2025/11/07"
+        "datesRead": "2025/11/06-2025/11/07",
+        "pageCount": 304
       },
       {
         "id": "book-2025-30",
@@ -584,7 +604,8 @@
         "genres": [
           "Biography/Memoir"
         ],
-        "datesRead": "2025/03/26-2025/03/30"
+        "datesRead": "2025/03/26-2025/03/30",
+        "pageCount": 145
       },
       {
         "id": "book-2025-31",
@@ -604,7 +625,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2025/05/20-2025/06/03"
+        "datesRead": "2025/05/20-2025/06/03",
+        "pageCount": 239
       },
       {
         "id": "book-2025-32",
@@ -645,7 +667,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2025/03/11-2025/03/21"
+        "datesRead": "2025/03/11-2025/03/21",
+        "pageCount": 336
       },
       {
         "id": "book-2025-34",
@@ -707,7 +730,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2025/03/12-2025/03/12"
+        "datesRead": "2025/03/12-2025/03/12",
+        "pageCount": 96
       },
       {
         "id": "book-2025-37",
@@ -727,7 +751,8 @@
         "genres": [
           "Essays"
         ],
-        "datesRead": "2025/06/19-2025/06/19"
+        "datesRead": "2025/06/19-2025/06/19",
+        "pageCount": 105
       },
       {
         "id": "book-2025-38",
@@ -747,7 +772,8 @@
         "genres": [
           "Diaries"
         ],
-        "datesRead": "2025/11/01-2025/11/30"
+        "datesRead": "2025/11/01-2025/11/30",
+        "pageCount": 274
       },
       {
         "id": "book-2025-39",
@@ -765,7 +791,8 @@
         "review": null,
         "fictionType": "Non-fiction",
         "genres": [],
-        "datesRead": "2025/06/26-2025/07/03"
+        "datesRead": "2025/06/26-2025/07/03",
+        "pageCount": 352
       },
       {
         "id": "book-2025-40",
@@ -806,7 +833,8 @@
         "genres": [
           "Short Stories"
         ],
-        "datesRead": "2025/11/26-2025/11/27"
+        "datesRead": "2025/11/26-2025/11/27",
+        "pageCount": 212
       },
       {
         "id": "book-2025-42",
@@ -849,7 +877,8 @@
           "Contemporary",
           "Short Stories"
         ],
-        "datesRead": "2025/08/17-2025/08/18"
+        "datesRead": "2025/08/17-2025/08/18",
+        "pageCount": 224
       },
       {
         "id": "book-2025-44",
@@ -869,7 +898,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2025/08/18-2025/08/24"
+        "datesRead": "2025/08/18-2025/08/24",
+        "pageCount": 329
       },
       {
         "id": "book-2025-45",
@@ -915,7 +945,8 @@
           "Essays",
           "Art Criticism"
         ],
-        "datesRead": "2024/12/29-2025/01/17"
+        "datesRead": "2024/12/29-2025/01/17",
+        "pageCount": 337
       },
       {
         "id": "book-2024-1",
@@ -956,7 +987,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2024/06/25-2024/07/01"
+        "datesRead": "2024/06/25-2024/07/01",
+        "pageCount": 257
       },
       {
         "id": "book-2024-3",
@@ -976,6 +1008,7 @@
         "genres": [
           "Poetry"
         ],
+        "pageCount": 96,
         "datesRead": "2024/03/26-2024/03/28"
       },
       {
@@ -1039,7 +1072,8 @@
           "Literary Fiction",
           "Yugoslav Literature"
         ],
-        "datesRead": "2024/10/27-2024/11/09"
+        "datesRead": "2024/10/27-2024/11/09",
+        "pageCount": 500
       },
       {
         "id": "book-2024-7",
@@ -1081,7 +1115,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2024/05/01-2024/05/08"
+        "datesRead": "2024/05/01-2024/05/08",
+        "pageCount": 303
       },
       {
         "id": "book-2024-9",
@@ -1101,7 +1136,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2024/05/15-2024/05/30"
+        "datesRead": "2024/05/15-2024/05/30",
+        "pageCount": 353
       },
       {
         "id": "book-2024-10",
@@ -1121,7 +1157,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2024/08/30-2024/08/30"
+        "datesRead": "2024/08/30-2024/08/30",
+        "pageCount": 257
       },
       {
         "id": "book-2024-11",
@@ -1141,6 +1178,7 @@
         "genres": [
           "Contemporary"
         ],
+        "pageCount": 144,
         "datesRead": "2024/07/22-2024/07/23"
       },
       {
@@ -1161,7 +1199,8 @@
         "genres": [
           "Essays"
         ],
-        "datesRead": "2024/04/22-2024/04/29"
+        "datesRead": "2024/04/22-2024/04/29",
+        "pageCount": 212
       },
       {
         "id": "book-2024-13",
@@ -1203,7 +1242,8 @@
         "genres": [
           "Essays"
         ],
-        "datesRead": "2024/07/09-2024/07/11"
+        "datesRead": "2024/07/09-2024/07/11",
+        "pageCount": 225
       },
       {
         "id": "book-2024-15",
@@ -1223,7 +1263,8 @@
         "genres": [
           "Essays"
         ],
-        "datesRead": "2024/12/19-2024/12/23"
+        "datesRead": "2024/12/19-2024/12/23",
+        "pageCount": 100
       },
       {
         "id": "book-2024-16",
@@ -1244,7 +1285,8 @@
           "Literary Fiction",
           "Yugoslav Literature"
         ],
-        "datesRead": "2024/11/09-2024/11/09"
+        "datesRead": "2024/11/09-2024/11/09",
+        "pageCount": 220
       },
       {
         "id": "book-2024-17",
@@ -1264,7 +1306,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2024/11/02-2024/11/02"
+        "datesRead": "2024/11/02-2024/11/02",
+        "pageCount": 174
       },
       {
         "id": "book-2024-18",
@@ -1285,13 +1328,14 @@
           "Contemporary",
           "Autofiction"
         ],
-        "datesRead": "2024/09/18-2024/11/02"
+        "datesRead": "2024/09/18-2024/11/02",
+        "pageCount": 449
       },
       {
         "id": "book-2024-19",
         "title": "Difficult Loves and Other Stories",
         "author": "Italo Calvino",
-        "isbn": "",
+        "isbn": "9780156260558",
         "coverImage": "",
         "format": null,
         "rating": null,
@@ -1305,6 +1349,7 @@
         "genres": [
           "Short Stories"
         ],
+        "pageCount": 290,
         "datesRead": "2024/08/01-2024/08/22"
       },
       {
@@ -1325,7 +1370,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2024/02/13-2024/02/24"
+        "datesRead": "2024/02/13-2024/02/24",
+        "pageCount": 305
       },
       {
         "id": "book-2024-21",
@@ -1388,7 +1434,8 @@
           "Contemporary",
           "Autofiction"
         ],
-        "datesRead": "2024/05/02-2024/05/03"
+        "datesRead": "2024/05/02-2024/05/03",
+        "pageCount": 290
       },
       {
         "id": "book-2024-24",
@@ -1408,7 +1455,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2024/07/14-2024/07/14"
+        "datesRead": "2024/07/14-2024/07/14",
+        "pageCount": 80
       },
       {
         "id": "book-2024-25",
@@ -1428,14 +1476,15 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2024/03/06-2024/03/25"
+        "datesRead": "2024/03/06-2024/03/25",
+        "pageCount": 91
       },
       {
         "id": "book-2024-26",
         "title": "Lost Children Archive",
         "author": "Valeria Luiselli",
-        "isbn": "",
-        "coverImage": "/covers/Lost Children Archive_Valeria Luiselli.jpg",
+        "isbn": "9780525520610",
+        "coverImage": "",
         "format": "paperback",
         "rating": null,
         "readCount": 1,
@@ -1448,6 +1497,7 @@
         "genres": [
           "Contemporary"
         ],
+        "pageCount": 400,
         "datesRead": "2024/04/14-2024/04/20"
       },
       {
@@ -1468,7 +1518,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2024/12/24-2024/12/25"
+        "datesRead": "2024/12/24-2024/12/25",
+        "pageCount": 337
       },
       {
         "id": "book-2024-28",
@@ -1488,7 +1539,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2024/04/20-2024/04/20"
+        "datesRead": "2024/04/20-2024/04/20",
+        "pageCount": 176
       },
       {
         "id": "book-2024-29",
@@ -1508,7 +1560,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2024/05/01-2024/05/01"
+        "datesRead": "2024/05/01-2024/05/01",
+        "pageCount": 92
       },
       {
         "id": "book-2024-30",
@@ -1528,7 +1581,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2024/04/16-2024/05/01"
+        "datesRead": "2024/04/16-2024/05/01",
+        "pageCount": 118
       },
       {
         "id": "book-2024-31",
@@ -1550,7 +1604,8 @@
           "Autofiction",
           "Internet Novel"
         ],
-        "datesRead": "2024/11/25-2024/12/15"
+        "datesRead": "2024/11/25-2024/12/15",
+        "pageCount": 258
       },
       {
         "id": "book-2024-32",
@@ -1570,7 +1625,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2024/03/31-2024/04/01"
+        "datesRead": "2024/03/31-2024/04/01",
+        "pageCount": 194
       },
       {
         "id": "book-2024-33",
@@ -1590,7 +1646,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2024/09/27-2024/09/28"
+        "datesRead": "2024/09/27-2024/09/28",
+        "pageCount": 321
       },
       {
         "id": "book-2024-34",
@@ -1610,7 +1667,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2024/04/01-2024/04/02"
+        "datesRead": "2024/04/01-2024/04/02",
+        "pageCount": 112
       },
       {
         "id": "book-2024-35",
@@ -1631,6 +1689,7 @@
           "Contemporary",
           "Yugoslav Literature"
         ],
+        "pageCount": 184,
         "datesRead": "2024/11/23-2024/11/23"
       },
       {
@@ -1651,7 +1710,8 @@
         "genres": [
           "Essays"
         ],
-        "datesRead": "2024/07/11-2024/07/15"
+        "datesRead": "2024/07/11-2024/07/15",
+        "pageCount": 256
       },
       {
         "id": "book-2024-37",
@@ -1671,7 +1731,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2024/04/02-2024/04/08"
+        "datesRead": "2024/04/02-2024/04/08",
+        "pageCount": 273
       },
       {
         "id": "book-2024-38",
@@ -1733,6 +1794,7 @@
         "review": null,
         "fictionType": "Non-fiction",
         "genres": [],
+        "pageCount": 363,
         "datesRead": "2024/05/21-2024/05/21"
       },
       {
@@ -1754,7 +1816,8 @@
           "Literary Fiction",
           "Autofiction"
         ],
-        "datesRead": "2024/07/15-2024/07/15"
+        "datesRead": "2024/07/15-2024/07/15",
+        "pageCount": 46
       },
       {
         "id": "book-2024-42",
@@ -1774,7 +1837,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2024/08/01-2024/08/01"
+        "datesRead": "2024/08/01-2024/08/01",
+        "pageCount": 129
       },
       {
         "id": "book-2024-44",
@@ -1794,7 +1858,8 @@
         "genres": [
           "Essays"
         ],
-        "datesRead": "2024/10/18-2024/10/18"
+        "datesRead": "2024/10/18-2024/10/18",
+        "pageCount": 193
       },
       {
         "id": "book-2024-45",
@@ -1814,7 +1879,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2024/05/09-2024/05/15"
+        "datesRead": "2024/05/09-2024/05/15",
+        "pageCount": 217
       },
       {
         "id": "book-2024-46",
@@ -1835,7 +1901,8 @@
           "Contemporary",
           "Internet Novel"
         ],
-        "datesRead": "2024/09/28-2024/11/23"
+        "datesRead": "2024/09/28-2024/11/23",
+        "pageCount": 225
       },
       {
         "id": "book-2024-47",
@@ -1855,7 +1922,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2024/08/20-2024/09/18"
+        "datesRead": "2024/08/20-2024/09/18",
+        "pageCount": 388
       },
       {
         "id": "book-2024-48",
@@ -1896,7 +1964,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2024/02/02-2024/02/02"
+        "datesRead": "2024/02/02-2024/02/02",
+        "pageCount": 80
       },
       {
         "id": "book-2024-50",
@@ -1916,7 +1985,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2024/07/01-2024/07/25"
+        "datesRead": "2024/07/01-2024/07/25",
+        "pageCount": 256
       }
     ]
   },
@@ -2010,7 +2080,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2023/09/21-2023/09/21"
+        "datesRead": "2023/09/21-2023/09/21",
+        "pageCount": 289
       },
       {
         "id": "book-2023-4",
@@ -2030,7 +2101,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2023/06/04-2023/06/05"
+        "datesRead": "2023/06/04-2023/06/05",
+        "pageCount": 87
       },
       {
         "id": "book-2023-5",
@@ -2098,7 +2170,8 @@
         "genres": [
           "Memoir"
         ],
-        "datesRead": "2023/10/10-2023/10/10"
+        "datesRead": "2023/10/10-2023/10/10",
+        "pageCount": 265
       },
       {
         "id": "book-2023-8",
@@ -2118,7 +2191,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2023/03/07-2023/03/07"
+        "datesRead": "2023/03/07-2023/03/07",
+        "pageCount": 112
       },
       {
         "id": "book-2023-9",
@@ -2311,7 +2385,8 @@
         "genres": [
           "Memoir"
         ],
-        "datesRead": "2023/12/26-2023/12/29"
+        "datesRead": "2023/12/26-2023/12/29",
+        "pageCount": 242
       },
       {
         "id": "book-2023-17",
@@ -2331,7 +2406,8 @@
         "genres": [
           "Biography/Memoir"
         ],
-        "datesRead": "2023/08/12-2023/08/12"
+        "datesRead": "2023/08/12-2023/08/12",
+        "pageCount": 348
       },
       {
         "id": "book-2023-18",
@@ -2375,7 +2451,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2023/10/09-2023/10/09"
+        "datesRead": "2023/10/09-2023/10/09",
+        "pageCount": 114
       },
       {
         "id": "book-2023-20",
@@ -2614,7 +2691,8 @@
           "Literary Fiction",
           "Autofiction"
         ],
-        "datesRead": "2023/07/02-2023/07/02"
+        "datesRead": "2023/07/02-2023/07/02",
+        "pageCount": 130
       },
       {
         "id": "book-2023-30",
@@ -2734,7 +2812,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2023/03/07-2023/03/07"
+        "datesRead": "2023/03/07-2023/03/07",
+        "pageCount": 81
       },
       {
         "id": "book-2023-35",
@@ -2828,7 +2907,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2023/11/30-2023/11/30"
+        "datesRead": "2023/11/30-2023/11/30",
+        "pageCount": 289
       },
       {
         "id": "book-2023-39",
@@ -2848,7 +2928,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2023/11/06-2023/11/06"
+        "datesRead": "2023/11/06-2023/11/06",
+        "pageCount": 81
       },
       {
         "id": "book-2023-40",
@@ -2940,7 +3021,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2023/06/08-2023/06/09"
+        "datesRead": "2023/06/08-2023/06/09",
+        "pageCount": 240
       },
       {
         "id": "book-2023-44",
@@ -3108,7 +3190,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2022/03/02-2022/03/02"
+        "datesRead": "2022/03/02-2022/03/02",
+        "pageCount": 104
       },
       {
         "id": "book-2022-6",
@@ -3272,7 +3355,8 @@
         "genres": [
           "Short Stories"
         ],
-        "datesRead": "2022/06/14-2022/06/14"
+        "datesRead": "2022/06/14-2022/06/14",
+        "pageCount": 401
       },
       {
         "id": "book-2022-14",
@@ -3484,7 +3568,8 @@
         "genres": [
           "Biography/Memoir"
         ],
-        "datesRead": "2022/09/05-2022/09/05"
+        "datesRead": "2022/09/05-2022/09/05",
+        "pageCount": 448
       },
       {
         "id": "book-2022-27",
@@ -3504,7 +3589,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2022/01/12-2022/01/12"
+        "datesRead": "2022/01/12-2022/01/12",
+        "pageCount": 128
       },
       {
         "id": "book-2022-28",
@@ -3740,7 +3826,8 @@
         "genres": [
           "Poetry"
         ],
-        "datesRead": "2022/11/29-2022/11/29"
+        "datesRead": "2022/11/29-2022/11/29",
+        "pageCount": 152
       },
       {
         "id": "book-2022-41",
@@ -4256,7 +4343,8 @@
         "genres": [
           "Contemporaryn"
         ],
-        "datesRead": "2021/06/20-2021/06/20"
+        "datesRead": "2021/06/20-2021/06/20",
+        "pageCount": 290
       },
       {
         "id": "book-2021-15",
@@ -4464,7 +4552,8 @@
         "review": null,
         "fictionType": "Non-fiction",
         "genres": [],
-        "datesRead": "2022/04/06-2022/04/23"
+        "datesRead": "2022/04/06-2022/04/23",
+        "pageCount": 278
       },
       {
         "id": "book-2021-26",
@@ -4486,7 +4575,8 @@
         "genres": [
           "Biography/Memoir"
         ],
-        "datesRead": "2021/08/05-2021/08/05"
+        "datesRead": "2021/08/05-2021/08/05",
+        "pageCount": 400
       },
       {
         "id": "book-2021-27",
@@ -4526,7 +4616,8 @@
         "review": null,
         "fictionType": "Non-fiction",
         "genres": [],
-        "datesRead": "2021/12/25-2021/12/25"
+        "datesRead": "2021/12/25-2021/12/25",
+        "pageCount": 481
       },
       {
         "id": "book-2021-30",
@@ -4643,7 +4734,8 @@
         "genres": [
           "Essays"
         ],
-        "datesRead": "2021/08/10-2021/08/10"
+        "datesRead": "2021/08/10-2021/08/10",
+        "pageCount": 223
       },
       {
         "id": "book-2021-37",
@@ -5729,7 +5821,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2020/07/28-2020/08/01"
+        "datesRead": "2020/07/28-2020/08/01",
+        "pageCount": 371
       },
       {
         "id": "book-2020-29",
@@ -5749,7 +5842,8 @@
         "genres": [
           "Literary Fiction"
         ],
-        "datesRead": "2020/01/31-2020/02/01"
+        "datesRead": "2020/01/31-2020/02/01",
+        "pageCount": 276
       },
       {
         "id": "book-2020-30",
@@ -5769,7 +5863,8 @@
         "genres": [
           "Contemporary"
         ],
-        "datesRead": "2020/09/18-2020/09/25"
+        "datesRead": "2020/09/18-2020/09/25",
+        "pageCount": 208
       }
     ]
   }

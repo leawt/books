@@ -1,6 +1,6 @@
 import React from 'react';
 import booksData from '../data/books.json';
-import FavoritesBookCard from './FavoritesBookCard';
+import BookCard from './BookCard';
 
 const FavoritesSection = ({ onNavigateBack }) => {
   // Aggregate all favorite books from all years
@@ -106,18 +106,10 @@ const FavoritesSection = ({ onNavigateBack }) => {
         <div className="h-px w-20 sm:w-32 bg-accent-purple/40 mx-auto mt-3 sm:mt-4"></div>
       </div>
 
-      {/* Favorites Grid with staggered animation */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 sm:gap-3 md:gap-4 max-w-7xl mx-auto px-4 justify-items-center w-full">
-        {favorites.map((book, index) => (
-          <div
-            key={book.id}
-            className="favorite-book-wrapper"
-            style={{
-              animationDelay: `${index * 0.1}s`
-            }}
-          >
-            <FavoritesBookCard book={book} yearRead={book.yearRead} />
-          </div>
+      {/* Favorites Grid */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-6 lg:gap-8 max-w-7xl mx-auto px-4 justify-items-center">
+        {favorites.map((book) => (
+          <BookCard key={book.id} book={book} />
         ))}
       </div>
     </div>

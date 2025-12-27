@@ -979,6 +979,11 @@ const YearAnalytics = ({ year, books }) => {
       {/* Timeline */}
       {timelineData.length > 0 && (
         <div className="mb-6 sm:mb-8">
+          {year <= 2023 && (
+            <div className="mb-2 text-xs text-text-secondary/70 text-center italic">
+              <span className="text-accent-purple/70">*</span> Note: Date tracking for books read 2023 and before is less precise (detailed logging started in 2024).
+            </div>
+          )}
           <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-3 sm:p-4 shadow-soft">
             {/* Mobile: Wrap timeline in horizontally scrollable container */}
             <div 

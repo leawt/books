@@ -11,35 +11,40 @@ export const useIsMobile = () => {
     if (typeof window === 'undefined') return false;
     
     const width = window.innerWidth;
-    const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
     
     // Check user agent for mobile devices
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
     const isMobileUA = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent.toLowerCase());
     
+    // Check if device has fine pointer (mouse) capability
+    // This helps distinguish touchscreen laptops (which have hover) from mobile devices
+    const hasHover = window.matchMedia('(hover: hover)').matches;
+    
     // Consider mobile if:
     // 1. Width <= 768px (primary check - most reliable for responsive design), OR
-    // 2. Width <= 1024px AND has touch capability, OR
-    // 3. Width <= 1024px AND has mobile user agent
-    // This makes it work in Chrome DevTools emulation (which may not have touch events)
-    return width <= 768 || (width <= 1024 && (hasTouch || isMobileUA));
+    // 2. Mobile user agent (regardless of width - tablets/phones)
+    // We don't check touch capability alone because touchscreen laptops exist
+    // and should support hover interactions
+    return width <= 768 || (isMobileUA && !hasHover);
   });
 
   useEffect(() => {
     const checkMobile = () => {
       const width = window.innerWidth;
-      const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
       
       // Check user agent for mobile devices
       const userAgent = navigator.userAgent || navigator.vendor || window.opera;
       const isMobileUA = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent.toLowerCase());
       
+      // Check if device has fine pointer (mouse) capability
+      const hasHover = window.matchMedia('(hover: hover)').matches;
+      
       // Consider mobile if:
       // 1. Width <= 768px (primary check - most reliable for responsive design), OR
-      // 2. Width <= 1024px AND has touch capability, OR
-      // 3. Width <= 1024px AND has mobile user agent
-      // This makes it work in Chrome DevTools emulation (which may not have touch events)
-      setIsMobile(width <= 768 || (width <= 1024 && (hasTouch || isMobileUA)));
+      // 2. Mobile user agent without hover capability (true mobile devices)
+      // We don't check touch capability alone because touchscreen laptops exist
+      // and should support hover interactions
+      setIsMobile(width <= 768 || (isMobileUA && !hasHover));
     };
 
     // Check on mount

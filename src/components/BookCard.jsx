@@ -7,6 +7,10 @@ const BookCard = ({ book }) => {
   const touchStartTimeRef = useRef(0);
   const hasTouchedRef = useRef(false);
 
+  // Check if book is a favorite (support both old and new format)
+  const isFavorite = book.favorite === true || 
+                    (Array.isArray(book.tags) && book.tags.includes('favorites'));
+
   // Handle touch (mobile only)
   const handleTouchStart = (e) => {
     e.preventDefault();
@@ -63,6 +67,12 @@ const BookCard = ({ book }) => {
                      shadow-soft hover:shadow-soft-lg transition-all duration-300 border border-accent-purple/20"
           style={{ backfaceVisibility: 'hidden' }}
         >
+          {/* Year badge */}
+          {book.yearRead && (
+            <div className="absolute top-2 right-2 z-20 bg-accent-purple/90 backdrop-blur-sm text-text-primary text-xs font-semibold px-2 py-1 rounded-md shadow-soft">
+              {book.yearRead}
+            </div>
+          )}
           {book.coverImage ? (
             <>
               <img 
@@ -119,6 +129,21 @@ const BookCard = ({ book }) => {
           </div>
           
           <div className="relative z-10 w-full">
+            {/* Star indicator for favorites */}
+            {isFavorite && (
+              <div className="flex justify-center mb-2">
+                <svg 
+                  width="20" 
+                  height="20" 
+                  viewBox="0 0 20 20" 
+                  className="text-accent-purple/80"
+                  fill="currentColor"
+                >
+                  {/* 6-pointed star (hexagram) */}
+                  <path d="M 10 2 L 12.5 7.5 L 18.5 8.5 L 14 12.5 L 15 18.5 L 10 15 L 5 18.5 L 6 12.5 L 1.5 8.5 L 7.5 7.5 Z" />
+                </svg>
+              </div>
+            )}
             <h3 className="text-xs sm:text-sm md:text-base font-semibold text-text-primary mb-3 leading-tight px-2 break-words" 
                 style={{
                   fontSize: book.title.length > 50 ? '0.65rem' : book.title.length > 30 ? '0.75rem' : undefined

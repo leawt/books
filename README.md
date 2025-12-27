@@ -1,6 +1,6 @@
-# My Reading Journey
+# My Virtual Bookshelf
 
-A React website showcasing books I've read from 2020-2025, featuring 3D flip card animations and a purple aesthetic.
+I wanted a Spotify-wrapped version for the books I read this year and I also had a bit of nostalgia for my tumblr blog that I maintained back in 2014. What resulted is (lea.earth)[https://lea.earth/] 
 
 ## Features
 

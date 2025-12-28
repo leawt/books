@@ -655,6 +655,25 @@ const YearAnalytics = ({ year, books }) => {
   // Mobile detection
   const isMobile = useIsMobile();
   
+  // Timeline zoom state (mobile only) - scale factor from 0.8x to 2.0x
+  const getInitialTimelineZoom = () => {
+    if (typeof window === 'undefined') return 1.0;
+    const savedZoom = localStorage.getItem('timelineZoomLevel');
+    if (savedZoom) {
+      const zoom = parseFloat(savedZoom);
+      if (zoom >= 0.8 && zoom <= 2.0) return zoom;
+    }
+    return 1.0; // Default to 1.0x (1200px base width)
+  };
+  
+  const [timelineZoom, setTimelineZoom] = useState(getInitialTimelineZoom);
+  
+  // Pinch zoom state for timeline
+  const timelinePinchStartDistance = useRef(null);
+  const timelinePinchStartZoom = useRef(null);
+  const timelineLastZoomUpdate = useRef(null);
+  const timelineContainerRef = useRef(null);
+  
   // Safety checks - prevent crashes if props are missing
   if (!books || !Array.isArray(books)) {
     return (
@@ -943,9 +962,102 @@ const YearAnalytics = ({ year, books }) => {
 
   const laneData = assignLanes(timelineData);
   
+  // Persist timeline zoom to localStorage (mobile only)
+  useEffect(() => {
+    if (isMobile && timelineZoom !== null) {
+      localStorage.setItem('timelineZoomLevel', timelineZoom.toString());
+    }
+  }, [timelineZoom, isMobile]);
+  
+  // Reset timeline zoom when switching between mobile/desktop
+  useEffect(() => {
+    if (isMobile) {
+      const savedZoom = localStorage.getItem('timelineZoomLevel');
+      const parsedZoom = savedZoom ? parseFloat(savedZoom) : 1.0;
+      const validZoom = Math.max(0.8, Math.min(2.0, parsedZoom));
+      if (timelineZoom !== validZoom) {
+        setTimelineZoom(validZoom);
+      }
+    } else {
+      if (timelineZoom !== 1.0) {
+        setTimelineZoom(1.0);
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isMobile]);
+  
   // Calculate minimum width for timeline on mobile (ensure it's scrollable)
   // Use a fixed width that's wider than mobile screens to enable horizontal scrolling
-  const timelineMinWidth = isMobile ? '1200px' : '100%';
+  // Apply zoom factor: 0.8x (960px) to 2.0x (2400px)
+  const baseTimelineWidth = 1200;
+  const timelineMinWidth = isMobile 
+    ? `${Math.round(baseTimelineWidth * timelineZoom)}px` 
+    : '100%';
+  
+  // Calculate distance between two touch points
+  const getTouchDistance = (touch1, touch2) => {
+    const dx = touch2.clientX - touch1.clientX;
+    const dy = touch2.clientY - touch1.clientY;
+    return Math.sqrt(dx * dx + dy * dy);
+  };
+  
+  // Handle touch start for timeline pinch detection
+  const handleTimelineTouchStart = (e) => {
+    if (!isMobile || e.touches.length !== 2) return;
+    
+    const touch1 = e.touches[0];
+    const touch2 = e.touches[1];
+    timelinePinchStartDistance.current = getTouchDistance(touch1, touch2);
+    timelinePinchStartZoom.current = timelineZoom;
+    e.preventDefault();
+    e.stopPropagation();
+  };
+  
+  // Handle touch move for timeline pinch zoom
+  const handleTimelineTouchMove = (e) => {
+    if (!isMobile || e.touches.length !== 2 || timelinePinchStartDistance.current === null) return;
+    
+    const touch1 = e.touches[0];
+    const touch2 = e.touches[1];
+    const currentDistance = getTouchDistance(touch1, touch2);
+    
+    if (timelinePinchStartDistance.current > 0) {
+      const scale = currentDistance / timelinePinchStartDistance.current;
+      const threshold = 0.15; // Require 15% change to trigger zoom
+      
+      // Determine if we should zoom in (wider timeline) or out (narrower timeline)
+      if (scale > 1 + threshold) {
+        // Pinch out - zoom in (increase width)
+        const newZoom = Math.min(2.0, timelinePinchStartZoom.current + 0.1);
+        if (newZoom !== timelineZoom && Date.now() - (timelineLastZoomUpdate.current || 0) > 100) {
+          setTimelineZoom(newZoom);
+          timelinePinchStartZoom.current = newZoom;
+          timelinePinchStartDistance.current = currentDistance;
+          timelineLastZoomUpdate.current = Date.now();
+        }
+      } else if (scale < 1 - threshold) {
+        // Pinch in - zoom out (decrease width)
+        const newZoom = Math.max(0.8, timelinePinchStartZoom.current - 0.1);
+        if (newZoom !== timelineZoom && Date.now() - (timelineLastZoomUpdate.current || 0) > 100) {
+          setTimelineZoom(newZoom);
+          timelinePinchStartZoom.current = newZoom;
+          timelinePinchStartDistance.current = currentDistance;
+          timelineLastZoomUpdate.current = Date.now();
+        }
+      }
+    }
+    
+    e.preventDefault();
+    e.stopPropagation();
+  };
+  
+  // Handle touch end for timeline
+  const handleTimelineTouchEnd = (e) => {
+    if (!isMobile) return;
+    timelinePinchStartDistance.current = null;
+    timelinePinchStartZoom.current = null;
+    timelineLastZoomUpdate.current = null;
+  };
 
   return (
     <div className="animate-fadeIn w-full max-w-5xl mx-auto px-4">
@@ -985,8 +1097,12 @@ const YearAnalytics = ({ year, books }) => {
             </div>
           )}
           <div className="bg-background/60 backdrop-blur-sm border border-accent-purple/20 rounded-lg p-3 sm:p-4 shadow-soft">
+            <h3 className="text-text-primary text-base font-semibold mb-3 text-center">
+              Timeline
+            </h3>
             {/* Mobile: Wrap timeline in horizontally scrollable container */}
             <div 
+              ref={timelineContainerRef}
               className={isMobile ? "timeline-scroll-container" : ""}
               style={isMobile ? {
                 marginLeft: '-12px',
@@ -996,8 +1112,11 @@ const YearAnalytics = ({ year, books }) => {
                 width: '100%',
                 overflowX: 'auto',
                 WebkitOverflowScrolling: 'touch',
-                touchAction: 'pan-x pinch-zoom',
+                touchAction: 'pan-x',
               } : {}}
+              onTouchStart={handleTimelineTouchStart}
+              onTouchMove={handleTimelineTouchMove}
+              onTouchEnd={handleTimelineTouchEnd}
             >
               {/* Timeline bars - with smart lane assignment (no overlaps, minimal spacing, longest at bottom) */}
               <div 

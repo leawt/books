@@ -45,19 +45,20 @@ const BookCard = ({ book }) => {
 
   return (
     <div 
-      className="book-card-container perspective-1000 w-full max-w-[200px] sm:max-w-[240px] md:max-w-[280px] mx-auto"
+      className="book-card-container perspective-1000 w-full h-full"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
       onTouchStart={handleTouchStart}
-      style={{ touchAction: 'manipulation' }}
+      style={{ 
+        touchAction: 'manipulation'
+      }}
     >
       <div 
-        className={`book-card-inner relative w-full transition-transform duration-700 transform-style-3d ${
+        className={`book-card-inner relative w-full h-full transition-transform duration-700 transform-style-3d ${
           isFlipped ? 'rotate-y-180' : ''
         }`}
         style={{ 
-          aspectRatio: '2/3',
           transformStyle: 'preserve-3d'
         }}
       >
@@ -79,6 +80,12 @@ const BookCard = ({ book }) => {
                 src={book.coverImage} 
                 alt={`Cover of ${book.title}`}
                 className="w-full h-full object-cover"
+                style={{ 
+                  objectFit: 'cover',
+                  width: '100%',
+                  height: '100%',
+                  display: 'block'
+                }}
                 loading="lazy"
                 onError={(e) => {
                   e.target.style.display = 'none';

@@ -15,6 +15,8 @@ export default {
         accent: {
           purple: '#8B7BA8',
           'purple-hover': '#6B5B95',
+          blue: '#6B7BA8',
+          'blue-hover': '#4B6B95',
         },
       },
       fontFamily: {

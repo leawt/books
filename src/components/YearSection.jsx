@@ -38,7 +38,7 @@ const YearSection = ({ year, books, allBooks, filters = {}, selectedFilter, onFi
       const zoom = parseInt(savedZoom, 10);
       if (zoom >= 2 && zoom <= 5) return zoom;
     }
-    return 2; // Default to 2 columns on mobile
+    return 3; // Default to 3 columns on mobile
   };
 
   const [viewMode, setViewMode] = useState(getInitialViewMode);
@@ -71,7 +71,7 @@ const YearSection = ({ year, books, allBooks, filters = {}, selectedFilter, onFi
     if (isMobile) {
       // On mobile, ensure zoom level is set (2-5)
       const savedZoom = localStorage.getItem('booksGridZoomLevel');
-      const parsedZoom = savedZoom ? parseInt(savedZoom, 10) : 2;
+      const parsedZoom = savedZoom ? parseInt(savedZoom, 10) : 3;
       const validZoom = Math.max(2, Math.min(5, parsedZoom));
       if (zoomLevel !== validZoom) {
         setZoomLevel(validZoom);

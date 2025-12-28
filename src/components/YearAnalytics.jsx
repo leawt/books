@@ -1025,11 +1025,11 @@ const YearAnalytics = ({ year, books }) => {
       const scale = currentDistance / timelinePinchStartDistance.current;
       const threshold = 0.1; // Reduced threshold for smoother, more responsive zoom
       
-      // REVERSED: Pinch out (fingers moving away) = narrower timeline (zoom out)
-      // Pinch in (fingers moving together) = wider timeline (zoom in)
+      // Pinch in (fingers moving together, scale < 1) = narrower timeline (zoom out)
+      // Pinch out (fingers moving away, scale > 1) = wider timeline (zoom in)
       if (scale > 1 + threshold) {
-        // Pinch out - zoom out (decrease width)
-        const newZoom = Math.max(0.8, timelinePinchStartZoom.current - 0.1);
+        // Pinch out - zoom in (increase width)
+        const newZoom = Math.min(2.0, timelinePinchStartZoom.current + 0.1);
         if (newZoom !== timelineZoom && Date.now() - (timelineLastZoomUpdate.current || 0) > 50) {
           setTimelineZoom(newZoom);
           timelinePinchStartZoom.current = newZoom;
@@ -1037,8 +1037,8 @@ const YearAnalytics = ({ year, books }) => {
           timelineLastZoomUpdate.current = Date.now();
         }
       } else if (scale < 1 - threshold) {
-        // Pinch in - zoom in (increase width)
-        const newZoom = Math.min(2.0, timelinePinchStartZoom.current + 0.1);
+        // Pinch in - zoom out (decrease width)
+        const newZoom = Math.max(0.8, timelinePinchStartZoom.current - 0.1);
         if (newZoom !== timelineZoom && Date.now() - (timelineLastZoomUpdate.current || 0) > 50) {
           setTimelineZoom(newZoom);
           timelinePinchStartZoom.current = newZoom;

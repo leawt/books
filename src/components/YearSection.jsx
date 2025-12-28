@@ -118,11 +118,11 @@ const YearSection = ({ year, books, allBooks, filters = {}, selectedFilter, onFi
       const scale = currentDistance / pinchStartDistance.current;
       const threshold = 0.1; // Reduced threshold for smoother, more responsive zoom
       
-      // REVERSED: Pinch out (fingers moving away) = fewer columns (5->2)
-      // Pinch in (fingers moving together) = more columns (2->5)
+      // Pinch in (fingers moving together, scale < 1) = fewer columns (5->2)
+      // Pinch out (fingers moving away, scale > 1) = more columns (2->5)
       if (scale > 1 + threshold) {
-        // Pinch out - decrease columns (zoom out visually)
-        const newZoom = Math.max(2, pinchStartZoom.current - 1);
+        // Pinch out - increase columns (2->5)
+        const newZoom = Math.min(5, pinchStartZoom.current + 1);
         if (newZoom !== zoomLevel && Date.now() - (lastZoomUpdate.current || 0) > 50) {
           setZoomLevel(newZoom);
           pinchStartZoom.current = newZoom;
@@ -130,8 +130,8 @@ const YearSection = ({ year, books, allBooks, filters = {}, selectedFilter, onFi
           lastZoomUpdate.current = Date.now();
         }
       } else if (scale < 1 - threshold) {
-        // Pinch in - increase columns (zoom in visually)
-        const newZoom = Math.min(5, pinchStartZoom.current + 1);
+        // Pinch in - decrease columns (5->2)
+        const newZoom = Math.max(2, pinchStartZoom.current - 1);
         if (newZoom !== zoomLevel && Date.now() - (lastZoomUpdate.current || 0) > 50) {
           setZoomLevel(newZoom);
           pinchStartZoom.current = newZoom;

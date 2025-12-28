@@ -1023,22 +1023,23 @@ const YearAnalytics = ({ year, books }) => {
     
     if (timelinePinchStartDistance.current > 0) {
       const scale = currentDistance / timelinePinchStartDistance.current;
-      const threshold = 0.15; // Require 15% change to trigger zoom
+      const threshold = 0.1; // Reduced threshold for smoother, more responsive zoom
       
-      // Determine if we should zoom in (wider timeline) or out (narrower timeline)
+      // REVERSED: Pinch out (fingers moving away) = narrower timeline (zoom out)
+      // Pinch in (fingers moving together) = wider timeline (zoom in)
       if (scale > 1 + threshold) {
-        // Pinch out - zoom in (increase width)
-        const newZoom = Math.min(2.0, timelinePinchStartZoom.current + 0.1);
-        if (newZoom !== timelineZoom && Date.now() - (timelineLastZoomUpdate.current || 0) > 100) {
+        // Pinch out - zoom out (decrease width)
+        const newZoom = Math.max(0.8, timelinePinchStartZoom.current - 0.1);
+        if (newZoom !== timelineZoom && Date.now() - (timelineLastZoomUpdate.current || 0) > 50) {
           setTimelineZoom(newZoom);
           timelinePinchStartZoom.current = newZoom;
           timelinePinchStartDistance.current = currentDistance;
           timelineLastZoomUpdate.current = Date.now();
         }
       } else if (scale < 1 - threshold) {
-        // Pinch in - zoom out (decrease width)
-        const newZoom = Math.max(0.8, timelinePinchStartZoom.current - 0.1);
-        if (newZoom !== timelineZoom && Date.now() - (timelineLastZoomUpdate.current || 0) > 100) {
+        // Pinch in - zoom in (increase width)
+        const newZoom = Math.min(2.0, timelinePinchStartZoom.current + 0.1);
+        if (newZoom !== timelineZoom && Date.now() - (timelineLastZoomUpdate.current || 0) > 50) {
           setTimelineZoom(newZoom);
           timelinePinchStartZoom.current = newZoom;
           timelinePinchStartDistance.current = currentDistance;
@@ -1120,7 +1121,7 @@ const YearAnalytics = ({ year, books }) => {
             >
               {/* Timeline bars - with smart lane assignment (no overlaps, minimal spacing, longest at bottom) */}
               <div 
-                className="relative mb-1.5"
+                className="relative mb-1.5 transition-all duration-300 ease-in-out"
                 style={{
                   height: `${laneData.totalLanes * (laneData.barHeight + laneData.laneSpacing) - laneData.laneSpacing}px`,
                   minHeight: `${laneData.barHeight}px`,
@@ -1176,7 +1177,7 @@ const YearAnalytics = ({ year, books }) => {
 
               {/* Month markers */}
               <div 
-                className="relative h-5 border-t border-accent-purple/20"
+                className="relative h-5 border-t border-accent-purple/20 transition-all duration-300 ease-in-out"
                 style={{
                   width: isMobile ? timelineMinWidth : '100%',
                   minWidth: isMobile ? timelineMinWidth : '100%',

@@ -116,22 +116,23 @@ const YearSection = ({ year, books, allBooks, filters = {}, selectedFilter, onFi
     
     if (pinchStartDistance.current > 0) {
       const scale = currentDistance / pinchStartDistance.current;
-      const threshold = 0.15; // Require 15% change to trigger zoom
+      const threshold = 0.1; // Reduced threshold for smoother, more responsive zoom
       
-      // Determine if we should zoom in (more columns) or out (fewer columns)
+      // REVERSED: Pinch out (fingers moving away) = fewer columns (5->2)
+      // Pinch in (fingers moving together) = more columns (2->5)
       if (scale > 1 + threshold) {
-        // Pinch out - zoom in (increase columns)
-        const newZoom = Math.min(5, pinchStartZoom.current + 1);
-        if (newZoom !== zoomLevel && Date.now() - (lastZoomUpdate.current || 0) > 100) {
+        // Pinch out - decrease columns (zoom out visually)
+        const newZoom = Math.max(2, pinchStartZoom.current - 1);
+        if (newZoom !== zoomLevel && Date.now() - (lastZoomUpdate.current || 0) > 50) {
           setZoomLevel(newZoom);
           pinchStartZoom.current = newZoom;
           pinchStartDistance.current = currentDistance;
           lastZoomUpdate.current = Date.now();
         }
       } else if (scale < 1 - threshold) {
-        // Pinch in - zoom out (decrease columns)
-        const newZoom = Math.max(2, pinchStartZoom.current - 1);
-        if (newZoom !== zoomLevel && Date.now() - (lastZoomUpdate.current || 0) > 100) {
+        // Pinch in - increase columns (zoom in visually)
+        const newZoom = Math.min(5, pinchStartZoom.current + 1);
+        if (newZoom !== zoomLevel && Date.now() - (lastZoomUpdate.current || 0) > 50) {
           setZoomLevel(newZoom);
           pinchStartZoom.current = newZoom;
           pinchStartDistance.current = currentDistance;
@@ -289,7 +290,7 @@ const YearSection = ({ year, books, allBooks, filters = {}, selectedFilter, onFi
           {/* Books Grid - Responsive: 2 cols on mobile (zoomable 2-5), 3 on tablet, 4 on desktop */}
           <div 
             ref={gridContainerRef}
-            className={`grid gap-4 sm:gap-6 lg:gap-8 max-w-7xl mx-auto px-4 justify-items-center ${
+            className={`grid gap-4 sm:gap-6 lg:gap-8 max-w-7xl mx-auto px-4 justify-items-center transition-all duration-300 ease-in-out ${
               isMobile && zoomLevel !== null
                 ? zoomLevel === 2 ? 'grid-cols-2' :
                   zoomLevel === 3 ? 'grid-cols-3' :

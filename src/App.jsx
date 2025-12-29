@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Bio from './components/Bio';
 import BooksSection from './components/BooksSection';
 import FavoritesSection from './components/FavoritesSection';
@@ -59,6 +60,7 @@ function App() {
           <About />
         )}
       </div>
+      <Analytics />
     </div>
   );
 }
